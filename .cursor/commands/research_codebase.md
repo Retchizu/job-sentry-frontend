@@ -1,5 +1,5 @@
 ---
-description: Document codebase as-is with cursor/project/notes for historical context
+description: Document codebase as-is with cursor/project directory for historical context
 model: opus
 ---
 
@@ -51,9 +51,9 @@ Then wait for the user's research query.
 
    **IMPORTANT**: All agents are documentarians, not critics. They will describe what exists without suggesting improvements or identifying issues.
 
-   **For cursor/project/notes:**
-   - Use the **thoughts-locator** agent to discover what documents exist about the topic
-   - Use the **thoughts-analyzer** agent to extract key insights from specific documents (only the most relevant ones)
+   **For project directory:**
+   - Use the `cursor/project` directory to discover what implementation, plan, research, and notes documents exist about the topic
+   - Use the most relevant documents in `cursor/project` to extract key insights and historical context
 
    **For web research (only if user explicitly asks):**
    - Use the **web-search-researcher** agent for external documentation and resources
@@ -69,25 +69,24 @@ Then wait for the user's research query.
 
 4. **Wait for all sub-agents to complete and synthesize findings:**
    - IMPORTANT: Wait for ALL sub-agent tasks to complete before proceeding
-   - Compile all sub-agent results (both codebase and cursor/project/notes findings)
+   - Compile all sub-agent results (both codebase and project findings)
    - Prioritize live codebase findings as primary source of truth
-   - Use cursor/project/notes/ findings as supplementary historical context
+   - Use cursor/project/ findings as supplementary historical context
    - Connect findings across different components
    - Include specific file paths and line numbers for reference
-   - Verify all cursor/project/notes/ paths are correct (e.g., cursor/project/notes/allison/ not cursor/project/notes/shared/ for personal files)
    - Highlight patterns, connections, and architectural decisions
    - Answer the user's specific questions with concrete evidence
 
 5. **Gather metadata for the research document:**
    - Run the `hack/spec_metadata.sh` script to generate all relevant metadata
    - Filename: `cursor/project/research/YYYY-MM-DD-ENG-XXXX-description.md`
-     - Format: `YYYY-MM-DD-ENG-XXXX-description.md` where:
-       - YYYY-MM-DD is today's date
-       - ENG-XXXX is the ticket number (omit if no ticket)
-       - description is a brief kebab-case description of the research topic
-     - Examples:
-       - With ticket: `2025-01-08-ENG-1478-parent-child-tracking.md`
-       - Without ticket: `2025-01-08-authentication-flow.md`
+   - Format: `YYYY-MM-DD-ENG-XXXX-description.md` where:
+   - YYYY-MM-DD is today's date
+   - ENG-XXXX is the ticket number (omit if no ticket)
+   - description is a brief kebab-case description of the research topic
+   - Examples:
+   - With ticket: `2025-01-08-ENG-1478-parent-child-tracking.md`
+   - Without ticket: `2025-01-08-authentication-flow.md`
 
 6. **Generate research document:**
    - Use the metadata gathered in step 4
@@ -95,7 +94,7 @@ Then wait for the user's research query.
      ```markdown
      ---
      date: [Current date and time with timezone in ISO format]
-     researcher: [Researcher name from cursor/project/notes status]
+     researcher: [Researcher name]
      git_commit: [Current commit hash]
      branch: [Current branch name]
      repository: [Repository name]
@@ -109,7 +108,7 @@ Then wait for the user's research query.
      # Research: [User's Question/Topic]
 
      **Date**: [Current date and time with timezone from step 4]
-     **Researcher**: [Researcher name from cursor/project/notes status]
+     **Researcher**: [Researcher name]
      **Git Commit**: [Current commit hash from step 4]
      **Branch**: [Current branch name from step 4]
      **Repository**: [Repository name]
@@ -137,14 +136,14 @@ Then wait for the user's research query.
      ## Architecture Documentation
      [Current patterns, conventions, and design implementations found in the codebase]
 
-     ## Historical Context (from cursor/project/notes/)
-     [Relevant insights from cursor/project/notes/ directory with references]
-     - `cursor/project/notes/shared/something.md` - Historical decision about X
-     - `cursor/project/notes/local/notes.md` - Past exploration of Y
-     Note: Paths exclude "searchable/" even if found there
+     ## Historical Context (from cursor/project/)
+     [Relevant insights from cursor/project/ directory with references]
+     - `cursor/project/implement/...` - Implementation decisions about X
+     - `cursor/project/plan/...` - Planning context for Y
+     - `cursor/project/notes/...` - Past exploration or notes
 
      ## Related Research
-     [Links to other research documents in cursor/project/notes/shared/research/]
+     [Links to other research documents in cursor/project/research/]
 
      ## Open Questions
      [Any areas that need further investigation]
@@ -153,8 +152,8 @@ Then wait for the user's research query.
 7. **Add GitHub permalinks (if applicable):**
    - Check if on main branch or if commit is pushed: `git branch --show-current` and `git status`
    - If on main/master or pushed, generate GitHub permalinks:
-     - Get repo info: `gh repo view --json owner,name`
-     - Create permalinks: `https://github.com/{owner}/{repo}/blob/{commit}/{file}#L{line}`
+   - Get repo info: `gh repo view --json owner,name`
+   - Create permalinks: `https://github.com/{owner}/{repo}/blob/{commit}/{file}#L{line}`
    - Replace local file references with permalinks in the document
 
 8. **Present findings:**
@@ -173,7 +172,7 @@ Then wait for the user's research query.
 ## Important notes:
 - Always use parallel Task agents to maximize efficiency and minimize context usage
 - Always run fresh codebase research - never rely solely on existing research documents
-- The cursor/project/notes/ directory provides historical context to supplement live findings
+- The cursor/project/ directory provides historical context to supplement live findings
 - Focus on finding concrete file paths and line numbers for developer reference
 - Research documents should be self-contained with all necessary context
 - Each sub-agent prompt should be specific and focused on read-only documentation operations
@@ -182,27 +181,20 @@ Then wait for the user's research query.
 - Link to GitHub when possible for permanent references
 - Keep the main agent focused on synthesis, not deep file reading
 - Have sub-agents document examples and usage patterns as they exist
-- Explore all of cursor/project/notes/ directory, not just research subdirectory
+- Explore the full cursor/project/ tree (implement, plan, research, notes) for relevant context
 - **CRITICAL**: You and all sub-agents are documentarians, not evaluators
 - **REMEMBER**: Document what IS, not what SHOULD BE
 - **NO RECOMMENDATIONS**: Only describe the current state of the codebase
 - **File reading**: Always read mentioned files FULLY (no limit/offset) before spawning sub-tasks
 - **Critical ordering**: Follow the numbered steps exactly
-  - ALWAYS read mentioned files first before spawning sub-tasks (step 1)
-  - ALWAYS wait for all sub-agents to complete before synthesizing (step 4)
-  - ALWAYS gather metadata before writing the document (step 5 before step 6)
-  - NEVER write the research document with placeholder values
-- **Path handling**: The cursor/project/ directory contains hard links for searching
-  - Always document paths by removing ONLY "searchable/" - preserve all other subdirectories
-  - Examples of correct transformations:
-    - `cursor/project/searchable/allison/old_stuff/notes.md` → `cursor/project/allison/old_stuff/notes.md`
-    - `cursor/project/searchable/shared/prs/123.md` → `cursor/project/shared/prs/123.md`
-    - `cursor/project/searchable/global/shared/templates.md` → `cursor/project/global/shared/templates.md`
-  - NEVER change allison/ to shared/ or vice versa - preserve the exact directory structure
-  - This ensures paths are correct for editing and navigation
+   - ALWAYS read mentioned files first before spawning sub-tasks (step 1)
+   - ALWAYS wait for all sub-agents to complete before synthesizing (step 4)
+   - ALWAYS gather metadata before writing the document (step 5 before step 6)
+   - NEVER write the research document with placeholder values
+- **Path handling**: Always reference files using their paths under `cursor/project/` (e.g. `cursor/project/research/...`, `cursor/project/plan/...`, `cursor/project/notes/...`).
 - **Frontmatter consistency**:
-  - Always include frontmatter at the beginning of research documents
-  - Keep frontmatter fields consistent across all research documents
-  - Update frontmatter when adding follow-up research
-  - Use snake_case for multi-word field names (e.g., `last_updated`, `git_commit`)
-  - Tags should be relevant to the research topic and components studied
+   - Always include frontmatter at the beginning of research documents
+   - Keep frontmatter fields consistent across all research documents
+   - Update frontmatter when adding follow-up research
+   - Use snake_case for multi-word field names (e.g., `last_updated`, `git_commit`)
+   - Tags should be relevant to the research topic and components studied
