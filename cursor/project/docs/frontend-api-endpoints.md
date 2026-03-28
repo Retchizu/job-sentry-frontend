@@ -102,9 +102,14 @@ Notes:
 {
   "scam_probabilities": [0.87],
   "predicted_scam": [true],
-  "threshold": 0.5
+  "threshold": 0.5,
+  "warnings": [["upfront_payment", "off_platform_contact"]]
 }
 ```
+
+Notes:
+- `warnings` is an array with **one entry per post**, in the same order as `posts`. Each entry is an array of **stable string codes** from rule-based heuristics (complements the model score; empty `[]` if none matched).
+- Known codes (subject to backend updates): `upfront_payment`, `off_platform_contact`, `high_pressure`, `guaranteed_income`, `crypto_or_gift_card`, `sensitive_info_request`.
 
 ### Error responses
 
