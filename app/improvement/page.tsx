@@ -3,6 +3,7 @@
 
 import { useState } from "react";
 import { AppChromeHeader } from "@/app/app-chrome-header";
+import { usePersistedDarkMode } from "@/lib/use-persisted-dark-mode";
 import type { ImprovementWarningFlag, PredictRateType } from "@/lib/api/types";
 
 const FLAG_OPTIONS: { id: ImprovementWarningFlag; label: string }[] = [
@@ -51,7 +52,7 @@ function SendIcon({ className }: { className?: string }) {
 }
 
 export default function ImprovementPage() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, toggleDarkMode] = usePersistedDarkMode();
   const [form, setForm] = useState<FormState>(INITIAL_FORM);
   const [flags, setFlags] = useState<Record<ImprovementWarningFlag, boolean>>({
     typographical_errors: false,
@@ -146,27 +147,28 @@ export default function ImprovementPage() {
   return (
     <div
       className={`min-h-dvh w-full pb-16 ${isDarkMode ? "bg-[#040016] text-white" : "bg-[#f9fafb] text-black"}`}
+      style={{ fontFamily: "'IBM Plex Mono', monospace" }}
     >
       <div className="flex w-full flex-col items-center gap-8">
         <AppChromeHeader
           activeTab="improvement"
           isDarkMode={isDarkMode}
-          onToggleDarkMode={() => setIsDarkMode((v) => !v)}
+          onToggleDarkMode={toggleDarkMode}
         />
 
         <div className="w-full max-w-[1180px] px-6 lg:px-10">
-          <header className="mb-10 text-center font-[family-name:var(--font-geist-mono)]">
+          <header className="mb-10 text-center">
             <h1 className="text-4xl font-semibold tracking-tight">Model Improvement Feedback</h1>
-            <p className={`mx-auto mt-5 max-w-[640px] font-sans text-base ${muted}`}>
+            <p className={`mx-auto mt-5 max-w-[640px] text-base ${muted}`}>
               Help train our AI. Use the same job post fields, plus warning flags and a scam label.
               Submit validates locally and shows a JSON preview only.
             </p>
           </header>
 
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(300px,380px)] lg:items-start">
-            <div className="flex flex-col gap-6 font-sans">
+            <div className="flex flex-col gap-6">
               <section className={cardClass}>
-                <h2 className="mb-5 font-[family-name:var(--font-geist-mono)] text-2xl font-semibold">
+                <h2 className="mb-5 text-2xl font-semibold">
                   Job Details
                 </h2>
                 <div className="space-y-5">
@@ -211,7 +213,7 @@ export default function ImprovementPage() {
 
               <section className={cardClass}>
                 <div className="mb-5 flex flex-wrap items-baseline gap-2">
-                  <h2 className="font-[family-name:var(--font-geist-mono)] text-2xl font-semibold">
+                  <h2 className="text-2xl font-semibold">
                     Compensation
                   </h2>
                   <span className={`text-base ${muted}`}>(Optional)</span>
@@ -223,8 +225,8 @@ export default function ImprovementPage() {
                     alt=""
                     src={
                       isDarkMode
-                        ? "https://www.figma.com/api/mcp/asset/faa55795-2d84-4ce7-8582-89a03867cc34"
-                        : "https://www.figma.com/api/mcp/asset/22b8f41d-ce9e-4058-9da7-c5fa02ce2051"
+                        ? "/images/compensation-hint-dark.svg"
+                        : "/images/compensation-hint-light.svg"
                     }
                     className="mt-0.5 h-5 w-5 shrink-0"
                   />
@@ -287,7 +289,7 @@ export default function ImprovementPage() {
               </section>
 
               <section className={cardClass}>
-                <h2 className="font-[family-name:var(--font-geist-mono)] text-2xl font-semibold">
+                <h2 className="text-2xl font-semibold">
                   Warning Flags
                 </h2>
                 <p className={`mt-2 text-sm ${muted}`}>Select any indicators present in the job post.</p>
@@ -321,7 +323,7 @@ export default function ImprovementPage() {
               </section>
 
               <section className={cardClass}>
-                <h2 className="font-[family-name:var(--font-geist-mono)] text-2xl font-semibold">
+                <h2 className="text-2xl font-semibold">
                   Scam Label
                 </h2>
                 <div className="mt-6 flex flex-wrap gap-8">
@@ -375,7 +377,7 @@ export default function ImprovementPage() {
                 }`}
               >
                 <SendIcon className="h-5 w-5" />
-                Validate &amp; Preview Feedback
+                Send Feedback
               </button>
               {validationError ? (
                 <p className={`text-sm ${isDarkMode ? "text-[#ff9b9b]" : "text-[#b00020]"}`}>
@@ -386,11 +388,11 @@ export default function ImprovementPage() {
 
             <aside className={`${cardClass} lg:sticky lg:top-6`}>
               <div className="mb-4 flex items-center justify-between gap-3">
-                <h2 className="font-[family-name:var(--font-geist-mono)] text-xl font-semibold">
+                <h2 className="text-xl font-semibold">
                   Feedback Preview
                 </h2>
                 <span
-                  className={`rounded px-2 py-0.5 font-mono text-xs font-medium ${
+                  className={`rounded px-2 py-0.5 text-xs font-medium ${
                     isDarkMode ? "bg-white/10 text-[#c4b5ff]" : "bg-[#f3f4f6] text-[#374151]"
                   }`}
                 >
@@ -419,15 +421,15 @@ export default function ImprovementPage() {
                       alt=""
                       src={
                         isDarkMode
-                          ? "https://www.figma.com/api/mcp/asset/faa55795-2d84-4ce7-8582-89a03867cc34"
-                          : "https://www.figma.com/api/mcp/asset/22b8f41d-ce9e-4058-9da7-c5fa02ce2051"
+                          ? "/images/compensation-hint-dark.svg"
+                          : "/images/compensation-hint-light.svg"
                       }
                       className="h-8 w-8"
                     />
                   </div>
-                  <p className={`max-w-[260px] font-sans text-sm ${muted}`}>
+                  <p className={`max-w-[260px] text-sm ${muted}`}>
                     After a valid submit, the assembled{" "}
-                    <code className="font-mono text-[0.85em] text-[#6c4bff]">ImprovementFeedbackRequest</code> JSON
+                    <code className="text-[0.85em] text-[#6c4bff]">ImprovementFeedbackRequest</code> JSON
                     will appear here.
                   </p>
                 </div>
