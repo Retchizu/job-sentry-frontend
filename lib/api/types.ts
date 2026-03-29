@@ -23,7 +23,6 @@ export interface PredictRate {
 }
 
 export interface PredictPost {
-  text?: string;
   job_title?: string;
   job_desc?: string;
   skills_desc?: string;
@@ -69,5 +68,7 @@ export type ImprovementWarningFlag =
 export interface ImprovementFeedbackRequest {
   post: PredictPost;
   warning_flags: ImprovementWarningFlag[];
+  /** Set when `other_suspicious_patterns` is checked; persisted when non-empty after trim. */
+  other_suspicious_patterns_note?: string;
   labeled_scam: boolean;
 }

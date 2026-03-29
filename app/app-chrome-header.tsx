@@ -2,16 +2,15 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { ThemeTogglerButton } from "@/components/animate-ui/components/buttons/theme-toggler";
 
 export type AppChromeTab = "main" | "improvement";
 
 export function AppChromeHeader({
   isDarkMode,
-  onToggleDarkMode,
   activeTab,
 }: {
   isDarkMode: boolean;
-  onToggleDarkMode: () => void;
   activeTab: AppChromeTab;
 }) {
   const navLinkBase =
@@ -65,25 +64,12 @@ export function AppChromeHeader({
               Improvement
             </Link>
           </nav>
-          <button
-            type="button"
-            aria-label={isDarkMode ? "Switch to light mode" : "Switch to dark mode"}
-            onClick={onToggleDarkMode}
-            className="h-[30px] w-[30px]"
-          >
-            <Image
-              alt="Theme toggle icon"
-              src={
-                isDarkMode
-                  ? "/images/theme-toggle-dark-ui.svg"
-                  : "/images/theme-toggle-light-ui.svg"
-              }
-              width={30}
-              height={30}
-              className={`h-[30px] w-[30px] transform transition-all duration-300 ease-in-out ${isDarkMode ? "rotate-180 scale-110" : "rotate-0 scale-100"}`}
-              unoptimized
-            />
-          </button>
+          <ThemeTogglerButton
+            variant="ghost"
+            size="sm"
+            modes={["light", "dark"]}
+            className="focus-visible:ring-[#6c4bff]/40"
+          />
         </div>
       </div>
     </header>

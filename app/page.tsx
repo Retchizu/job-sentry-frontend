@@ -3,9 +3,16 @@
 
 import { useEffect, useState } from "react";
 import { predictScam } from "@/lib/api";
-import type { ApiError, PredictPost, PredictRateType, PredictResponse } from "@/lib/api";
+import type { ApiError, PredictResponse } from "@/lib/api";
 import { AppChromeHeader } from "@/app/app-chrome-header";
-import { usePersistedDarkMode } from "@/lib/use-persisted-dark-mode";
+import { JobPostField } from "@/components/job-post-field";
+import {
+  buildSinglePost,
+  hasJobPostText,
+  INITIAL_JOB_POST_FORM_STATE,
+  type JobPostFormState,
+} from "@/lib/job-post-form";
+import { useAppDarkMode } from "@/lib/use-app-dark-mode";
 
 const WARNING_LABELS: Record<string, string> = {
   upfront_payment: "Upfront payment",
@@ -65,68 +72,8 @@ const SAFE_RESULT_ICONS = {
   },
 } as const;
 
-type FormState = {
-  jobTitle: string;
-  jobDescription: string;
-  skillsDescription: string;
-  companyProfile: string;
-  amountMin: string;
-  amountMax: string;
-  currency: string;
-  rateType: string;
-};
-
-const INITIAL_FORM_STATE: FormState = {
-  jobTitle: "",
-  jobDescription: "",
-  skillsDescription: "",
-  companyProfile: "",
-  amountMin: "",
-  amountMax: "",
-  currency: "",
-  rateType: "",
-};
-
-function toOptionalValue(value: string): string | undefined {
-  const trimmed = value.trim();
-  return trimmed.length > 0 ? trimmed : undefined;
-}
-
-function buildSinglePost(form: FormState): PredictPost {
-  const post: PredictPost = {};
-  const job_title = toOptionalValue(form.jobTitle);
-  const job_desc = toOptionalValue(form.jobDescription);
-  const skills_desc = toOptionalValue(form.skillsDescription);
-  const company_profile = toOptionalValue(form.companyProfile);
-
-  if (job_title) post.job_title = job_title;
-  if (job_desc) post.job_desc = job_desc;
-  if (skills_desc) post.skills_desc = skills_desc;
-  if (company_profile) post.company_profile = company_profile;
-
-  const amountMin = toOptionalValue(form.amountMin);
-  const amountMax = toOptionalValue(form.amountMax);
-  const currency = toOptionalValue(form.currency);
-  const rateType = toOptionalValue(form.rateType);
-
-  if (amountMin && amountMax && currency && rateType) {
-    const parsedMin = Number(amountMin);
-    const parsedMax = Number(amountMax);
-    if (Number.isFinite(parsedMin) && Number.isFinite(parsedMax)) {
-      post.rate = {
-        amount_min: parsedMin,
-        amount_max: parsedMax,
-        currency,
-        type: rateType.toLowerCase() as PredictRateType,
-      };
-    }
-  }
-
-  return post;
-}
-
 /** Minimum time on the loading screen (3–5s). Longer posts get more time so copy can cycle. */
-function estimateLoadingDurationMs(form: FormState): number {
+function estimateLoadingDurationMs(form: JobPostFormState): number {
   const parts = [
     form.jobTitle,
     form.jobDescription,
@@ -141,21 +88,17 @@ function estimateLoadingDurationMs(form: FormState): number {
 }
 
 export default function Home() {
-  const [isDarkMode, toggleDarkMode] = usePersistedDarkMode();
-  const [form, setForm] = useState<FormState>(INITIAL_FORM_STATE);
+  const isDarkMode = useAppDarkMode();
+  const [form, setForm] = useState<JobPostFormState>(INITIAL_JOB_POST_FORM_STATE);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
   const [predictionResult, setPredictionResult] = useState<PredictResponse | null>(null);
   const [loadingDurationMs, setLoadingDurationMs] = useState(4000);
 
-  const hasJobPostText =
-    form.jobTitle.trim().length > 0 ||
-    form.jobDescription.trim().length > 0 ||
-    form.skillsDescription.trim().length > 0 ||
-    form.companyProfile.trim().length > 0;
+  const jobPostFilled = hasJobPostText(form);
 
   const handleAnalyze = async () => {
-    if (isSubmitting || !hasJobPostText) {
+    if (isSubmitting || !jobPostFilled) {
       return;
     }
 
@@ -195,7 +138,6 @@ export default function Home() {
     return (
       <HighRiskResultView
         isDarkMode={isDarkMode}
-        onToggleDarkMode={toggleDarkMode}
         result={predictionResult}
         onReset={() => setPredictionResult(null)}
       />
@@ -206,7 +148,6 @@ export default function Home() {
     return (
       <LooksSafeResultView
         isDarkMode={isDarkMode}
-        onToggleDarkMode={toggleDarkMode}
         result={predictionResult}
         onReset={() => setPredictionResult(null)}
       />
@@ -219,11 +160,7 @@ export default function Home() {
       style={{ fontFamily: "'IBM Plex Mono', monospace" }}
     >
       <div className="flex w-full flex-col items-center gap-5">
-        <AppChromeHeader
-          activeTab="main"
-          isDarkMode={isDarkMode}
-          onToggleDarkMode={toggleDarkMode}
-        />
+        <AppChromeHeader activeTab="main" isDarkMode={isDarkMode} />
 
         <main className="flex w-full max-w-[874px] flex-col items-end gap-10">
           <section className="w-full text-center">
@@ -239,14 +176,14 @@ export default function Home() {
             className={`w-full rounded-lg p-7 shadow-[0_0_4px_0_rgba(0,0,0,0.25)] ${isDarkMode ? "border border-[#767676]/70 bg-[#05001b]" : "bg-white"}`}
           >
             <div className="space-y-5">
-              <Field
+              <JobPostField
                 label="Job title"
                 placeholder="e.g. Software Engineer"
                 isDarkMode={isDarkMode}
                 value={form.jobTitle}
                 onChange={(value) => setForm((prev) => ({ ...prev, jobTitle: value }))}
               />
-              <Field
+              <JobPostField
                 label="Job Description"
                 placeholder="Paste the main body of the job description here..."
                 textarea
@@ -257,7 +194,7 @@ export default function Home() {
                   setForm((prev) => ({ ...prev, jobDescription: value }))
                 }
               />
-              <Field
+              <JobPostField
                 label="Skills Description"
                 placeholder="Required skills, qualifications, or experience..."
                 textarea
@@ -268,7 +205,7 @@ export default function Home() {
                   setForm((prev) => ({ ...prev, skillsDescription: value }))
                 }
               />
-              <Field
+              <JobPostField
                 label="Company Profile"
                 placeholder="e.g. Industry, company size, culture, or mission..."
                 textarea
@@ -307,14 +244,14 @@ export default function Home() {
             </div>
 
             <div className="mt-5 grid grid-cols-1 gap-5 md:grid-cols-2">
-              <Field
+              <JobPostField
                 label="Amount Min"
                 placeholder="0"
                 isDarkMode={isDarkMode}
                 value={form.amountMin}
                 onChange={(value) => setForm((prev) => ({ ...prev, amountMin: value }))}
               />
-              <Field
+              <JobPostField
                 label="Amount Max"
                 placeholder="0"
                 isDarkMode={isDarkMode}
@@ -324,14 +261,14 @@ export default function Home() {
             </div>
 
             <div className="mt-5 grid grid-cols-1 gap-5 md:grid-cols-2">
-              <Field
+              <JobPostField
                 label="Currency"
                 placeholder="USD"
                 isDarkMode={isDarkMode}
                 value={form.currency}
                 onChange={(value) => setForm((prev) => ({ ...prev, currency: value }))}
               />
-              <Field
+              <JobPostField
                 label="Rate Type"
                 placeholder="Select"
                 isDarkMode={isDarkMode}
@@ -344,7 +281,7 @@ export default function Home() {
           <button
             type="button"
             onClick={handleAnalyze}
-            disabled={isSubmitting || !hasJobPostText}
+            disabled={isSubmitting || !jobPostFilled}
             className={`flex items-center gap-2 rounded-lg p-5 text-2xl font-semibold shadow-[0_0_4px_0_rgba(0,0,0,0.25)] disabled:cursor-not-allowed disabled:opacity-40 ${isDarkMode ? "bg-white text-[#6c4bff]" : "bg-[#6c4bff] text-white"}`}
           >
             <img
@@ -371,12 +308,10 @@ export default function Home() {
 
 function LooksSafeResultView({
   isDarkMode,
-  onToggleDarkMode,
   result,
   onReset,
 }: {
   isDarkMode: boolean;
-  onToggleDarkMode: () => void;
   result: PredictResponse;
   onReset: () => void;
 }) {
@@ -400,11 +335,7 @@ function LooksSafeResultView({
       style={{ fontFamily: "'IBM Plex Mono', monospace" }}
     >
       <div className="flex w-full flex-col items-center gap-5 pb-[calc(5rem+env(safe-area-inset-bottom,0px))] sm:pb-[calc(4.5rem+env(safe-area-inset-bottom,0px))]">
-        <AppChromeHeader
-          activeTab="main"
-          isDarkMode={isDarkMode}
-          onToggleDarkMode={onToggleDarkMode}
-        />
+        <AppChromeHeader activeTab="main" isDarkMode={isDarkMode} />
 
         <main className="flex w-full max-w-[874px] flex-col items-center gap-10 px-6 sm:px-0">
           <h1
@@ -460,12 +391,10 @@ function LooksSafeResultView({
 
 function HighRiskResultView({
   isDarkMode,
-  onToggleDarkMode,
   result,
   onReset,
 }: {
   isDarkMode: boolean;
-  onToggleDarkMode: () => void;
   result: PredictResponse;
   onReset: () => void;
 }) {
@@ -481,11 +410,7 @@ function HighRiskResultView({
       style={{ fontFamily: "'IBM Plex Mono', monospace" }}
     >
       <div className="flex w-full flex-col items-center gap-5 pb-[calc(5rem+env(safe-area-inset-bottom,0px))] sm:pb-[calc(4.5rem+env(safe-area-inset-bottom,0px))]">
-        <AppChromeHeader
-          activeTab="main"
-          isDarkMode={isDarkMode}
-          onToggleDarkMode={onToggleDarkMode}
-        />
+        <AppChromeHeader activeTab="main" isDarkMode={isDarkMode} />
 
         <main className="flex w-full max-w-[874px] flex-col items-center gap-10 px-6 sm:px-0">
           <h1
@@ -724,41 +649,3 @@ function LoadingFrame({
   );
 }
 
-function Field({
-  label,
-  placeholder,
-  textarea = false,
-  heightClass,
-  isDarkMode = false,
-  value,
-  onChange,
-}: {
-  label: string;
-  placeholder: string;
-  textarea?: boolean;
-  heightClass?: string;
-  isDarkMode?: boolean;
-  value: string;
-  onChange: (value: string) => void;
-}) {
-  return (
-    <div>
-      <p className="text-base font-semibold">{label}</p>
-      {textarea ? (
-        <textarea
-          placeholder={placeholder}
-          value={value}
-          onChange={(event) => onChange(event.target.value)}
-          className={`mt-3 w-full rounded-lg px-5 py-[19px] text-base placeholder:text-[#8d8d8d] focus:outline-none ${heightClass ?? "h-[140px]"} ${isDarkMode ? "border border-white/40 bg-[#040016]" : "border border-black/20 bg-white"}`}
-        />
-      ) : (
-        <input
-          placeholder={placeholder}
-          value={value}
-          onChange={(event) => onChange(event.target.value)}
-          className={`mt-3 w-full rounded-lg px-5 py-[19px] text-base placeholder:text-[#8d8d8d] focus:outline-none ${isDarkMode ? "border border-white/40 bg-[#040016]" : "border border-black/20 bg-white"}`}
-        />
-      )}
-    </div>
-  );
-}
