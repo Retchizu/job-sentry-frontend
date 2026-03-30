@@ -28,7 +28,8 @@ export type FraudulentFlag = 0 | 1;
 export async function insertJobPostingFromPost(
   post: PredictPost,
   fraudulent: FraudulentFlag,
-  options?: { otherSuspiciousPatternsNote?: string | null },
+  /** Serialized JSON for `warnings` (`{ flags, note }` from improvement feedback). */
+  options?: { warnings?: string | null },
 ): Promise<InsertJobPostingResult> {
   const rate = post.rate;
   const rateType = rate ? normalizeRateType(rate.type) : null;
@@ -37,7 +38,7 @@ export async function insertJobPostingFromPost(
     return { ok: false, message: "Invalid rate type." };
   }
 
-  const note = options?.otherSuspiciousPatternsNote;
+  const warnings = options?.warnings;
   const row = {
     job_title: post.job_title ?? null,
     job_desc: post.job_desc ?? null,
@@ -48,8 +49,7 @@ export async function insertJobPostingFromPost(
     currency: rate?.currency ?? null,
     rate_type: rateType,
     fraudulent,
-    other_suspicious_patterns_note:
-      note != null && note !== "" ? note : null,
+    warnings: warnings != null && warnings !== "" ? warnings : null,
   };
 
   const supabase = createAdminSupabaseClient();
