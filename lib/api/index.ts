@@ -4,6 +4,7 @@ export type {
   ApiError,
   HealthResponse,
   ImprovementFeedbackRequest,
+  ImprovementWarningsStored,
   ImprovementWarningFlag,
   PredictPost,
   PredictRate,

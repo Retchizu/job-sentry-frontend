@@ -65,10 +65,17 @@ export type ImprovementWarningFlag =
   | "poor_grammar"
   | "other_suspicious_patterns";
 
+/** Shape of `job_postings.warnings` JSON (improvement feedback). */
+export interface ImprovementWarningsStored {
+  flags: ImprovementWarningFlag[];
+  /** Present when `other_suspicious_patterns` is in `flags`; null if unchecked or empty after trim. */
+  note: string | null;
+}
+
 export interface ImprovementFeedbackRequest {
   post: PredictPost;
   warning_flags: ImprovementWarningFlag[];
-  /** Set when `other_suspicious_patterns` is checked; persisted when non-empty after trim. */
-  other_suspicious_patterns_note?: string;
+  /** Free text when `other_suspicious_patterns` is checked; stored inside `job_postings.warnings` JSON. */
+  warnings?: string;
   labeled_scam: boolean;
 }

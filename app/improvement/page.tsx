@@ -61,7 +61,7 @@ export default function ImprovementPage() {
       const result = await saveImprovementFeedback({
         post,
         warning_flags,
-        other_suspicious_patterns_note: otherSuspiciousNote,
+        warnings: otherSuspiciousNote,
         labeled_scam: labeledScam,
       });
       if (result.ok) {
