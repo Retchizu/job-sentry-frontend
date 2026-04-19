@@ -4,11 +4,12 @@ import { useEffect, useState } from "react";
 import { AppChromeHeader } from "@/app/app-chrome-header";
 import { saveImprovementFeedback } from "@/app/improvement/actions";
 import { JobPostField } from "@/components/job-post-field";
-import type { ImprovementWarningFlag } from "@/lib/api/types";
+import type { ImprovementWarningFlag, ReviewerRiskLabel } from "@/lib/api/types";
 import {
   buildSinglePost,
   hasJobPostText,
   INITIAL_JOB_POST_FORM_STATE,
+  RATE_TYPE_SELECT_OPTIONS,
   type JobPostFormState,
 } from "@/lib/job-post-form";
 import { useAppDarkMode } from "@/lib/use-app-dark-mode";
@@ -18,6 +19,12 @@ const WARNING_FLAG_OPTIONS: { id: ImprovementWarningFlag; label: string }[] = [
   { id: "excessive_punctuation", label: "Excessive punctuation" },
   { id: "poor_grammar", label: "Poor grammar" },
   { id: "other_suspicious_patterns", label: "Other suspicious patterns" },
+];
+
+const RISK_LABEL_OPTIONS: { value: ReviewerRiskLabel; label: string }[] = [
+  { value: "legit", label: "Legit" },
+  { value: "warning", label: "Warning" },
+  { value: "fraud", label: "Fraud" },
 ];
 
 export default function ImprovementPage() {
@@ -30,7 +37,7 @@ export default function ImprovementPage() {
     other_suspicious_patterns: false,
   });
   const [otherSuspiciousNote, setOtherSuspiciousNote] = useState("");
-  const [labeledScam, setLabeledScam] = useState(false);
+  const [labeledRisk, setLabeledRisk] = useState<ReviewerRiskLabel>("legit");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -62,7 +69,7 @@ export default function ImprovementPage() {
         post,
         warning_flags,
         warnings: otherSuspiciousNote,
-        labeled_scam: labeledScam,
+        labeled_risk: labeledRisk,
       });
       if (result.ok) {
         setMessage(`Saved job posting (id ${result.jobPostingId}).`);
@@ -73,7 +80,7 @@ export default function ImprovementPage() {
           poor_grammar: false,
           other_suspicious_patterns: false,
         });
-        setLabeledScam(false);
+        setLabeledRisk("legit");
       } else {
         setError(result.message);
       }
@@ -176,10 +183,11 @@ export default function ImprovementPage() {
               />
               <JobPostField
                 label="Rate Type"
-                placeholder="hourly, daily, weekly, monthly, yearly"
+                placeholder="Select"
                 isDarkMode={isDarkMode}
                 value={form.rateType}
                 onChange={(v) => setForm((p) => ({ ...p, rateType: v }))}
+                selectOptions={RATE_TYPE_SELECT_OPTIONS}
               />
             </div>
           </section>
@@ -215,45 +223,30 @@ export default function ImprovementPage() {
           </section>
 
           <section className={cardClass}>
-            <h2 className="font-[family-name:var(--font-geist-mono)] text-2xl font-semibold">Scam label</h2>
-            <p className={`mt-1 text-sm ${muted}`}>Stored as labeled_scam</p>
+            <h2 className="font-[family-name:var(--font-geist-mono)] text-2xl font-semibold">Risk label</h2>
+            <p className={`mt-1 text-sm ${muted}`}>Your overall risk tier for this posting (legit, warning, or fraud).</p>
             <fieldset className="mt-6 border-0 p-0 min-w-0">
-              <legend className="sr-only">Scam label for this posting (labeled_scam)</legend>
+              <legend className="sr-only">Risk label for this posting</legend>
               <div className="flex flex-wrap gap-8">
-              <label className="flex cursor-pointer items-center gap-3">
-                <input
-                  type="radio"
-                  name="scam-label"
-                  className="sr-only"
-                  checked={!labeledScam}
-                  onChange={() => setLabeledScam(false)}
-                />
-                <span
-                  className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full border-2 transition-colors duration-200 ${
-                    !labeledScam ? "border-[#6c4bff]" : isDarkMode ? "border-white/50" : "border-[#d1d5db]"
-                  }`}
-                >
-                  {!labeledScam ? <span className={radioDotClass} /> : null}
-                </span>
-                <span className={labelClass}>Not a scam</span>
-              </label>
-              <label className="flex cursor-pointer items-center gap-3">
-                <input
-                  type="radio"
-                  name="scam-label"
-                  className="sr-only"
-                  checked={labeledScam}
-                  onChange={() => setLabeledScam(true)}
-                />
-                <span
-                  className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full border-2 transition-colors duration-200 ${
-                    labeledScam ? "border-[#6c4bff]" : isDarkMode ? "border-white/50" : "border-[#d1d5db]"
-                  }`}
-                >
-                  {labeledScam ? <span className={radioDotClass} /> : null}
-                </span>
-                <span className={labelClass}>Scam</span>
-              </label>
+                {RISK_LABEL_OPTIONS.map(({ value, label }) => (
+                  <label key={value} className="flex cursor-pointer items-center gap-3">
+                    <input
+                      type="radio"
+                      name="risk-label"
+                      className="sr-only"
+                      checked={labeledRisk === value}
+                      onChange={() => setLabeledRisk(value)}
+                    />
+                    <span
+                      className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full border-2 transition-colors duration-200 ${
+                        labeledRisk === value ? "border-[#6c4bff]" : isDarkMode ? "border-white/50" : "border-[#d1d5db]"
+                      }`}
+                    >
+                      {labeledRisk === value ? <span className={radioDotClass} /> : null}
+                    </span>
+                    <span className={labelClass}>{label}</span>
+                  </label>
+                ))}
               </div>
             </fieldset>
           </section>

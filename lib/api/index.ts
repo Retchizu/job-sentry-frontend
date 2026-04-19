@@ -12,5 +12,8 @@ export type {
   PredictRequest,
   PredictResponse,
   PredictWarningCode,
+  ReviewerRiskLabel,
   ServiceInfoResponse,
+  UserRiskClass,
 } from "@/lib/api/types";
+export { reviewerRiskLabelToStorage } from "@/lib/api/types";

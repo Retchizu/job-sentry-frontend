@@ -1,6 +1,6 @@
 "use server";
 
-import type { ImprovementFeedbackRequest } from "@/lib/api/types";
+import { reviewerRiskLabelToStorage, type ImprovementFeedbackRequest } from "@/lib/api/types";
 import { insertJobPostingFromPost } from "@/lib/supabase/insert-job-posting";
 
 export type SaveImprovementFeedbackResult =
@@ -20,9 +20,9 @@ function buildWarningsColumnJson(payload: ImprovementFeedbackRequest): string | 
 export async function saveImprovementFeedback(
   payload: ImprovementFeedbackRequest,
 ): Promise<SaveImprovementFeedbackResult> {
-  const fraudulent = payload.labeled_scam ? 1 : 0;
+  const { fraudulent, user_risk_class } = reviewerRiskLabelToStorage(payload.labeled_risk);
   const warnings = buildWarningsColumnJson(payload);
-  const result = await insertJobPostingFromPost(payload.post, fraudulent, {
+  const result = await insertJobPostingFromPost(payload.post, fraudulent, user_risk_class, {
     warnings,
   });
   if (!result.ok) {

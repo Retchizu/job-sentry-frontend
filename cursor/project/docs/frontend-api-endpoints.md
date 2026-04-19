@@ -2,6 +2,8 @@
 
 Base URL (local): `http://127.0.0.1:8000`
 
+Canonical response models: `job-sentry-backend/app/schemas.py` (`PredictResponse`, `HealthResponse`, etc.).
+
 ## 1) Service Info
 
 - **Method:** `GET`
@@ -13,7 +15,7 @@ Base URL (local): `http://127.0.0.1:8000`
 ```json
 {
   "service": "job-sentry-backend",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "docs": "/docs"
 }
 ```
@@ -24,7 +26,7 @@ Base URL (local): `http://127.0.0.1:8000`
 - **Path:** `/health`
 - **Request body:** none
 
-### Response (`200`)
+### Response (`200`) — healthy (model loaded)
 
 ```json
 {
@@ -37,11 +39,28 @@ Base URL (local): `http://127.0.0.1:8000`
 }
 ```
 
-Notes:
-- `status` can be `ok` or `degraded`.
-- If `model_loaded` is `false`, prediction requests will return `503`.
+### Response (`200`) — degraded (no model)
 
-## 3) Scam Prediction
+When no fused model is configured, the server still returns **200** with `status: "degraded"` and `model_loaded: false`. **`artifact_path`** is **`null`** (no artifact on disk).
+
+```json
+{
+  "status": "degraded",
+  "model_loaded": false,
+  "mode": "none",
+  "artifact_path": null,
+  "device": "cpu",
+  "message": "No fused model configured. Set JOBSENTRY_PHASE6_FUSED_DIR to enable predictions."
+}
+```
+
+Notes:
+
+- `status` is `"ok"` or `"degraded"`.
+- **`artifact_path`** may be **`null`** when no model artifact is loaded or the path is unset; do not assume a string.
+- If `model_loaded` is `false`, **`POST /predict`** returns **`503`**.
+
+## 3) Job post prediction (multiclass)
 
 - **Method:** `POST`
 - **Path:** `/predict`
@@ -98,17 +117,27 @@ Notes:
 
 ### Response (`200`)
 
+Success responses use **parallel arrays** (one index per post, same order as `posts`). The UI maps tiers as **legit** / **warning** / **fraud** from `predicted_class` / `predicted_label`.
+
 ```json
 {
-  "scam_probabilities": [0.87],
-  "predicted_scam": [true],
-  "threshold": 0.5,
+  "predicted_class": [1],
+  "predicted_label": ["warning"],
+  "legit_probability": [0.15],
+  "warning_probability": [0.62],
+  "fraud_probability": [0.23],
+  "confidence": [0.62],
   "warnings": [["upfront_payment", "off_platform_contact"]]
 }
 ```
 
 Notes:
-- `warnings` is an array with **one entry per post**, in the same order as `posts`. Each entry is an array of **stable string codes** from rule-based heuristics (complements the model score; empty `[]` if none matched).
+
+- **`predicted_class`**: per post, **`0` = legit**, **`1` = warning**, **`2` = fraud**.
+- **`predicted_label`**: per post, **`"legit"`**, **`"warning"`**, or **`"fraud"`** (string form of the winning class).
+- **`legit_probability`**, **`warning_probability`**, **`fraud_probability`**: per-post values from the 3-class softmax (approximately sum to **1.0** per post).
+- **`confidence`**: per post, the **maximum** of the three class probabilities for that post (winner probability), i.e. `max(legit, warning, fraud)` for that index. In the example, `0.62 === max(0.15, 0.62, 0.23)`.
+- **`warnings`**: one entry per post, same order as `posts`. Each entry is an array of **stable string codes** from rule-based heuristics (complements the model; empty `[]` if none matched).
 - Known codes (subject to backend updates): `upfront_payment`, `off_platform_contact`, `high_pressure`, `guaranteed_income`, `crypto_or_gift_card`, `sensitive_info_request`.
 
 ### Error responses
