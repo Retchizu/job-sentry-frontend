@@ -1,6 +1,6 @@
 import "server-only";
 
-import type { PredictPost } from "@/lib/api/types";
+import type { PredictPost, UserRiskClass } from "@/lib/api/types";
 import { createAdminSupabaseClient } from "@/lib/supabase/admin";
 
 const RATE_TYPES = new Set(["hourly", "daily", "weekly", "monthly", "yearly"]);
@@ -28,6 +28,7 @@ export type FraudulentFlag = 0 | 1;
 export async function insertJobPostingFromPost(
   post: PredictPost,
   fraudulent: FraudulentFlag,
+  user_risk_class: UserRiskClass,
   /** Serialized JSON for `warnings` (`{ flags, note }` from improvement feedback). */
   options?: { warnings?: string | null },
 ): Promise<InsertJobPostingResult> {
@@ -49,6 +50,7 @@ export async function insertJobPostingFromPost(
     currency: rate?.currency ?? null,
     rate_type: rateType,
     fraudulent,
+    user_risk_class,
     warnings: warnings != null && warnings !== "" ? warnings : null,
   };
 

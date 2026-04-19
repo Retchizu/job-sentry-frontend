@@ -1,0 +1,1061 @@
+[
+  {
+    "post": {
+      "job_title": "Senior React Developer — Remote",
+      "job_desc": "We are hiring immediatly for a Sr. React enginer. Must have 10+ years React (framework only 12 years old ok). You will own our entire frontend + devops + customer support on weekends.",
+      "skills_desc": "React, TypeScript, Next.js, AWS, kubernettes basics",
+      "company_profile": "Stripe — fintech payments infrastructure; San Francisco / remote-first.",
+      "rate": {
+        "amount_min": 18,
+        "amount_max": 22,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar",
+      "typographical_errors"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Data Entry — No Experience Needed!!!",
+      "job_desc": "Earn upto $8000/week from home easy work!!! Just need laptop and good internet. Training provided in 1 day you start same day.",
+      "skills_desc": "Microsoft Word, fast typing",
+      "company_profile": "Unknown — posting via generic Gmail; claims partnership with Amazon.",
+      "rate": {
+        "amount_min": 6000,
+        "amount_max": 8000,
+        "currency": "USD",
+        "type": "weekly"
+      }
+    },
+    "warning_flags": [
+      "excessive_punctuation",
+      "other_suspicious_patterns"
+    ],
+    "warnings": "Vague employer; insists on Telegram only; promises very high weekly pay for simple work.",
+    "labeled_scam": true
+  },
+  {
+    "post": {
+      "job_title": "Staff Software Engineer, Backend",
+      "job_desc": "Design and ship high-scale APIs for our logistics platform. We value clear communication, code review, and pragmatic architecture.",
+      "skills_desc": "Go or Java, PostgreSQL, Kafka, Docker",
+      "company_profile": "Shopify — commerce platform; Ottawa / remote.",
+      "rate": {
+        "amount_min": 180000,
+        "amount_max": 240000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Part time accountant",
+      "job_desc": "Small retail busines needs bookkeeper 15hr week. Reconcile quickbooks, payroll, taxes. Must be detail oriented.",
+      "skills_desc": "QuickBooks, Excel, basic payroll",
+      "company_profile": "Local family-owned hardware store (Midwest US).",
+      "rate": {
+        "amount_min": 450000,
+        "amount_max": 550000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "URGENT: Cryptocurrency Trader Assistant",
+      "job_desc": "We trade BTC for clients. Send $500 starter capital via gift card to recieve trading software access. Guaranteed 40% returns monthly.",
+      "skills_desc": "None — we train you!!!!",
+      "company_profile": "Not stated; WhatsApp contact only.",
+      "rate": {
+        "amount_min": 5000,
+        "amount_max": 15000,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [
+      "excessive_punctuation",
+      "typographical_errors",
+      "other_suspicious_patterns"
+    ],
+    "warnings": "Upfront payment via gift card; guaranteed returns; off-platform contact.",
+    "labeled_scam": true
+  },
+  {
+    "post": {
+      "job_title": "UX Designer (Contract)",
+      "job_desc": "3 month contract to refresh design system and key flows. Collaborate with PM and eng. Figma handoff expected.",
+      "skills_desc": "Figma, accessibility basics, design systems",
+      "company_profile": "Airbnb — travel / experiences; hybrid SF.",
+      "rate": {
+        "amount_min": 85,
+        "amount_max": 110,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "junior dev wanted asap",
+      "job_desc": "need someone who can do full stack + mobile + ml we are startup so you wear many hat. equity only first 6 month then we discuss salary.",
+      "skills_desc": "react native, pytorch, kubernetes, sales",
+      "company_profile": "Stealth startup, no website, \"NDA until interview\".",
+      "rate": {
+        "amount_min": 0,
+        "amount_max": 0,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar",
+      "typographical_errors"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Customer Success Manager",
+      "job_desc": "Own onboarding and renewals for mid-market accounts. Travel ~25%. Strong presentation skills required.",
+      "skills_desc": "SaaS, Salesforce, stakeholder management",
+      "company_profile": "Salesforce — CRM; various US hubs.",
+      "rate": {
+        "amount_min": 95000,
+        "amount_max": 115000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "WAREHOUSE PACKER $$$",
+      "job_desc": "Night shift packing boxes. No resume needed walk in interview!!! Bring two forms of ID and bank login for direct deposit setup on phone.",
+      "skills_desc": "able to lift 50lbs",
+      "company_profile": "Third-party logistics near industrial park (real address given).",
+      "rate": {
+        "amount_min": 95,
+        "amount_max": 120,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "excessive_punctuation",
+      "other_suspicious_patterns"
+    ],
+    "warnings": "Asks for bank login on phone.",
+    "labeled_scam": true
+  },
+  {
+    "post": {
+      "job_title": "Content Writer — SEO",
+      "job_desc": "Write blog posts for B2B cybersecurity topics. 4 articles per week, 1200 words each. Style guide provided.",
+      "skills_desc": "SEO, WordPress, research",
+      "company_profile": "Cloudflare — connectivity / security; remote.",
+      "rate": {
+        "amount_min": 0.02,
+        "amount_max": 0.04,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Executive Assistant to CEO",
+      "job_desc": "Calendar, travel, expense reports. Discretion is paramont. Hybrid NYC.",
+      "skills_desc": "Outlook, Concur, strong written English",
+      "company_profile": "JPMorgan Chase — financial services; New York.",
+      "rate": {
+        "amount_min": 12,
+        "amount_max": 15,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Instagram Growth Intern (Unpaid)",
+      "job_desc": "You will DM 500 people per day for our agency. Great exposure and maybe job later. Must use your personal account.",
+      "skills_desc": "social media savvy",
+      "company_profile": "Vague \"digital marketing agency\" — Instagram handle only.",
+      "rate": {
+        "amount_min": 0,
+        "amount_max": 0,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar",
+      "other_suspicious_patterns"
+    ],
+    "warnings": "Spammy outreach; unpaid high volume.",
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "DevOps Engineer",
+      "job_desc": "Maintain CI/CD, observability, and infra as code. On-call rotation shared across team.",
+      "skills_desc": "Terraform, Kubernetes, GitHub Actions, Prometheus",
+      "company_profile": "Netflix — streaming; Los Gatos / remote.",
+      "rate": {
+        "amount_min": 200000,
+        "amount_max": 350000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Mystery Shopper — Instant Pay",
+      "job_desc": "Evaluate stores and keep products + payment. We send check first you wire back difference its standard procedure.",
+      "skills_desc": "reliable transportation",
+      "company_profile": "Generic \"Consumer Insights LLC\" — no verifiable registration.",
+      "rate": {
+        "amount_min": 500,
+        "amount_max": 2000,
+        "currency": "USD",
+        "type": "weekly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar",
+      "other_suspicious_patterns"
+    ],
+    "warnings": "Overpayment / check scam pattern.",
+    "labeled_scam": true
+  },
+  {
+    "post": {
+      "job_title": "Barista",
+      "job_desc": "Morning shifts, latte art a plus. Team enviroment, free coffee on shift.",
+      "skills_desc": "customer service, cash handling",
+      "company_profile": "Starbucks — licensed café in regional mall.",
+      "rate": {
+        "amount_min": 14,
+        "amount_max": 17,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "SAP FI Consultant",
+      "job_desc": "6 month project: S/4HANA finance rollout for manufacturing client. Onsite Tue–Thu.",
+      "skills_desc": "SAP FI/CO, integration, testing",
+      "company_profile": "Accenture — professional services; client site Midwest.",
+      "rate": {
+        "amount_min": 3,
+        "amount_max": 5,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "WORK FROM HOME ASSEMBLY JOBS!!!",
+      "job_desc": "Buy starter kit $199 get materials to assemble crafts we buy back!!! Limited spots act now!!!",
+      "skills_desc": "none",
+      "company_profile": "PO box only; no company site.",
+      "rate": {
+        "amount_min": 2000,
+        "amount_max": 4000,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [
+      "excessive_punctuation",
+      "other_suspicious_patterns"
+    ],
+    "warnings": "Starter kit purchase required.",
+    "labeled_scam": true
+  },
+  {
+    "post": {
+      "job_title": "Product Manager, Growth",
+      "job_desc": "Own experimentation roadmap and funnel metrics. Partner with data science and marketing.",
+      "skills_desc": "SQL, A/B testing, stakeholder management",
+      "company_profile": "Spotify — audio streaming; Stockholm / remote EU.",
+      "rate": {
+        "amount_min": 70000,
+        "amount_max": 90000,
+        "currency": "EUR",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Freelance translator EN→ES",
+      "job_desc": "Translate product strings and help articles. Consistency with glossary important. invoicing monthly.",
+      "skills_desc": "CAT tools, technical vocabulary",
+      "company_profile": "Duolingo — language learning; remote contract.",
+      "rate": {
+        "amount_min": 0.08,
+        "amount_max": 0.12,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Nurse RN — ICU",
+      "job_desc": "12 hour shifts, level 1 trauma center. BLS/ACLS required. Sign on bonus after 90 days.",
+      "skills_desc": "ICU experience, vent management",
+      "company_profile": "Mayo Clinic — healthcare; Rochester, MN.",
+      "rate": {
+        "amount_min": 45000,
+        "amount_max": 52000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Personal Assistant (Remote) — CEO busy",
+      "job_desc": "Run errands online: purchase gift cards for clients, recieve packages and reship, open bank account for office (you will be reimbursed).",
+      "skills_desc": "trustworthy, organized",
+      "company_profile": "Sole proprietor name only; Gmail contact.",
+      "rate": {
+        "amount_min": 4000,
+        "amount_max": 6000,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors",
+      "other_suspicious_patterns"
+    ],
+    "warnings": "Reshipping / financial access pattern.",
+    "labeled_scam": true
+  },
+  {
+    "post": {
+      "job_title": "Mechanical Engineer",
+      "job_desc": "CAD, prototyping, vendor coordination for consumer electronics accessories.",
+      "skills_desc": "SolidWorks, GD&T, DFMEA",
+      "company_profile": "Apple — Cupertino area; hardware teams.",
+      "rate": {
+        "amount_min": 9,
+        "amount_max": 11,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Call Center Rep",
+      "job_desc": "Inbound billing questions. Script provided. Must work eastern hours.",
+      "skills_desc": "phone skills, CRM",
+      "company_profile": "Comcast — telecommunications; hybrid call center.",
+      "rate": {
+        "amount_min": 220000,
+        "amount_max": 280000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Graphic Designer",
+      "job_desc": "Need logo's and social posts quick turnaround!!! Pay per project sometimes late but we are cool team!!!",
+      "skills_desc": "Photoshop, Illustrator",
+      "company_profile": "Local restaurant group (real venues named).",
+      "rate": {
+        "amount_min": 25,
+        "amount_max": 35,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "excessive_punctuation",
+      "poor_grammar",
+      "typographical_errors"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Blockchain \"Validator\" — Passive Income",
+      "job_desc": "Stake with our pool. Send seed phrase for setup assistance (encrypted). Limited time 300% APY.",
+      "skills_desc": "MetaMask",
+      "company_profile": "Anonymous Telegram channel.",
+      "rate": {
+        "amount_min": 10000,
+        "amount_max": 50000,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [
+      "other_suspicious_patterns"
+    ],
+    "warnings": "Requests seed phrase; unrealistic yield.",
+    "labeled_scam": true
+  },
+  {
+    "post": {
+      "job_title": "Research Scientist, NLP",
+      "job_desc": "Publish and productize language models. PhD preferred. Team includes strong infra support.",
+      "skills_desc": "PyTorch, transformers, evaluation",
+      "company_profile": "Google DeepMind — London / remote options.",
+      "rate": {
+        "amount_min": 160000,
+        "amount_max": 220000,
+        "currency": "GBP",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Office cleaner nights",
+      "job_desc": "vacuum, trash, restrooms. independant contractor 1099. some supplies we provide some yours.",
+      "skills_desc": "none",
+      "company_profile": "WeWork — coworking location downtown.",
+      "rate": {
+        "amount_min": 200,
+        "amount_max": 250,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar",
+      "typographical_errors"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Shipping Coordinator",
+      "job_desc": "Coordinate LTL and parcel. Enter orders in TMS, track exceptions.",
+      "skills_desc": "Excel, TMS basics, communication",
+      "company_profile": "FedEx — operations; Memphis hub adjacent.",
+      "rate": {
+        "amount_min": 48000,
+        "amount_max": 55000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Tutor — SAT Math",
+      "job_desc": "Weekend sessions, in-person or zoom. Curriculum provided. Background check required.",
+      "skills_desc": "SAT math 750+, teaching experience",
+      "company_profile": "Kaplan — test prep; franchise location.",
+      "rate": {
+        "amount_min": 400,
+        "amount_max": 500,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Virtual Receptionist",
+      "job_desc": "Answer calls for small businesses. Script and forwarding rules. Must download our custom dialer (apk outside store).",
+      "skills_desc": "professional voice, multitasking",
+      "company_profile": "Obscure BPO; website looks cloned.",
+      "rate": {
+        "amount_min": 35,
+        "amount_max": 45,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "other_suspicious_patterns"
+    ],
+    "warnings": "Sideloaded APK; unclear employer.",
+    "labeled_scam": true
+  },
+  {
+    "post": {
+      "job_title": "Production Associate — Gigafactory",
+      "job_desc": "Assembly line rotation, safety gear manditory. 4x10 schedule some overtime avaliable.",
+      "skills_desc": "manufacturing experience prefered, able to stand long periods",
+      "company_profile": "Tesla — electric vehicles; Austin, TX.",
+      "rate": {
+        "amount_min": 22,
+        "amount_max": 28,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Product Manager, Reality Labs",
+      "job_desc": "Define roadmap for developer-facing tools. Work with research, design, and partner teams.",
+      "skills_desc": "product strategy, technical depth, stakeholder alignment",
+      "company_profile": "Meta — social / VR; Menlo Park / remote US.",
+      "rate": {
+        "amount_min": 195000,
+        "amount_max": 265000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "STUFF ENVELOPES $1200/WEEK GUARANTEED!!!!",
+      "job_desc": "Simple mailing from home!!! No skills!!! We send you list you stuff we pay cashapp same day every friday!!!",
+      "skills_desc": "none needed!!!",
+      "company_profile": "No LLC name; Facebook group admin hiring.",
+      "rate": {
+        "amount_min": 1000,
+        "amount_max": 1200,
+        "currency": "USD",
+        "type": "weekly"
+      }
+    },
+    "warning_flags": [
+      "excessive_punctuation",
+      "poor_grammar",
+      "other_suspicious_patterns"
+    ],
+    "warnings": "Unrealistic pay; informal payment rail; spam tone.",
+    "labeled_scam": true
+  },
+  {
+    "post": {
+      "job_title": "Crew Member — Overnight",
+      "job_desc": "Grill, fry, drive-thru as needed. Food handler card required within 30 days.",
+      "skills_desc": "customer service, fast pace",
+      "company_profile": "McDonald's — corporate restaurant; suburban Phoenix.",
+      "rate": {
+        "amount_min": 16,
+        "amount_max": 18,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "CUDA / GPU Kernel Engineer",
+      "job_desc": "Optimize inference kernels for datacenter GPUs. Collaborate with HW and frameworks teams.",
+      "skills_desc": "C++, CUDA, profiling, linear algebra",
+      "company_profile": "NVIDIA — Santa Clara; hybrid.",
+      "rate": {
+        "amount_min": 14,
+        "amount_max": 17,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "dog walker needed tomorow!!!",
+      "job_desc": "3 dogs must walk all together they freindly. key under mat dont tell neighboor. pay venmo after.",
+      "skills_desc": "likes dogs",
+      "company_profile": "Individual homeowner; phone number only.",
+      "rate": {
+        "amount_min": 8,
+        "amount_max": 10,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar",
+      "typographical_errors",
+      "excessive_punctuation"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Managing Consultant, Cloud Strategy",
+      "job_desc": "Lead client workshops, build migration business cases, oversee delivery squads.",
+      "skills_desc": "AWS/Azure, enterprise sales support, PowerPoint",
+      "company_profile": "IBM — Armonk / client travel.",
+      "rate": {
+        "amount_min": 140000,
+        "amount_max": 175000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Forex Signals Admin — Copy My Trades",
+      "job_desc": "Pay $299 unlock VIP channel then mirror my positions. Past results gauranteed future (disclaimer in fine print).",
+      "skills_desc": "Telegram, basic math",
+      "company_profile": "Unregistered \"Capital Growth Group\"; Signal channel.",
+      "rate": {
+        "amount_min": 15000,
+        "amount_max": 40000,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors",
+      "other_suspicious_patterns"
+    ],
+    "warnings": "Upfront fee; income claims; typo-heavy hype.",
+    "labeled_scam": true
+  },
+  {
+    "post": {
+      "job_title": "Staff Pharmacist",
+      "job_desc": "Dispensing, immunizations, inventory compliance. Rotating weekends.",
+      "skills_desc": "PharmD, state license, MTM",
+      "company_profile": "CVS Health — retail pharmacy; New England.",
+      "rate": {
+        "amount_min": 28000,
+        "amount_max": 32000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Rideshare Driver (use our fleet)",
+      "job_desc": "We lease you vehicle you drive our app accounts. Daily payout after fuel deduction.",
+      "skills_desc": "valid license, clean background",
+      "company_profile": "Uber — mobility; Miami market.",
+      "rate": {
+        "amount_min": 400,
+        "amount_max": 650,
+        "currency": "USD",
+        "type": "daily"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Software Engineer II — Azure",
+      "job_desc": "Build reliable control plane services. Emphasis on testing and incident readiness.",
+      "skills_desc": "C#, distributed systems, REST",
+      "company_profile": "Microsoft — Redmond / hybrid.",
+      "rate": {
+        "amount_min": 155000,
+        "amount_max": 185000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Dental reception / schedueling",
+      "job_desc": "Answer phones comfirm appointments billing entry. Experiance with Dentrix helpfull.",
+      "skills_desc": "Dentrix or Eaglesoft, insurance verification",
+      "company_profile": "Local DDS practice; Midwest strip mall.",
+      "rate": {
+        "amount_min": 19,
+        "amount_max": 22,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors",
+      "poor_grammar"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "PayPal Refund Processor — Remote",
+      "job_desc": "We route refunds to your account you forward minus 10% commision. Need SSN photo for compliance.",
+      "skills_desc": "computer literate",
+      "company_profile": "Not PayPal; look-alike domain.",
+      "rate": {
+        "amount_min": 3500,
+        "amount_max": 8000,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors",
+      "other_suspicious_patterns"
+    ],
+    "warnings": "Impersonation; money mule pattern; sensitive data.",
+    "labeled_scam": true
+  },
+  {
+    "post": {
+      "job_title": "Front-End Assistant",
+      "job_desc": "Cart retrieval, member greeting, spill cleanup. Evening shifts.",
+      "skills_desc": "physical stamina, teamwork",
+      "company_profile": "Costco Wholesale — warehouse club; Pacific NW.",
+      "rate": {
+        "amount_min": 19,
+        "amount_max": 24,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Senior Backend Engineer — Messaging",
+      "job_desc": "Scale real-time messaging infra. Mentor juniors, drive SLOs.",
+      "skills_desc": "Java/Scala, Redis, Kafka",
+      "company_profile": "Slack — Salesforce; remote US.",
+      "rate": {
+        "amount_min": 210000,
+        "amount_max": 290000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "landscaping help wanted summer only",
+      "job_desc": "mow edge mulch somtimes chainsaw small branches. cash end of week no paperwork if you prefer.",
+      "skills_desc": "outdoor work, spanish ok",
+      "company_profile": "Solo operator; Nextdoor post.",
+      "rate": {
+        "amount_min": 11,
+        "amount_max": 14,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar",
+      "typographical_errors"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Product Designer, Pin Formats",
+      "job_desc": "Ship end-to-end flows for creators. Partner with research for qualitative studies.",
+      "skills_desc": "Figma, prototyping, systems thinking",
+      "company_profile": "Pinterest — San Francisco / remote.",
+      "rate": {
+        "amount_min": 145000,
+        "amount_max": 175000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "LinkedIn Profile \"Optimization\" — Pay Upfront",
+      "job_desc": "Send $89 we rewrite profile + guarantee recruiter views in 48hrs or double money back (no refunds actually).",
+      "skills_desc": "none",
+      "company_profile": "Third-party gig site; not affiliated with LinkedIn Corp.",
+      "rate": {
+        "amount_min": 89,
+        "amount_max": 299,
+        "currency": "USD",
+        "type": "daily"
+      }
+    },
+    "warning_flags": [
+      "excessive_punctuation",
+      "other_suspicious_patterns"
+    ],
+    "warnings": "Misleading brand tie-in; contradictory refund terms.",
+    "labeled_scam": true
+  },
+  {
+    "post": {
+      "job_title": "Overnight Stocker",
+      "job_desc": "Unload trucks, zone aisles, top stock. Pallet jack certification on-site.",
+      "skills_desc": "lifting, time management",
+      "company_profile": "Walmart — supercenter; rural Texas.",
+      "rate": {
+        "amount_min": 17,
+        "amount_max": 19,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Vinyasa Instructor WANTED ASAP!!!",
+      "job_desc": "Sub classes this month!!! Must bring own insurance!!! Studio cut 70% you keep 30% tips seperate!!!",
+      "skills_desc": "RYT-200, CPR",
+      "company_profile": "Boutique studio; downtown Austin.",
+      "rate": {
+        "amount_min": 25,
+        "amount_max": 40,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "excessive_punctuation",
+      "typographical_errors"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "AEM / Experience Cloud Developer",
+      "job_desc": "Implement components, workflows, and integrations for enterprise marketing sites.",
+      "skills_desc": "AEM, Java, HTL, CI/CD",
+      "company_profile": "Adobe — San Jose / remote.",
+      "rate": {
+        "amount_min": 95,
+        "amount_max": 125,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Technical Recruiter (Contract)",
+      "job_desc": "Full-cycle for eng roles. Source, screen, manage offers. Embedded with hiring managers.",
+      "skills_desc": "ATS, Boolean search, closing candidates",
+      "company_profile": "LinkedIn Talent Solutions — contract bench; hybrid Chicago.",
+      "rate": {
+        "amount_min": 55,
+        "amount_max": 70,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Furniture Assembly Coworker",
+      "job_desc": "Customer pickups, assembly service bookings, warehouse tidiness.",
+      "skills_desc": "power tools, customer facing",
+      "company_profile": "IKEA — store; Charlotte, NC.",
+      "rate": {
+        "amount_min": 18,
+        "amount_max": 21,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Certified Scrum Master Course — Job Placement",
+      "job_desc": "Pay $4999 for weekend bootcamp we place you at FAANG (typical graduate earns $250k first year).",
+      "skills_desc": "none required",
+      "company_profile": "Unknown training vendor; aggressive ads.",
+      "rate": {
+        "amount_min": 250000,
+        "amount_max": 250000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [
+      "other_suspicious_patterns"
+    ],
+    "warnings": "Pay-for-placement; inflated salary claims.",
+    "labeled_scam": true
+  },
+  {
+    "post": {
+      "job_title": "Content Moderation Contractor",
+      "job_desc": "Review reported posts against policy. Shift work; wellness resources provided.",
+      "skills_desc": "resilience, attention to detail, English fluency",
+      "company_profile": "X (Twitter) — distributed contractor program.",
+      "rate": {
+        "amount_min": 23,
+        "amount_max": 27,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Finance Intern — \"Test Wire\" Training",
+      "job_desc": "We send you deposits you convert to BTC and send to treasury wallet for AML excercise. Builds resume.",
+      "skills_desc": "Excel",
+      "company_profile": "Generic Gmail; claims bank partnership.",
+      "rate": {
+        "amount_min": 600,
+        "amount_max": 1200,
+        "currency": "USD",
+        "type": "weekly"
+      }
+    },
+    "warning_flags": [
+      "excessive_punctuation",
+      "typographical_errors",
+      "other_suspicious_patterns"
+    ],
+    "warnings": "Money laundering / mule setup; fake internship.",
+    "labeled_scam": true
+  },
+  {
+    "post": {
+      "job_title": "Line Cook",
+      "job_desc": "Prep, grill, expo during peak. Knife skills and food safety non-negotiable.",
+      "skills_desc": "commercial kitchen, ServSafe",
+      "company_profile": "Chipotle Mexican Grill — high-traffic urban location.",
+      "rate": {
+        "amount_min": 18,
+        "amount_max": 22,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Database Administrator — Oracle Exadata",
+      "job_desc": "Patching, backup/restore, performance tuning for on-prem clusters.",
+      "skills_desc": "Oracle RAC, RMAN, Shell scripting",
+      "company_profile": "Oracle — Austin / customer site.",
+      "rate": {
+        "amount_min": 8,
+        "amount_max": 12,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Hotel Front Desk — nites",
+      "job_desc": "checkin checkout handle complains. complimentry breakfast setup 6am handoff.",
+      "skills_desc": "OPERA PMS, customer service",
+      "company_profile": "Marriott — franchised property; airport corridor.",
+      "rate": {
+        "amount_min": 16,
+        "amount_max": 19,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar",
+      "typographical_errors"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Structural Analyst (Entry Level)",
+      "job_desc": "FEA support for commercial aircraft programs. US person requirement.",
+      "skills_desc": "FEM tools, mechanical fundamentals",
+      "company_profile": "Boeing — Everett, WA; engineering.",
+      "rate": {
+        "amount_min": 22,
+        "amount_max": 26,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  }
+]

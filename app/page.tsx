@@ -4,15 +4,19 @@
 import { useEffect, useState } from "react";
 import { predictScam } from "@/lib/api";
 import type { ApiError, PredictResponse } from "@/lib/api";
+import { confidencePercent, getRiskTier, triplePercents } from "@/lib/prediction-risk-tier";
 import { AppChromeHeader } from "@/app/app-chrome-header";
 import { JobPostField } from "@/components/job-post-field";
 import {
   buildSinglePost,
   hasJobPostText,
   INITIAL_JOB_POST_FORM_STATE,
+  RATE_TYPE_SELECT_OPTIONS,
   type JobPostFormState,
 } from "@/lib/job-post-form";
 import { useAppDarkMode } from "@/lib/use-app-dark-mode";
+
+const RESULT_PAGE_TITLE = "Risk check results";
 
 const WARNING_LABELS: Record<string, string> = {
   upfront_payment: "Upfront payment",
@@ -27,20 +31,7 @@ function formatWarningCode(code: string): string {
   return WARNING_LABELS[code] ?? code.replace(/_/g, " ");
 }
 
-function scamConfidencePercent(result: PredictResponse): number {
-  const p = result.scam_probabilities[0];
-  if (typeof p !== "number" || !Number.isFinite(p)) {
-    return 0;
-  }
-  return Math.round(p * 100);
-}
-
-/** Inverse of scam probability — shown as “confidence” on the looks-safe screen. */
-function safeConfidencePercent(result: PredictResponse): number {
-  return Math.max(0, Math.min(100, 100 - scamConfidencePercent(result)));
-}
-
-/** Frame 3 (high risk) — icons in /public/images (from Figma MCP exports). */
+/** Frame 3 (high risk / fraud) — icons in /public/images (from Figma MCP exports). */
 const HIGH_RISK_ICONS = {
   warningLg: {
     light: "/images/high-risk-warning-lg-light.svg",
@@ -71,6 +62,22 @@ const SAFE_RESULT_ICONS = {
     dark: "/images/info-icon-dark.svg",
   },
 } as const;
+
+function ProbabilityBreakdown({
+  result,
+  isDarkMode,
+}: {
+  result: PredictResponse;
+  isDarkMode: boolean;
+}) {
+  const t = triplePercents(result);
+  const muted = isDarkMode ? "text-[#bdb9d1]" : "text-[#767676]";
+  return (
+    <p className={`w-full text-center text-sm tabular-nums ${muted}`}>
+      Model estimates: Legit {t.legit}% · Warning {t.warning}% · Fraud {t.fraud}%
+    </p>
+  );
+}
 
 /** Minimum time on the loading screen (3–5s). Longer posts get more time so copy can cycle. */
 function estimateLoadingDurationMs(form: JobPostFormState): number {
@@ -134,24 +141,20 @@ export default function Home() {
     return <LoadingFrame isDarkMode={isDarkMode} minDurationMs={loadingDurationMs} />;
   }
 
-  if (predictionResult?.predicted_scam?.[0] === true) {
-    return (
-      <HighRiskResultView
-        isDarkMode={isDarkMode}
-        result={predictionResult}
-        onReset={() => setPredictionResult(null)}
-      />
-    );
-  }
-
   if (predictionResult != null) {
-    return (
-      <LooksSafeResultView
-        isDarkMode={isDarkMode}
-        result={predictionResult}
-        onReset={() => setPredictionResult(null)}
-      />
-    );
+    const tier = getRiskTier(predictionResult);
+    const reset = () => setPredictionResult(null);
+    if (tier === "fraud") {
+      return (
+        <FraudResultView isDarkMode={isDarkMode} result={predictionResult} onReset={reset} />
+      );
+    }
+    if (tier === "warning") {
+      return (
+        <WarningResultView isDarkMode={isDarkMode} result={predictionResult} onReset={reset} />
+      );
+    }
+    return <LooksSafeResultView isDarkMode={isDarkMode} result={predictionResult} onReset={reset} />;
   }
 
   return (
@@ -164,11 +167,11 @@ export default function Home() {
 
         <main className="flex w-full max-w-[874px] flex-col items-end gap-10">
           <section className="w-full text-center">
-            <h1 className="text-4xl font-semibold">Job Post Scam Check</h1>
+            <h1 className="text-4xl font-semibold">Job Post Risk Check</h1>
             <p className={`mt-5 text-base ${isDarkMode ? "text-white" : "text-[#767676]"}`}>
-              Enter job post details below. Our AI model will analyze the text
-              for common scam patterns, suspicious language, and inconsistent
-              compensation.
+              Enter job post details below. Our model scores the posting across
+              three risk levels—legitimate-looking, needs review, and higher
+              fraud risk—using language cues and compensation consistency.
             </p>
           </section>
 
@@ -274,6 +277,7 @@ export default function Home() {
                 isDarkMode={isDarkMode}
                 value={form.rateType}
                 onChange={(value) => setForm((prev) => ({ ...prev, rateType: value }))}
+                selectOptions={RATE_TYPE_SELECT_OPTIONS}
               />
             </div>
           </section>
@@ -293,7 +297,7 @@ export default function Home() {
               }
               className="h-5 w-5"
             />
-            {isSubmitting ? "Analyzing..." : "Validate"}
+            {isSubmitting ? "Checking..." : "Check post"}
           </button>
           {submitError && (
             <p className={`w-full text-sm ${isDarkMode ? "text-[#ff9b9b]" : "text-[#b00020]"}`}>
@@ -315,10 +319,12 @@ function LooksSafeResultView({
   result: PredictResponse;
   onReset: () => void;
 }) {
-  const pct = safeConfidencePercent(result);
+  const pct = confidencePercent(result);
+  const warningCodes = result.warnings[0] ?? [];
   const checkLg = isDarkMode ? SAFE_RESULT_ICONS.checkLg.dark : SAFE_RESULT_ICONS.checkLg.light;
   const checkSm = isDarkMode ? SAFE_RESULT_ICONS.checkSm.dark : SAFE_RESULT_ICONS.checkSm.light;
   const infoIcon = isDarkMode ? SAFE_RESULT_ICONS.info.dark : SAFE_RESULT_ICONS.info.light;
+  const warnSm = isDarkMode ? HIGH_RISK_ICONS.warningSm.dark : HIGH_RISK_ICONS.warningSm.light;
 
   const cardClass = isDarkMode
     ? "border-[#2a8f3c] bg-[#0a1f0f]"
@@ -328,6 +334,7 @@ function LooksSafeResultView({
   const bulletGreen = isDarkMode ? "text-[#7dffb3]" : "text-[#00b20c]";
   const scoreMuted = isDarkMode ? "text-[#bdb9d1]" : "text-[#767676]";
   const infoMuted = isDarkMode ? "text-[#bdb9d1]" : "text-[#767676]";
+  const heuristicMuted = isDarkMode ? "text-[#fbbf24]" : "text-[#b45309]";
 
   return (
     <div
@@ -341,7 +348,7 @@ function LooksSafeResultView({
           <h1
             className={`w-full text-center text-4xl font-semibold ${isDarkMode ? "text-white" : "text-black"}`}
           >
-            Prediction Results
+            {RESULT_PAGE_TITLE}
           </h1>
 
           <div
@@ -350,9 +357,10 @@ function LooksSafeResultView({
             <div className={`relative size-[120px] shrink-0 overflow-hidden rounded-full ${circleBg}`}>
               <img alt="" src={checkLg} className="absolute left-5 top-5 size-20" />
             </div>
-            <div className="flex flex-col items-center gap-3 text-center">
+            <div className="flex w-full flex-col items-center gap-2 text-center">
               <p className={`text-[32px] font-semibold leading-none ${titleGreen}`}>Looks Safe</p>
               <p className={`text-xl font-semibold ${scoreMuted}`}>Confidence Score: {pct}%</p>
+              <ProbabilityBreakdown result={result} isDarkMode={isDarkMode} />
             </div>
           </div>
 
@@ -360,6 +368,12 @@ function LooksSafeResultView({
             <h2 className={`text-base font-semibold ${isDarkMode ? "text-white" : "text-black"}`}>
               Analysis Breakdown
             </h2>
+            {warningCodes.map((code) => (
+              <div key={code} className="flex gap-3">
+                <img alt="" src={warnSm} className="mt-0.5 size-5 shrink-0" />
+                <p className={`text-left text-base ${heuristicMuted}`}>{formatWarningCode(code)}</p>
+              </div>
+            ))}
             <div className="flex gap-3">
               <img alt="" src={checkSm} className="mt-0.5 size-5 shrink-0" />
               <p className={`text-left text-base ${bulletGreen}`}>Clear job role and responsibilities.</p>
@@ -389,7 +403,7 @@ function LooksSafeResultView({
   );
 }
 
-function HighRiskResultView({
+function WarningResultView({
   isDarkMode,
   result,
   onReset,
@@ -398,7 +412,101 @@ function HighRiskResultView({
   result: PredictResponse;
   onReset: () => void;
 }) {
-  const pct = scamConfidencePercent(result);
+  const pct = confidencePercent(result);
+  const warningCodes = result.warnings[0] ?? [];
+  const warnLg = isDarkMode ? HIGH_RISK_ICONS.warningLg.dark : HIGH_RISK_ICONS.warningLg.light;
+  const warnSm = isDarkMode ? HIGH_RISK_ICONS.warningSm.dark : HIGH_RISK_ICONS.warningSm.light;
+  const infoIcon = isDarkMode ? HIGH_RISK_ICONS.info.dark : HIGH_RISK_ICONS.info.light;
+
+  const cardClass = isDarkMode
+    ? "border-amber-500/80 bg-amber-950/35"
+    : "border-amber-500 bg-amber-50";
+  const circleBg = isDarkMode ? "bg-amber-900/50" : "bg-amber-100";
+  const titleClass = isDarkMode ? "text-amber-200" : "text-amber-800";
+  const bulletClass = isDarkMode ? "text-amber-200" : "text-amber-900";
+
+  return (
+    <div
+      className={`flex min-h-dvh w-full flex-col ${isDarkMode ? "bg-[#040016] text-white" : "bg-white text-black"}`}
+      style={{ fontFamily: "'IBM Plex Mono', monospace" }}
+    >
+      <div className="flex w-full flex-col items-center gap-5 pb-[calc(5rem+env(safe-area-inset-bottom,0px))] sm:pb-[calc(4.5rem+env(safe-area-inset-bottom,0px))]">
+        <AppChromeHeader activeTab="main" isDarkMode={isDarkMode} />
+
+        <main className="flex w-full max-w-[874px] flex-col items-center gap-10 px-6 sm:px-0">
+          <h1
+            className={`w-full text-center text-4xl font-semibold ${isDarkMode ? "text-white" : "text-black"}`}
+          >
+            {RESULT_PAGE_TITLE}
+          </h1>
+
+          <div
+            className={`flex w-full max-w-[426px] flex-col items-center gap-[30px] rounded-lg border px-10 py-7 ${cardClass}`}
+          >
+            <div className={`relative size-[120px] shrink-0 overflow-hidden rounded-full ${circleBg}`}>
+              <img alt="" src={warnLg} className="absolute left-5 top-5 size-20" />
+            </div>
+            <div className="flex w-full flex-col items-center gap-2 text-center">
+              <p className={`text-[32px] font-semibold leading-none ${titleClass}`}>Review carefully</p>
+              <p className={`text-xl font-semibold ${isDarkMode ? "text-[#bdb9d1]" : "text-[#767676]"}`}>
+                Confidence Score: {pct}%
+              </p>
+              <ProbabilityBreakdown result={result} isDarkMode={isDarkMode} />
+            </div>
+          </div>
+
+          <section className="flex w-full flex-col gap-3">
+            <h2 className={`text-base font-semibold ${isDarkMode ? "text-white" : "text-black"}`}>
+              Analysis Breakdown
+            </h2>
+            {warningCodes.length === 0 ? (
+              <div className="flex gap-3">
+                <img alt="" src={warnSm} className="mt-0.5 size-5 shrink-0" />
+                <p className={`text-left text-base ${bulletClass}`}>
+                  Model flagged this post for review; no specific heuristic rules matched.
+                </p>
+              </div>
+            ) : (
+              warningCodes.map((code) => (
+                <div key={code} className="flex gap-3">
+                  <img alt="" src={warnSm} className="mt-0.5 size-5 shrink-0" />
+                  <p className={`text-left text-base ${bulletClass}`}>{formatWarningCode(code)}</p>
+                </div>
+              ))
+            )}
+            <div className="flex gap-3">
+              <img alt="" src={infoIcon} className="mt-0.5 size-5 shrink-0" />
+              <p
+                className={`text-left text-base ${isDarkMode ? "text-white" : "text-[#767676]"}`}
+              >
+                Language processing complete. No obvious grammar anomalies found.
+              </p>
+            </div>
+          </section>
+
+          <button
+            type="button"
+            onClick={onReset}
+            className={`flex w-full max-w-[426px] items-center justify-center rounded-lg p-5 text-xl font-medium shadow-[0_0_4px_0_rgba(0,0,0,0.25)] ${isDarkMode ? "border border-white text-white" : "border border-black text-black"}`}
+          >
+            Reset Analysis
+          </button>
+        </main>
+      </div>
+    </div>
+  );
+}
+
+function FraudResultView({
+  isDarkMode,
+  result,
+  onReset,
+}: {
+  isDarkMode: boolean;
+  result: PredictResponse;
+  onReset: () => void;
+}) {
+  const pct = confidencePercent(result);
   const warningCodes = result.warnings[0] ?? [];
   const warnLg = isDarkMode ? HIGH_RISK_ICONS.warningLg.dark : HIGH_RISK_ICONS.warningLg.light;
   const warnSm = isDarkMode ? HIGH_RISK_ICONS.warningSm.dark : HIGH_RISK_ICONS.warningSm.light;
@@ -416,7 +524,7 @@ function HighRiskResultView({
           <h1
             className={`w-full text-center text-4xl font-semibold ${isDarkMode ? "text-white" : "text-black"}`}
           >
-            Prediction Results
+            {RESULT_PAGE_TITLE}
           </h1>
 
           <div className="flex w-full max-w-[426px] flex-col items-center gap-[30px] rounded-lg border border-[#f42b2b] bg-[#ffe3e3] px-10 py-7">
@@ -427,11 +535,12 @@ function HighRiskResultView({
                 className="absolute left-5 top-5 size-20"
               />
             </div>
-            <div className="flex flex-col items-center gap-3 text-center">
-              <p className="text-[32px] font-semibold leading-none text-[#f42b2b]">High Risk Detected</p>
+            <div className="flex w-full flex-col items-center gap-2 text-center">
+              <p className="text-[32px] font-semibold leading-none text-[#f42b2b]">Fraud risk</p>
               <p className="text-xl font-semibold text-[#767676]">
                 Confidence Score: {pct}%
               </p>
+              <ProbabilityBreakdown result={result} isDarkMode={isDarkMode} />
             </div>
           </div>
 
@@ -443,7 +552,7 @@ function HighRiskResultView({
               <div className="flex gap-3">
                 <img alt="" src={warnSm} className="mt-0.5 size-5 shrink-0" />
                 <p className="text-left text-base text-[#f42b2b]">
-                  Model flagged this post as high risk; no specific heuristic rules matched.
+                  Model flagged this post as fraud risk; no specific heuristic rules matched.
                 </p>
               </div>
             ) : (
@@ -478,14 +587,14 @@ function HighRiskResultView({
 }
 
 const LOADING_STATUS_MESSAGES = [
-  "We are validating the details and checking for common scam patterns.",
-  "Cross-referencing language cues with known high-risk recruitment phrases.",
+  "We're reading your post and weighing signals from safer-looking text through review-level cues to stronger fraud risk.",
+  "Cross-referencing language with common recruitment red flags and pressure tactics.",
   "Reviewing compensation fields for numbers that look inconsistent or inflated.",
-  "Scanning for pressure tactics, vague job titles, or pay that sounds too good to be true.",
-  "Checking whether the post nudges you off-platform or asks for fees up front.",
-  "Looking for requests for sensitive data before a legitimate interview process.",
-  "Matching phrasing against common recruitment scam templates—almost there.",
-  "Synthesizing signals so your result reflects the full post, not a single line.",
+  "Scanning for vague job titles, off-platform nudges, or pay that sounds too good to be true.",
+  "Checking whether the post asks for fees up front or sensitive data too early.",
+  "Separating softer review-level signals from stronger fraud-style patterns when both show up.",
+  "Matching phrasing against known high-risk templates—almost there.",
+  "Combining scores into legit, warning, and fraud-style probabilities for your summary.",
 ] as const;
 
 const LOADING_TIP_LINES = [
@@ -493,7 +602,7 @@ const LOADING_TIP_LINES = [
   "Evaluating company profile and how well it aligns with the role.",
   "When you added a rate, we verify currency, range, and type together.",
   "Weighting longer posts a bit more so nothing important is skipped.",
-  "Building your risk signals for the final summary.",
+  "Layering model scores so the summary reflects legit, warning, or fraud-tier risk.",
 ] as const;
 
 function LoadingFrame({
@@ -554,7 +663,7 @@ function LoadingFrame({
         className="text-3xl font-semibold motion-safe:animate-[loading-title-soft_2.6s_ease-in-out_infinite]"
         style={{ animationDelay: "0.15s" }}
       >
-        Analyzing job post
+        Checking your post
         <span className="inline-flex w-[1.35em] justify-start tabular-nums">
           <span className="motion-safe:animate-[loading-ellipsis_1.2s_ease-in-out_infinite]">.</span>
           <span

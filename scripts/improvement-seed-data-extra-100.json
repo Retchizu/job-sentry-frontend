@@ -1,0 +1,1687 @@
+[
+  {
+    "post": {
+      "job_title": "Pharmacy Technician",
+      "job_desc": "Fill rx under pharmacist supervision; inventory cycle counts; some weekends.",
+      "skills_desc": "CPhT prefered, data entry, customer service",
+      "company_profile": "Publix — supermarket pharmacy; retail Rx; Southeast.",
+      "rate": {
+        "amount_min": 17,
+        "amount_max": 22,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Structural Ironworker",
+      "job_desc": "Connect bolts rebar cages high rise. harness 100% tie off non negotiatble.",
+      "skills_desc": "rigging, reading prints",
+      "company_profile": "Turner Construction — commercial GC; union site; downtown tower.",
+      "rate": {
+        "amount_min": 38,
+        "amount_max": 52,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Biostatistician II",
+      "job_desc": "SAPs, interim analises, FDA tables. SAS mostly occasional R ok.",
+      "skills_desc": "SAS, survival analysis, CDISC",
+      "company_profile": "Gilead Sciences — biotech; clinical stats; Foster City.",
+      "rate": {
+        "amount_min": 8,
+        "amount_max": 12,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Barber — walk-ins heavy",
+      "job_desc": "Fade's, beard lineups, sanitize station between clients tips not gauranteed.",
+      "skills_desc": "shears, clipper guards, people skills",
+      "company_profile": "Great Clips — franchised salons; high volume.",
+      "rate": {
+        "amount_min": 185000,
+        "amount_max": 220000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors",
+      "poor_grammar"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Controls Engineer",
+      "job_desc": "PLC programming VFD commissioning FAT support. travel upto 25%.",
+      "skills_desc": "Studio 5000, HMIs, Ethernet/IP",
+      "company_profile": "Rockwell Automation — industrial automation; systems integrator partner.",
+      "rate": {
+        "amount_min": 42,
+        "amount_max": 58,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Librarian — youth services",
+      "job_desc": "Storytime, collection developement, summer reading chaos we love books alot.",
+      "skills_desc": "MLIS, programming for kids",
+      "company_profile": "New York Public Library — public library; borough branches.",
+      "rate": {
+        "amount_min": 62000,
+        "amount_max": 78000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors",
+      "poor_grammar"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Surgical Tech",
+      "job_desc": "Sterile field, counts, turnover between cases. call rotation.",
+      "skills_desc": "CST, aseptic technique, stamina",
+      "company_profile": "HCA Healthcare — hospital OR; metro campus.",
+      "rate": {
+        "amount_min": 3,
+        "amount_max": 5,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Product Designer (mobile)",
+      "job_desc": "Figma systems, usability tests with PM. B2C fintech.",
+      "skills_desc": "Figma, prototyping, research",
+      "company_profile": "Block (Cash App) — consumer fintech; design systems.",
+      "rate": {
+        "amount_min": 45000,
+        "amount_max": 55000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Diesel Mechanic",
+      "job_desc": "Fleet PMs, diag laptops, DOT paperwork. dirty but steady.",
+      "skills_desc": "Cummins/Detroit familiarity, hydraulics",
+      "company_profile": "Penske Truck Leasing — commercial truck maintenance; yard.",
+      "rate": {
+        "amount_min": 28,
+        "amount_max": 36,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Court Reporter",
+      "job_desc": "Realtime steno for civil trials. exhibit marking.",
+      "skills_desc": "steno 225 wpm, Case CATalyst",
+      "company_profile": "Stenograph — equipment vendor; freelance placement.",
+      "rate": {
+        "amount_min": 400,
+        "amount_max": 650,
+        "currency": "USD",
+        "type": "daily"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Aquarist — public aquarium",
+      "job_desc": "Water quality, feeding schedules, guest talks on weekends.",
+      "skills_desc": "life support basics, SCUBA helpful",
+      "company_profile": "Monterey Bay Aquarium — nonprofit aquarium; husbandry.",
+      "rate": {
+        "amount_min": 22,
+        "amount_max": 28,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Tax Associate (seasonal)",
+      "job_desc": "1040s, some corp returns, client emails thru april crunch.",
+      "skills_desc": "TaxSlayer or similar, patience",
+      "company_profile": "H&R Block — tax prep; retail offices.",
+      "rate": {
+        "amount_min": 19,
+        "amount_max": 24,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Radiologic Technologist",
+      "job_desc": "XR fluoro assist; patient positioning; PACS upload.",
+      "skills_desc": "ARRT, radiation safety",
+      "company_profile": "RadNet — outpatient imaging; multi-site.",
+      "rate": {
+        "amount_min": 33,
+        "amount_max": 42,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Merchandiser — grocery resets",
+      "job_desc": "Planograms, facing, photo proofs by 5pm sunday.",
+      "skills_desc": "lifting, smartphone app",
+      "company_profile": "Acosta — CPG retail services; national chains.",
+      "rate": {
+        "amount_min": 16,
+        "amount_max": 19,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "UX Researcher (contract)",
+      "job_desc": "Moderated studies, insight readouts, tight timeline.",
+      "skills_desc": "moderation, synthesis, FigJam",
+      "company_profile": "IDEO — design consultancy; 3-month contract.",
+      "rate": {
+        "amount_min": 0.85,
+        "amount_max": 1.2,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Pipefitter — union",
+      "job_desc": "Steam and process piping, rigging, hydro tests.",
+      "skills_desc": "blueprints, welding witness",
+      "company_profile": "Fluor — EPC contractor; Gulf Coast chemical project.",
+      "rate": {
+        "amount_min": 950000,
+        "amount_max": 1100000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Kindergarten Teacher",
+      "job_desc": "Lesson plans, IEP collaboration, recess duty we all do it.",
+      "skills_desc": "early literacy, classroom management",
+      "company_profile": "Chicago Public Schools — public education; urban elementary.",
+      "rate": {
+        "amount_min": 52000,
+        "amount_max": 68000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Biomedical Equipment Tech",
+      "job_desc": "PMs on infusion pumps, service tickets, OEM trainings.",
+      "skills_desc": "electronics, schematics, travel local",
+      "company_profile": "GE HealthCare — clinical engineering; hospital contract.",
+      "rate": {
+        "amount_min": 31,
+        "amount_max": 40,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Set Dresser — streaming",
+      "job_desc": "Load in props, continuity photos, strike nights.",
+      "skills_desc": "hand tools, lift gate, long hours",
+      "company_profile": "Netflix — original production; local stage rental.",
+      "rate": {
+        "amount_min": 280,
+        "amount_max": 400,
+        "currency": "USD",
+        "type": "daily"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Claims Adjuster — property",
+      "job_desc": "Field inspections, estimate writing, vendor coordination.",
+      "skills_desc": "Xactimate, ladder work",
+      "company_profile": "State Farm — P&C insurance; CAT team optional.",
+      "rate": {
+        "amount_min": 11,
+        "amount_max": 14,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Chocolatier",
+      "job_desc": "Tempering, enrobing, holiday rush truffles.",
+      "skills_desc": "food safety, detail hands",
+      "company_profile": "Lindt & Sprüngli — retail production kitchen; tourist district.",
+      "rate": {
+        "amount_min": 18,
+        "amount_max": 22,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Field Agronomist",
+      "job_desc": "Soil sampling, recs to growers, drone imagery sometimes.",
+      "skills_desc": "agronomy degree, Excel, driving",
+      "company_profile": "Corteva Agriscience — crop protection; Midwest territory.",
+      "rate": {
+        "amount_min": 72000,
+        "amount_max": 88000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Optician",
+      "job_desc": "Fitting, adjustments, insurance eligibility phone trees.",
+      "skills_desc": "ABO cert helpful, sales",
+      "company_profile": "Warby Parker — DTC eyewear; retail lab.",
+      "rate": {
+        "amount_min": 22,
+        "amount_max": 27,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Bench Jeweler",
+      "job_desc": "Repairs, stone setting, laser weld.",
+      "skills_desc": "microscope work, goldsmith",
+      "company_profile": "Tiffany & Co. — luxury retail; service center.",
+      "rate": {
+        "amount_min": 550000,
+        "amount_max": 700000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Technical Writer — API docs",
+      "job_desc": "OpenAPI specs, code samples, developer portal updates.",
+      "skills_desc": "Markdown, git, developer empathy",
+      "company_profile": "Stripe — payments platform; remote US.",
+      "rate": {
+        "amount_min": 125000,
+        "amount_max": 155000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Wildland Firefighter",
+      "job_desc": "Hand crew, line digging, long deployments in summer.",
+      "skills_desc": "FFT1 helpful, pack test",
+      "company_profile": "U.S. Forest Service — federal wildfire; Interagency.",
+      "rate": {
+        "amount_min": 17,
+        "amount_max": 22,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Cosmetology Instructor",
+      "job_desc": "Teach cutting color in school floor clinic supervision.",
+      "skills_desc": "state instructor license, patience",
+      "company_profile": "Paul Mitchell Schools — cosmetology education; franchise campus.",
+      "rate": {
+        "amount_min": 21,
+        "amount_max": 26,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Power Plant Operator",
+      "job_desc": "DCS rounds, startups/shutdowns, shift log.",
+      "skills_desc": "high voltage awareness, NERC basics",
+      "company_profile": "Duke Energy — regulated utility; combined cycle.",
+      "rate": {
+        "amount_min": 450000,
+        "amount_max": 520000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Mortgage Underwriter",
+      "job_desc": "AUS findings, conditions, investor guidelines.",
+      "skills_desc": "FNMA/FHLMC, income calc",
+      "company_profile": "Rocket Mortgage — mortgage lending; remote.",
+      "rate": {
+        "amount_min": 68000,
+        "amount_max": 82000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Sommelier (casual dining)",
+      "job_desc": "Pairings for prix fixe, staff training, inventory.",
+      "skills_desc": "WSET, POS, hustle",
+      "company_profile": "Darden (Olive Garden) — casual dining; wine program (varies by loc).",
+      "rate": {
+        "amount_min": 2,
+        "amount_max": 4,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Animator — 3D",
+      "job_desc": "Character cycles, shot polish, notes from director.",
+      "skills_desc": "Maya, rigging awareness",
+      "company_profile": "Pixar — animation studio; Emeryville.",
+      "rate": {
+        "amount_min": 14,
+        "amount_max": 18,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Snowplow Operator",
+      "job_desc": "Municipal routes salt spreader overtime storms.",
+      "skills_desc": "CDL, night shift",
+      "company_profile": "John Deere — dealer; municipal contract operator lease.",
+      "rate": {
+        "amount_min": 24,
+        "amount_max": 35,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Genetic Counselor",
+      "job_desc": "Cancer risk sessions, chart notes, variant call review with lab.",
+      "skills_desc": "ABGC, empathy, EMR",
+      "company_profile": "Invitae — genetic testing; telehealth hybrid.",
+      "rate": {
+        "amount_min": 95000,
+        "amount_max": 115000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Locksmith — automotive",
+      "job_desc": "Program keys, EEPROM when needed, roadside occasionally.",
+      "skills_desc": "Lishi tools, customer calm",
+      "company_profile": "Pop-A-Lock — franchise; automotive lockout.",
+      "rate": {
+        "amount_min": 19,
+        "amount_max": 26,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Editorial Assistant (magazine)",
+      "job_desc": "Inbox slush, contract admin, fact check footnotes.",
+      "skills_desc": "AP style, organized, thick skin",
+      "company_profile": "Condé Nast — publishing; NYC.",
+      "rate": {
+        "amount_min": 48000,
+        "amount_max": 55000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Tower Climber — telecom",
+      "job_desc": "Antenna swaps, safety climb gear, travel region.",
+      "skills_desc": "ComTrain, RF awareness",
+      "company_profile": "American Tower — wireless infrastructure; contractor roster.",
+      "rate": {
+        "amount_min": 28,
+        "amount_max": 38,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Pastry Cook",
+      "job_desc": "Mise en place, viennoiserie, brunch service.",
+      "skills_desc": "lamination, speed, hotel pace",
+      "company_profile": "Four Seasons — luxury hotel; pastry kitchen.",
+      "rate": {
+        "amount_min": 22,
+        "amount_max": 28,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Cybersecurity Analyst (SOC)",
+      "job_desc": "Triage alerts, playbooks, handoff to IR.",
+      "skills_desc": "SIEM, TCP/IP, curiosity",
+      "company_profile": "CrowdStrike — cybersecurity; SOC rotation.",
+      "rate": {
+        "amount_min": 9,
+        "amount_max": 13,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Flight Attendant",
+      "job_desc": "Safety demo, service, reserve months.",
+      "skills_desc": "FAA cert, customer recovery",
+      "company_profile": "Delta Air Lines — mainline carrier; domicile varies.",
+      "rate": {
+        "amount_min": 28,
+        "amount_max": 35,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Urban Planner",
+      "job_desc": "Zoning memos, public hearings, GIS maps for council.",
+      "skills_desc": "GIS, writing, meetings",
+      "company_profile": "AECOM — consulting; municipal contracts.",
+      "rate": {
+        "amount_min": 70000,
+        "amount_max": 88000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Dog Groomer",
+      "job_desc": "Bath cut nails ear clean large dogs ok.",
+      "skills_desc": "handling, dryers, patience",
+      "company_profile": "PetSmart — grooming salon; commission + hourly.",
+      "rate": {
+        "amount_min": 15,
+        "amount_max": 19,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar",
+      "typographical_errors"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Chemist — QC lab",
+      "job_desc": "HPLC release testing, method transfers, lab notebooks.",
+      "skills_desc": "GMP, chromatography",
+      "company_profile": "Merck — pharma manufacturing; QC analytical.",
+      "rate": {
+        "amount_min": 25,
+        "amount_max": 32,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Camera Operator — live sports",
+      "job_desc": "Cabling, shading, replay coordination.",
+      "skills_desc": "broadcast cameras, travel",
+      "company_profile": "ESPN (Disney) — broadcast; freelance event.",
+      "rate": {
+        "amount_min": 600,
+        "amount_max": 900,
+        "currency": "USD",
+        "type": "daily"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Insurance Fraud Investigator",
+      "job_desc": "SIU cases, interviews, SIU referrals.",
+      "skills_desc": "interviews, attention detail",
+      "company_profile": "Liberty Mutual — P&C insurer; special investigations.",
+      "rate": {
+        "amount_min": 78000,
+        "amount_max": 95000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Plumber — service calls",
+      "job_desc": "Residential leaks water heaters snaking.",
+      "skills_desc": "journeyman license, van stock",
+      "company_profile": "Roto-Rooter — plumbing franchise; on-call rotation.",
+      "rate": {
+        "amount_min": 22,
+        "amount_max": 32,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Research Scientist — materials",
+      "job_desc": "Thin films, SEM, write internal reports.",
+      "skills_desc": "materials science, instrumentation",
+      "company_profile": "Corning — advanced materials; R&D.",
+      "rate": {
+        "amount_min": 115000,
+        "amount_max": 140000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Banquet Server",
+      "job_desc": "Plate service wine pour breakdown late nights.",
+      "skills_desc": "black tie events, stamina",
+      "company_profile": "Compass Group — corporate dining; convention center.",
+      "rate": {
+        "amount_min": 19,
+        "amount_max": 22,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Nuclear Medicine Technologist",
+      "job_desc": "Dose prep, PET scans, radiation safety logs.",
+      "skills_desc": "NMTCB, patient care",
+      "company_profile": "Siemens Healthineers — clinical site staffing; hospital.",
+      "rate": {
+        "amount_min": 38,
+        "amount_max": 48,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Fashion Buyer",
+      "job_desc": "OTB, vendor meetings, markdown post-mortems.",
+      "skills_desc": "Excel, trend sense, travel",
+      "company_profile": "Macy's — department store; buying office.",
+      "rate": {
+        "amount_min": 65000,
+        "amount_max": 82000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Elevator Mechanic Apprentice",
+      "job_desc": "Helper on mod installs learn codes.",
+      "skills_desc": "mechanical aptitude, heights",
+      "company_profile": "Otis Worldwide — vertical transport; union apprenticeship.",
+      "rate": {
+        "amount_min": 22,
+        "amount_max": 30,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Speech-Language Pathologist",
+      "job_desc": "School caseload IEPs artic language.",
+      "skills_desc": "CCC-SLP, Zoom fatigue tolerance",
+      "company_profile": "PresenceLearning — teletherapy contractor; schools remote.",
+      "rate": {
+        "amount_min": 48,
+        "amount_max": 58,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Dock Worker — LTL",
+      "job_desc": "Fork unload scan damage claims.",
+      "skills_desc": "forklift, night dock",
+      "company_profile": "Old Dominion Freight Line — LTL carrier; terminal.",
+      "rate": {
+        "amount_min": 21,
+        "amount_max": 26,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Interior Designer",
+      "job_desc": "FF&E specs, site visits, client presentations.",
+      "skills_desc": "Revit nice, materiality",
+      "company_profile": "Gensler — architecture & design; workplace studio.",
+      "rate": {
+        "amount_min": 12,
+        "amount_max": 16,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Coal Miner — underground",
+      "job_desc": "Continuous miner section roof bolter.",
+      "skills_desc": "MSHA, dark noisy",
+      "company_profile": "Peabody Energy — coal mining; Appalachia.",
+      "rate": {
+        "amount_min": 27,
+        "amount_max": 35,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Head Brewer",
+      "job_desc": "Recipe dev QA lab scheduling taproom coordination.",
+      "skills_desc": "brewing science, leadership",
+      "company_profile": "Boston Beer (Sam Adams) — craft brewery; production.",
+      "rate": {
+        "amount_min": 85000,
+        "amount_max": 105000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Captioner — broadcast",
+      "job_desc": "Live steno captioning news breaks.",
+      "skills_desc": "steno or respeaking, nerves steel",
+      "company_profile": "VITAC — closed captioning; remote.",
+      "rate": {
+        "amount_min": 65,
+        "amount_max": 85,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Oil Trader — analyst track",
+      "job_desc": "Market commentary, position reporting, early hours.",
+      "skills_desc": "Excel, macro awareness, stamina",
+      "company_profile": "Vitol — commodity trading; Houston.",
+      "rate": {
+        "amount_min": 45000,
+        "amount_max": 60000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Carpenter — scenic",
+      "job_desc": "Broadway style flats, CNC assist, paint faux.",
+      "skills_desc": "woodworking, deadlines",
+      "company_profile": "Scenic Technologies — theatrical fabrication; shop.",
+      "rate": {
+        "amount_min": 30,
+        "amount_max": 40,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Dialysis RN",
+      "job_desc": "Acutes chronic chair turnover cannulation.",
+      "skills_desc": "RN license, BLS",
+      "company_profile": "DaVita — kidney care; outpatient clinic.",
+      "rate": {
+        "amount_min": 36,
+        "amount_max": 44,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Geotechnical Engineer",
+      "job_desc": "Drilling logs, slope stability memos, field visits.",
+      "skills_desc": "soil mechanics, AutoCAD",
+      "company_profile": "Jacobs — engineering consulting; infrastructure.",
+      "rate": {
+        "amount_min": 82000,
+        "amount_max": 98000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Produce Clerk",
+      "job_desc": "Rotation culling organic signage.",
+      "skills_desc": "knife skills, cold room",
+      "company_profile": "Whole Foods Market — grocery; produce dept.",
+      "rate": {
+        "amount_min": 17,
+        "amount_max": 21,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Penetration Tester",
+      "job_desc": "Web app tests, report writing, client debriefs.",
+      "skills_desc": "OWASP, Burp, communication",
+      "company_profile": "Coalfire — cybersecurity consulting; remote.",
+      "rate": {
+        "amount_min": 140000,
+        "amount_max": 175000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Choreographer — cruise",
+      "job_desc": "Show blocking rehearsals safety at sea.",
+      "skills_desc": "dance, teaching, ship life",
+      "company_profile": "Royal Caribbean Group — cruise entertainment; ship contract.",
+      "rate": {
+        "amount_min": 2200,
+        "amount_max": 3200,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Medical Coder",
+      "job_desc": "ICD-10 CPT profee facility rules.",
+      "skills_desc": "AAPC cert, encoder",
+      "company_profile": "Optum (UnitedHealth) — revenue cycle; remote.",
+      "rate": {
+        "amount_min": 24,
+        "amount_max": 32,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Rigger — concert touring",
+      "job_desc": "Load in motors truss points.",
+      "skills_desc": "ETCP helpful, travel",
+      "company_profile": "Live Nation — concerts; touring vendor.",
+      "rate": {
+        "amount_min": 35,
+        "amount_max": 55,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Policy Analyst — think tank",
+      "job_desc": "Lit reviews, briefs, congressional hearing prep.",
+      "skills_desc": "writing, Stata or R",
+      "company_profile": "Brookings Institution — research; DC.",
+      "rate": {
+        "amount_min": 55000,
+        "amount_max": 68000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Assembler — aerospace",
+      "job_desc": "Torque specs, FOD program, first article.",
+      "skills_desc": "blueprints, attention",
+      "company_profile": "Lockheed Martin — defense aerospace; factory.",
+      "rate": {
+        "amount_min": 22,
+        "amount_max": 28,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Chef de Partie — garde manger",
+      "job_desc": "Cold apps charcuterie banquet plating.",
+      "skills_desc": "knife, speed, hotel",
+      "company_profile": "Marriott International — hotel kitchen; luxury flag.",
+      "rate": {
+        "amount_min": 19,
+        "amount_max": 24,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Statistician — sports",
+      "job_desc": "Player models, A/B tests for product features.",
+      "skills_desc": "R/Python, SQL, games",
+      "company_profile": "DraftKings — sports tech; Boston.",
+      "rate": {
+        "amount_min": 5,
+        "amount_max": 8,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Cable Splicer",
+      "job_desc": "Medium voltage splices, outages, bucket work.",
+      "skills_desc": "hot stick, travel",
+      "company_profile": "Quanta Services — utility contractor; storm response.",
+      "rate": {
+        "amount_min": 38,
+        "amount_max": 52,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Anthropology Field Assistant",
+      "job_desc": "Survey shovel test pits artifact logging.",
+      "skills_desc": "outdoor, detail notes",
+      "company_profile": "Smithsonian Institution — archaeology field school; seasonal.",
+      "rate": {
+        "amount_min": 16,
+        "amount_max": 20,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Brand Manager — CPG",
+      "job_desc": "P&L, retailer decks, innovation pipeline.",
+      "skills_desc": "Excel, storytelling, travel",
+      "company_profile": "Procter & Gamble — consumer goods; brand team.",
+      "rate": {
+        "amount_min": 125000,
+        "amount_max": 145000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Tattoo Artist — guest spot",
+      "job_desc": "Custom line work booking deposits.",
+      "skills_desc": "portfolio, bloodborne",
+      "company_profile": "Miami Ink area studio — independent shop; high walk-in.",
+      "rate": {
+        "amount_min": 400,
+        "amount_max": 800,
+        "currency": "USD",
+        "type": "daily"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Satellite Operator",
+      "job_desc": "TT&C passes anomaly response.",
+      "skills_desc": "shift work, scripting",
+      "company_profile": "Maxar Technologies — earth observation; ops floor.",
+      "rate": {
+        "amount_min": 88000,
+        "amount_max": 105000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Line Cook — diner",
+      "job_desc": "Griddle fry brunch rush.",
+      "skills_desc": "speed, eggs all ways",
+      "company_profile": "Waffle House — 24hr diner; short order.",
+      "rate": {
+        "amount_min": 14,
+        "amount_max": 17,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Clinical Lab Scientist",
+      "job_desc": "Micro panels blood bank rotations.",
+      "skills_desc": "ASCP, MLS",
+      "company_profile": "LabCorp — clinical laboratory; hospital reference.",
+      "rate": {
+        "amount_min": 32,
+        "amount_max": 40,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Purchasing Agent",
+      "job_desc": "POs vendor quotes expedites.",
+      "skills_desc": "ERP, negotiation",
+      "company_profile": "Boeing — aerospace manufacturing; supply chain.",
+      "rate": {
+        "amount_min": 6,
+        "amount_max": 9,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Park Ranger",
+      "job_desc": "Interpretive programs trail patrol permits.",
+      "skills_desc": "public speaking, outdoors",
+      "company_profile": "National Park Service — federal parks; seasonal.",
+      "rate": {
+        "amount_min": 18,
+        "amount_max": 24,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Solutions Architect — cloud",
+      "job_desc": "Customer workshops well-architected reviews.",
+      "skills_desc": "AWS certs, whiteboarding",
+      "company_profile": "Amazon Web Services — cloud provider; customer facing.",
+      "rate": {
+        "amount_min": 165000,
+        "amount_max": 205000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Embalmer",
+      "job_desc": "Restoration cosmetizing removals.",
+      "skills_desc": "state license, composure",
+      "company_profile": "Service Corporation International — funeral services; mortuary.",
+      "rate": {
+        "amount_min": 22,
+        "amount_max": 30,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Roofer — commercial",
+      "job_desc": "TPO heat weld safety tie off.",
+      "skills_desc": "heights, hot days",
+      "company_profile": "GAF — roofing manufacturer; certified contractor crew.",
+      "rate": {
+        "amount_min": 20,
+        "amount_max": 28,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Actuary — health",
+      "job_desc": "Pricing models reserve analysis.",
+      "skills_desc": "SOA exams, Excel",
+      "company_profile": "Anthem (Elevance Health) — health insurance; actuarial.",
+      "rate": {
+        "amount_min": 95000,
+        "amount_max": 120000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Stagehand — IATSE",
+      "job_desc": "Load local calls theater.",
+      "skills_desc": "calls, heavy lifting",
+      "company_profile": "IATSE Local — venue overhire; performing arts center.",
+      "rate": {
+        "amount_min": 28,
+        "amount_max": 42,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar"
+    ],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Battery Test Engineer",
+      "job_desc": "Cycle life chambers root cause.",
+      "skills_desc": "Python, lab safety",
+      "company_profile": "Tesla — EV manufacturing; energy lab.",
+      "rate": {
+        "amount_min": 42,
+        "amount_max": 55,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Interpreter — medical",
+      "job_desc": "Hospital assignments on-site spanish english.",
+      "skills_desc": "medical vocab, certification",
+      "company_profile": "LanguageLine Solutions — language services; contractor.",
+      "rate": {
+        "amount_min": 35,
+        "amount_max": 45,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Harbor Pilot Apprentice",
+      "job_desc": "Ship assist training rotations.",
+      "skills_desc": "maritime license path",
+      "company_profile": "Moran Towing — maritime services; pilot assoc.",
+      "rate": {
+        "amount_min": 95000,
+        "amount_max": 130000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Floriculture Greenhouse Tech",
+      "job_desc": "IPM irrigation bench spacing.",
+      "skills_desc": "horticulture, data entry",
+      "company_profile": "Syngenta — seeds/ornamentals; R&D greenhouse.",
+      "rate": {
+        "amount_min": 20,
+        "amount_max": 26,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Drone Survey Pilot",
+      "job_desc": "Topo flights GCPs deliver orthos.",
+      "skills_desc": "Part 107, Pix4D",
+      "company_profile": "Woolpert — geospatial; AEC clients.",
+      "rate": {
+        "amount_min": 22,
+        "amount_max": 30,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "Costume Supervisor — film",
+      "job_desc": "Continuity breakdown rental returns.",
+      "skills_desc": "Excel, diplomacy",
+      "company_profile": "A24 — independent film; production office.",
+      "rate": {
+        "amount_min": 350,
+        "amount_max": 500,
+        "currency": "USD",
+        "type": "daily"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "ERP Consultant — SAP",
+      "job_desc": "FI/CO workshops cutover weekends hypercare.",
+      "skills_desc": "S/4HANA, workshops, travel",
+      "company_profile": "SAP SE — enterprise software; global services.",
+      "rate": {
+        "amount_min": 950,
+        "amount_max": 1400,
+        "currency": "EUR",
+        "type": "daily"
+      }
+    },
+    "warning_flags": [],
+    "labeled_scam": false
+  },
+  {
+    "post": {
+      "job_title": "WORK FROM HOME!!! — Amazon gift card auditor",
+      "job_desc": "We mail you bulk gift cards you scratch codes and email us photos for $200 each day its easy money no tax.",
+      "skills_desc": "iphone camera, gmail",
+      "company_profile": "Unknown — impersonates retailer; gift-card laundering pattern.",
+      "rate": {
+        "amount_min": 6000,
+        "amount_max": 12000,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [
+      "excessive_punctuation",
+      "typographical_errors",
+      "poor_grammar",
+      "other_suspicious_patterns"
+    ],
+    "labeled_scam": true,
+    "warnings": "Gift card mule / code harvesting; impersonation tone."
+  },
+  {
+    "post": {
+      "job_title": "Crypto liquidity pool assistant (passive)",
+      "job_desc": "Connect wallet approve our contract we arb MEV for you returns 18% weekly (DYOR not advise).",
+      "skills_desc": "metamask, trust wallet",
+      "company_profile": "Unknown — DeFi wallet-drainer style posting.",
+      "rate": {
+        "amount_min": 3200,
+        "amount_max": 20000,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors",
+      "other_suspicious_patterns"
+    ],
+    "labeled_scam": true,
+    "warnings": "Unrealistic yield; wallet approval scam pattern."
+  },
+  {
+    "post": {
+      "job_title": "Federal grant disbursement clerk — wire training",
+      "job_desc": "Use your bank to recieve SBA test wires then forward less 2% processing we need US persons only.",
+      "skills_desc": "checking account, zelle",
+      "company_profile": "Unknown — fake government payment; money mule.",
+      "rate": {
+        "amount_min": 4500,
+        "amount_max": 8000,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors",
+      "poor_grammar",
+      "other_suspicious_patterns"
+    ],
+    "labeled_scam": true,
+    "warnings": "Wire forwarding / mule pattern; fake agency."
+  },
+  {
+    "post": {
+      "job_title": "URGENT — Mystery shopper (evaluate Western Union)",
+      "job_desc": "We send you a cashiers check deposit keep $500 rest wire to secret shopper metrics in 24h.",
+      "skills_desc": "bank account",
+      "company_profile": "Unknown — classic fake check / wire scam.",
+      "rate": {
+        "amount_min": 500,
+        "amount_max": 900,
+        "currency": "USD",
+        "type": "daily"
+      }
+    },
+    "warning_flags": [
+      "excessive_punctuation",
+      "other_suspicious_patterns"
+    ],
+    "labeled_scam": true,
+    "warnings": "Fake check scam; urgent wire pressure."
+  },
+  {
+    "post": {
+      "job_title": "AppleCare refund specialist (telegram)",
+      "job_desc": "Customers send refunds to you you forward apple minus commission we give you macbook after 30 days.",
+      "skills_desc": "telegram",
+      "company_profile": "Unknown — refund forwarding; impersonation.",
+      "rate": {
+        "amount_min": 120000,
+        "amount_max": 180000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar",
+      "other_suspicious_patterns"
+    ],
+    "labeled_scam": true,
+    "warnings": "Refund mule; brand impersonation."
+  },
+  {
+    "post": {
+      "job_title": "Binary signals trader — copy paste trades",
+      "job_desc": "Pay $299 for VIP channel then mirror our signals guaranteed wins (results may varry).",
+      "skills_desc": "whatsapp",
+      "company_profile": "Unknown — signal-selling / gambling adjacent.",
+      "rate": {
+        "amount_min": 10000,
+        "amount_max": 40000,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors",
+      "other_suspicious_patterns"
+    ],
+    "labeled_scam": true,
+    "warnings": "Upfront fee; unrealistic trading returns."
+  },
+  {
+    "post": {
+      "job_title": "Reshipping coordinator — intl packages",
+      "job_desc": "Recieve electronics relabel ship abroad we pay per box cashapp only no W2.",
+      "skills_desc": "address in USA",
+      "company_profile": "Unknown — reshipping / stolen goods mule pattern.",
+      "rate": {
+        "amount_min": 25,
+        "amount_max": 45,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors",
+      "poor_grammar",
+      "other_suspicious_patterns"
+    ],
+    "labeled_scam": true,
+    "warnings": "Reshipping scheme; informal pay."
+  },
+  {
+    "post": {
+      "job_title": "Model scout — pay portfolio fee first",
+      "job_desc": "Send $89 for comp card shoot then we book you with Nike campaigns (references on request later).",
+      "skills_desc": "instagram dm's",
+      "company_profile": "Unknown — advance-fee modeling scam.",
+      "rate": {
+        "amount_min": 8000,
+        "amount_max": 15000,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors",
+      "other_suspicious_patterns"
+    ],
+    "labeled_scam": true,
+    "warnings": "Upfront portfolio fee; vague bookings."
+  },
+  {
+    "post": {
+      "job_title": "HR onboarding — buy laptop we reimburse",
+      "job_desc": "Before first day purchase MacBook from our vendor portal using your card reimbursement on paycheck never came.",
+      "skills_desc": "credit card",
+      "company_profile": "Unknown — fake job equipment purchase scam.",
+      "rate": {
+        "amount_min": 95000,
+        "amount_max": 110000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar",
+      "other_suspicious_patterns"
+    ],
+    "labeled_scam": true,
+    "warnings": "Employee kit purchase scam; reimbursement fiction."
+  },
+  {
+    "post": {
+      "job_title": "PayPal dispute resolver (remote)!!!",
+      "job_desc": "Login shared mailbox release holds to our BTC wallet you keep 15% volume unlimited.",
+      "skills_desc": "paypal",
+      "company_profile": "Unknown — account takeover / payment fraud adjacency.",
+      "rate": {
+        "amount_min": 8000,
+        "amount_max": 32000,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [
+      "excessive_punctuation",
+      "other_suspicious_patterns"
+    ],
+    "labeled_scam": true,
+    "warnings": "Shared credential abuse; crypto payout."
+  }
+]

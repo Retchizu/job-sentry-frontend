@@ -40,3 +40,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local Upwork session (Playwright storageState — contains cookies)
+scripts/.upwork-storage.json
