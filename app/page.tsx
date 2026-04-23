@@ -7,6 +7,7 @@ import type { ApiError, PredictResponse } from "@/lib/api";
 import { confidencePercent, getRiskTier, triplePercents } from "@/lib/prediction-risk-tier";
 import { AppChromeHeader } from "@/app/app-chrome-header";
 import { JobPostField } from "@/components/job-post-field";
+import { JobUrlImportBar } from "@/components/job-url-import-bar";
 import {
   buildSinglePost,
   hasJobPostText,
@@ -179,6 +180,10 @@ export default function Home() {
             className={`w-full rounded-lg p-7 shadow-[0_0_4px_0_rgba(0,0,0,0.25)] ${isDarkMode ? "border border-[#767676]/70 bg-[#05001b]" : "bg-white"}`}
           >
             <div className="space-y-5">
+              <JobUrlImportBar
+                isDarkMode={isDarkMode}
+                onImported={(patch) => setForm((prev) => ({ ...prev, ...patch }))}
+              />
               <JobPostField
                 label="Job title"
                 placeholder="e.g. Software Engineer"

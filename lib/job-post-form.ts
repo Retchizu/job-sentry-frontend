@@ -2,6 +2,7 @@ import type { PredictPost, PredictRateType } from "@/lib/api/types";
 
 /** Rate type choices shown in the compensation UI (subset of API `PredictRateType`). */
 export const RATE_TYPE_SELECT_OPTIONS: readonly { value: string; label: string }[] = [
+  { value: "hourly", label: "Hourly" },
   { value: "daily", label: "Daily" },
   { value: "weekly", label: "Weekly" },
   { value: "monthly", label: "Monthly" },

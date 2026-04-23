@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { AppChromeHeader } from "@/app/app-chrome-header";
 import { saveImprovementFeedback } from "@/app/improvement/actions";
 import { JobPostField } from "@/components/job-post-field";
+import { JobUrlImportBar } from "@/components/job-url-import-bar";
 import type { ImprovementWarningFlag, ReviewerRiskLabel } from "@/lib/api/types";
 import {
   buildSinglePost,
@@ -117,6 +118,10 @@ export default function ImprovementPage() {
 
           <section className={cardClass}>
             <div className="space-y-5">
+              <JobUrlImportBar
+                isDarkMode={isDarkMode}
+                onImported={(patch) => setForm((prev) => ({ ...prev, ...patch }))}
+              />
               <JobPostField
                 label="Job title"
                 placeholder="e.g. Software Engineer"

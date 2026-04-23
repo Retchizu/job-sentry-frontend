@@ -1,0 +1,3372 @@
+[
+  {
+    "post": {
+      "job_title": "Staff Accountant",
+      "job_desc": "Month-end close, reconciliations, flux commentary. Reports to site lead.",
+      "skills_desc": "Excel, ERP, attention",
+      "company_profile": "3M — industrial / consumer products; Midwest US.",
+      "rate": {
+        "amount_min": 36,
+        "amount_max": 62,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Benefits Specialist — temp-to-hire",
+      "job_desc": "Open enrollment, QLE tickets, carrier feeds. Reports to site lead.",
+      "skills_desc": "HRIS, HIPAA mindset",
+      "company_profile": "Abbott — medical devices & diagnostics; Illinois.",
+      "rate": {
+        "amount_min": 42000,
+        "amount_max": 58000,
+        "currency": "EUR",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Payroll Analyst — union",
+      "job_desc": "Garnishments, multi-state, quarterlies. Reports to site lead.",
+      "skills_desc": "Workday or ADP, Excel",
+      "company_profile": "Airbnb — short-term rentals; trust & safety; remote US.",
+      "rate": {
+        "amount_min": 3405,
+        "amount_max": 4222,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "AP Clerk — remote-first",
+      "job_desc": "3-way match, vendor calls, aging. Reports to site lead.",
+      "skills_desc": "ERP, patience",
+      "company_profile": "Albertsons — grocery retail; Western US.",
+      "rate": {
+        "amount_min": 21,
+        "amount_max": 62,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Revenue Analyst — per diem",
+      "job_desc": "ASC 606 support, SSP docs, audits. Reports to site lead.",
+      "skills_desc": "Excel, Salesforce CPQ helpful",
+      "company_profile": "AMD — semiconductors; Austin / Santa Clara.",
+      "rate": {
+        "amount_min": 3,
+        "amount_max": 6,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "IT Support Specialist — onsite",
+      "job_desc": "Tier 2 tickets, imaging, Entra.. Reports to site lead.",
+      "skills_desc": "Windows, SCCM",
+      "company_profile": "Amtrak — passenger rail; Northeast corridor.",
+      "rate": {
+        "amount_min": 49410,
+        "amount_max": 88427,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Network Technician — contract",
+      "job_desc": "Campus switches, patch panels, test sets. Reports to site lead.",
+      "skills_desc": "CCNA helpful",
+      "company_profile": "Anthropic — AI research; SF.",
+      "rate": {
+        "amount_min": 450000,
+        "amount_max": 600000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Security Analyst — rotating shifts",
+      "job_desc": "SIEM alerts, phishing triage, IR notes. Reports to site lead.",
+      "skills_desc": "Splunk, curiosity",
+      "company_profile": "Aramark — food & facilities; stadiums & B&I.",
+      "rate": {
+        "amount_min": 30,
+        "amount_max": 51,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "DevOps Engineer — field",
+      "job_desc": "CI/CD, Terraform, oncall. Reports to site lead.",
+      "skills_desc": "AWS, bash",
+      "company_profile": "Baker Hughes — oilfield services; Houston.",
+      "rate": {
+        "amount_min": 450000,
+        "amount_max": 600000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "QA Engineer — night shift",
+      "job_desc": "Test plans, automation, regressions. Reports to site lead.",
+      "skills_desc": "Selenium, API testing",
+      "company_profile": "Ball Corporation — packaging / aluminum; global mfg.",
+      "rate": {
+        "amount_min": 24,
+        "amount_max": 40,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Data Analyst — hybrid",
+      "job_desc": "Dashboards, ad hoc pulls, definitions. Reports to site lead.",
+      "skills_desc": "SQL, Tableau",
+      "company_profile": "BNSF Railway — Class I freight rail; Western US.",
+      "rate": {
+        "amount_min": 19,
+        "amount_max": 40,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Product Manager — travel ~30%",
+      "job_desc": "Roadmap, discovery, metrics. Reports to site lead.",
+      "skills_desc": "Jira, storytelling",
+      "company_profile": "Boeing Defense — aerospace & defense; multiple sites.",
+      "rate": {
+        "amount_min": 502,
+        "amount_max": 669,
+        "currency": "USD",
+        "type": "daily"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "UX Designer",
+      "job_desc": "Flows, prototypes, usability. Reports to site lead.",
+      "skills_desc": "Figma, research",
+      "company_profile": "Booz Allen Hamilton — gov consulting; DC metro.",
+      "rate": {
+        "amount_min": 38,
+        "amount_max": 29,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Customer Success Manager — temp-to-hire",
+      "job_desc": "Renewals, QBRs, adoption.. Reports to site lead.",
+      "skills_desc": "SaaS, empathy",
+      "company_profile": "Bridgestone — tires; plant / retail.",
+      "rate": {
+        "amount_min": 33,
+        "amount_max": 29,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Sales Engineer — union",
+      "job_desc": "Demos, POCs, RFPs. Reports to site lead.",
+      "skills_desc": "Linux, presentation",
+      "company_profile": "Bristol Myers Squibb — pharma; R&D & mfg.",
+      "rate": {
+        "amount_min": 3657,
+        "amount_max": 5074,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Recruiter — remote-first",
+      "job_desc": "Full-cycle reqs, sourcing, offers. Reports to site lead.",
+      "skills_desc": "LinkedIn, closing",
+      "company_profile": "Brother USA — printers & sewing; NJ HQ.",
+      "rate": {
+        "amount_min": 3,
+        "amount_max": 6,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors",
+      "poor_grammar"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "HR Generalist — per diem",
+      "job_desc": "Employee relations, policies, investigations. Reports to site lead.",
+      "skills_desc": "composure, writing",
+      "company_profile": "Bumble — dating app; Austin.",
+      "rate": {
+        "amount_min": 22,
+        "amount_max": 53,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Facilities Coordinator — onsite",
+      "job_desc": "Work orders, vendors, moves. Reports to site lead.",
+      "skills_desc": "CMMS, multitask",
+      "company_profile": "Calpine — power generation; gas plants.",
+      "rate": {
+        "amount_min": 3,
+        "amount_max": 6,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Purchasing Coordinator — contract",
+      "job_desc": "POs, expedites, supplier email. Reports to site lead.",
+      "skills_desc": "ERP, organized",
+      "company_profile": "Campbell Soup — CPG; Camden NJ.",
+      "rate": {
+        "amount_min": 37,
+        "amount_max": 53,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Logistics Coordinator — rotating shifts",
+      "job_desc": "Track & trace, appointments, claims. Reports to site lead.",
+      "skills_desc": "TMS, Excel",
+      "company_profile": "Carhartt — workwear; Michigan.",
+      "rate": {
+        "amount_min": 450000,
+        "amount_max": 600000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Warehouse Associate — field",
+      "job_desc": "Pick pack, RF, LOTO. Reports to site lead.",
+      "skills_desc": "stand-up lift",
+      "company_profile": "Carrier — HVAC; Syracuse area.",
+      "rate": {
+        "amount_min": 65,
+        "amount_max": 102,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Forklift Trainer — night shift",
+      "job_desc": "Cert classes, audits, incident review.. Reports to site lead.",
+      "skills_desc": "OSHA mindset",
+      "company_profile": "Caterpillar — heavy equipment; Peoria / dealers.",
+      "rate": {
+        "amount_min": 26,
+        "amount_max": 42,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Maintenance Tech II — hybrid",
+      "job_desc": "PMs, breakdowns, CMMS. Reports to site lead.",
+      "skills_desc": "electrical + mechanical",
+      "company_profile": "CBRE — commercial real estate; global.",
+      "rate": {
+        "amount_min": 21,
+        "amount_max": 42,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Electrician — industrial — travel ~30%",
+      "job_desc": "480V, VFDs, prints. Reports to site lead.",
+      "skills_desc": "state license",
+      "company_profile": "Charter Communications — cable / internet; field tech.",
+      "rate": {
+        "amount_min": 554,
+        "amount_max": 671,
+        "currency": "USD",
+        "type": "daily"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "HVAC Tech",
+      "job_desc": "Rooftop units, controls, refrigerant. Reports to site lead.",
+      "skills_desc": "EPA 608",
+      "company_profile": "Chewy — pet e-commerce; fulfillment.",
+      "rate": {
+        "amount_min": 40,
+        "amount_max": 31,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Plumber — commercial — temp-to-hire",
+      "job_desc": "RPZ, backflow, copper. Reports to site lead.",
+      "skills_desc": "journeyman",
+      "company_profile": "Chobani — food & beverage; Idaho / NY.",
+      "rate": {
+        "amount_min": 35,
+        "amount_max": 31,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Carpenter — trim — union",
+      "job_desc": "Finish work, punch lists. Reports to site lead.",
+      "skills_desc": "detail, tools",
+      "company_profile": "Cigna — health insurance; claims / clinical.",
+      "rate": {
+        "amount_min": 3909,
+        "amount_max": 5926,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Painter — commercial — remote-first",
+      "job_desc": "Spray + brush, masking. Reports to site lead.",
+      "skills_desc": "lift cert",
+      "company_profile": "Cintas — uniforms & facility services; routes.",
+      "rate": {
+        "amount_min": 25,
+        "amount_max": 31,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Roofer — per diem",
+      "job_desc": "Tear-off, underlayment, tie-off. Reports to site lead. must be flexable on hours.",
+      "skills_desc": "heights",
+      "company_profile": "Clorox — household brands; R&D & plants.",
+      "rate": {
+        "amount_min": 24,
+        "amount_max": 55,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Welder — MIG — onsite",
+      "job_desc": "Structural, weld maps.. Reports to site lead. must be flexable on hours.",
+      "skills_desc": "WPS, certs",
+      "company_profile": "Coca-Cola — beverages; bottlers / HQ.",
+      "rate": {
+        "amount_min": 51514,
+        "amount_max": 95531,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Machinist — manual — contract",
+      "job_desc": "Bridgeport, lathe, tolerances. Reports to site lead. must be flexable on hours.",
+      "skills_desc": "prints, mics",
+      "company_profile": "Colgate-Palmolive — CPG; global.",
+      "rate": {
+        "amount_min": 450000,
+        "amount_max": 600000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "QC Inspector — rotating shifts",
+      "job_desc": "First article, CMM basics. Reports to site lead. must be flexable on hours.",
+      "skills_desc": "GD&T",
+      "company_profile": "Comcast — cable / telecom; tech / field.",
+      "rate": {
+        "amount_min": 34,
+        "amount_max": 55,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Assembler — electro-mechanical — field",
+      "job_desc": "Torque, ESD, travelers. Reports to site lead.",
+      "skills_desc": "dexterity",
+      "company_profile": "Conagra — frozen & packaged foods; Omaha.",
+      "rate": {
+        "amount_min": 450000,
+        "amount_max": 600000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Process Engineer — night shift",
+      "job_desc": "Line balancing, PFMEA, CAPA. Reports to site lead.",
+      "skills_desc": "Lean, stats",
+      "company_profile": "Copart — auto salvage auctions; yards.",
+      "rate": {
+        "amount_min": 28,
+        "amount_max": 44,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Manufacturing Supervisor — hybrid",
+      "job_desc": "Shift huddles, safety, output. Reports to site lead.",
+      "skills_desc": "coaching",
+      "company_profile": "Cummins — engines & power; Columbus IN.",
+      "rate": {
+        "amount_min": 23,
+        "amount_max": 44,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Shift Lead — food — travel ~30%",
+      "job_desc": "GMP, sanitation, line starts. Reports to site lead.",
+      "skills_desc": "HACCP aware",
+      "company_profile": "Danaher — life sciences tools; operating cos.",
+      "rate": {
+        "amount_min": 356,
+        "amount_max": 673,
+        "currency": "USD",
+        "type": "daily"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Sanitation Lead",
+      "job_desc": "SSOPs, swabs, third shift. Reports to site lead.",
+      "skills_desc": "chemical handling",
+      "company_profile": "Darden — restaurants; Orlando HQ.",
+      "rate": {
+        "amount_min": 42,
+        "amount_max": 33,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Batch Operator — temp-to-hire",
+      "job_desc": "DCS panels, rounds, samples.. Reports to site lead.",
+      "skills_desc": "P&ID reading",
+      "company_profile": "Dell Technologies — IT hardware & services; Round Rock.",
+      "rate": {
+        "amount_min": 37,
+        "amount_max": 33,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Packaging Operator — union",
+      "job_desc": "Filler, labeler, vision rejects. Reports to site lead.",
+      "skills_desc": "speed + quality",
+      "company_profile": "Delta Dental — dental insurance; claims.",
+      "rate": {
+        "amount_min": 2961,
+        "amount_max": 4978,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Receiving Clerk — rotating shifts",
+      "job_desc": "ASN, damages, cycle counts. Reports to site lead.",
+      "skills_desc": "WMS",
+      "company_profile": "Dick's Sporting Goods — retail; stores.",
+      "rate": {
+        "amount_min": 31,
+        "amount_max": 57,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Shipping Clerk — per diem",
+      "job_desc": "BOL, hazmat papers, loading. Reports to site lead.",
+      "skills_desc": "attention",
+      "company_profile": "Discover — credit card / banking; Riverwoods IL.",
+      "rate": {
+        "amount_min": 26,
+        "amount_max": 57,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "RN — med/surg — onsite",
+      "job_desc": "Assessments, meds, charting. Reports to site lead.",
+      "skills_desc": "BLS, teamwork",
+      "company_profile": "Dow — materials science; plants / labs.",
+      "rate": {
+        "amount_min": 3,
+        "amount_max": 6,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "LPN — clinic — contract",
+      "job_desc": "Vitals, injections, rooming. Reports to site lead.",
+      "skills_desc": "EMR",
+      "company_profile": "DR Horton — homebuilding; field supers.",
+      "rate": {
+        "amount_min": 41,
+        "amount_max": 57,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Medical Assistant — travel ~30%",
+      "job_desc": "Phlebotomy lite, EKG, prior auth. Reports to site lead.",
+      "skills_desc": "multitask",
+      "company_profile": "DuPont — specialty materials; safety / chem.",
+      "rate": {
+        "amount_min": 450000,
+        "amount_max": 600000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Pharmacist — hospital — field",
+      "job_desc": "Order verification, codes, staffing. Reports to site lead.",
+      "skills_desc": "BCPS helpful",
+      "company_profile": "Ecolab — cleaning & water; institutional.",
+      "rate": {
+        "amount_min": 89,
+        "amount_max": 106,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Rad Tech — night shift",
+      "job_desc": "XR/CT schedule, positioning.. Reports to site lead.",
+      "skills_desc": "ARRT",
+      "company_profile": "Edward Jones — wealth management; branch.",
+      "rate": {
+        "amount_min": 450000,
+        "amount_max": 600000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Ultrasound Tech — hybrid",
+      "job_desc": "OB/GYN scans, worksheets. Reports to site lead.",
+      "skills_desc": "RDMS",
+      "company_profile": "Emerson — automation & climate tech; STL.",
+      "rate": {
+        "amount_min": 25,
+        "amount_max": 46,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Respiratory Therapist — remote-first",
+      "job_desc": "Vent management, ABGs. Reports to site lead.",
+      "skills_desc": "RRT",
+      "company_profile": "Entergy — utility; Gulf South.",
+      "rate": {
+        "amount_min": 24,
+        "amount_max": 35,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Physical Therapist",
+      "job_desc": "Evals, plans of care, notes. Reports to site lead.",
+      "skills_desc": "DPT",
+      "company_profile": "Equifax — credit bureau; data / fraud.",
+      "rate": {
+        "amount_min": 19,
+        "amount_max": 35,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "OT — hand therapy — temp-to-hire",
+      "job_desc": "Splints, ADLs, billing. Reports to site lead.",
+      "skills_desc": "OTR/L",
+      "company_profile": "Exelon — utility / generation; Mid-Atlantic.",
+      "rate": {
+        "amount_min": 39,
+        "amount_max": 35,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "SLP — schools — union",
+      "job_desc": "IEP minutes, artic, AAC. Reports to site lead.",
+      "skills_desc": "CCC-SLP",
+      "company_profile": "Expedia Group — travel tech; Seattle.",
+      "rate": {
+        "amount_min": 3213,
+        "amount_max": 5830,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Dental Assistant — rotating shifts",
+      "job_desc": "Four-handed, impressions, sterilization. Reports to site lead.",
+      "skills_desc": "X-ray cert",
+      "company_profile": "Fannie Mae — housing finance; DC area.",
+      "rate": {
+        "amount_min": 33,
+        "amount_max": 59,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Vet Tech — per diem",
+      "job_desc": "Anesthesia, dentals, lab. Reports to site lead.",
+      "skills_desc": "fear free",
+      "company_profile": "Ferguson — plumbing & HVAC distribution; branches.",
+      "rate": {
+        "amount_min": 320,
+        "amount_max": 480,
+        "currency": "GBP",
+        "type": "daily"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Kennel Attendant — onsite",
+      "job_desc": "Walks, feeding, cleaning.. Reports to site lead.",
+      "skills_desc": "stamina",
+      "company_profile": "Fiserv — fintech / payments; Milwaukee.",
+      "rate": {
+        "amount_min": 53618,
+        "amount_max": 102635,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Teacher — middle school math — contract",
+      "job_desc": "Lesson plans, grading, parent nights. Reports to site lead.",
+      "skills_desc": "licensure",
+      "company_profile": "Fluor — EPC engineering; projects.",
+      "rate": {
+        "amount_min": 3,
+        "amount_max": 6,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Substitute Teacher — travel ~30%",
+      "job_desc": "Daily plans, classroom mgmt. Reports to site lead.",
+      "skills_desc": "flexible",
+      "company_profile": "Fortive — industrial tech; operating units.",
+      "rate": {
+        "amount_min": 480,
+        "amount_max": 747,
+        "currency": "USD",
+        "type": "daily"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Paraprofessional — field",
+      "job_desc": "IEP support, behaviors. Reports to site lead.",
+      "skills_desc": "patience",
+      "company_profile": "Franklin Templeton — asset management; CA.",
+      "rate": {
+        "amount_min": 450000,
+        "amount_max": 600000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Librarian — cataloging — night shift",
+      "job_desc": "MARC, authorities, batch loads. Reports to site lead.",
+      "skills_desc": "metadata",
+      "company_profile": "Freeman — events & expos; install.",
+      "rate": {
+        "amount_min": 32,
+        "amount_max": 48,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Curator — exhibitions — hybrid",
+      "job_desc": "Loans, labels, install. Reports to site lead.",
+      "skills_desc": "art handling",
+      "company_profile": "GameStop — retail gaming; stores.",
+      "rate": {
+        "amount_min": 27,
+        "amount_max": 48,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Archivist — remote-first",
+      "job_desc": "Processing, finding aids, donors. Reports to site lead.",
+      "skills_desc": "DACS",
+      "company_profile": "Garmin — consumer electronics; Olathe KS.",
+      "rate": {
+        "amount_min": 26,
+        "amount_max": 37,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Police Officer",
+      "job_desc": "Patrol, reports, court. Reports to site lead.",
+      "skills_desc": "academy grad",
+      "company_profile": "Gartner — IT research; Stamford.",
+      "rate": {
+        "amount_min": 21,
+        "amount_max": 37,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "911 Dispatcher — temp-to-hire",
+      "job_desc": "Call taking, CAD, stress.. Reports to site lead.",
+      "skills_desc": "typing, calm",
+      "company_profile": "Grainger — MRO distribution; branches.",
+      "rate": {
+        "amount_min": 41,
+        "amount_max": 37,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Corrections Officer — union",
+      "job_desc": "Counts, rounds, reports. Reports to site lead.",
+      "skills_desc": "security",
+      "company_profile": "Greenheck — HVAC equipment; Wisconsin.",
+      "rate": {
+        "amount_min": 3465,
+        "amount_max": 4882,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Firefighter — municipal — rotating shifts",
+      "job_desc": "EMS crossover, training. Reports to site lead. must be flexable on hours.",
+      "skills_desc": "CPAT",
+      "company_profile": "Guardian Life — insurance; NY.",
+      "rate": {
+        "amount_min": 35,
+        "amount_max": 61,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "EMT — interfacility — per diem",
+      "job_desc": "Transfers, monitors, charting. Reports to site lead. must be flexable on hours.",
+      "skills_desc": "NREMT",
+      "company_profile": "Harman (Samsung) — audio automotive; Novi MI.",
+      "rate": {
+        "amount_min": 30,
+        "amount_max": 61,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Paramedic — flight — onsite",
+      "job_desc": "Scene calls, vent, RSI protocols. Reports to site lead. must be flexable on hours.",
+      "skills_desc": "FP-C helpful",
+      "company_profile": "Hershey — confectionery; PA.",
+      "rate": {
+        "amount_min": 54670,
+        "amount_max": 83687,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Social Worker — CPS — contract",
+      "job_desc": "Investigations, court, safety plans. Reports to site lead. must be flexable on hours.",
+      "skills_desc": "boundaries",
+      "company_profile": "Hilton Worldwide — hospitality; hotels.",
+      "rate": {
+        "amount_min": 20,
+        "amount_max": 61,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Case Manager — behavioral health — travel ~30%",
+      "job_desc": "Auth, referrals, care plans. Reports to site lead.",
+      "skills_desc": "documentation",
+      "company_profile": "Holcim — building materials; cement.",
+      "rate": {
+        "amount_min": 3,
+        "amount_max": 6,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Probation Officer — juvenile — field",
+      "job_desc": "Supervision, referrals, hearings. Reports to site lead.",
+      "skills_desc": "writing",
+      "company_profile": "Honeywell — industrial & aerospace; Charlotte.",
+      "rate": {
+        "amount_min": 73,
+        "amount_max": 110,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Court Clerk — night shift",
+      "job_desc": "Docketing, fees, records.. Reports to site lead.",
+      "skills_desc": "detail",
+      "company_profile": "Hormel Foods — protein / CPG; Austin MN.",
+      "rate": {
+        "amount_min": 450000,
+        "amount_max": 600000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Legal Assistant — hybrid",
+      "job_desc": "Filings, calendaring, discovery. Reports to site lead.",
+      "skills_desc": "rules awareness",
+      "company_profile": "Howmet Aerospace — aero structures; forgings.",
+      "rate": {
+        "amount_min": 29,
+        "amount_max": 50,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Paralegal — litigation — remote-first",
+      "job_desc": "Depo prep, medical records. Reports to site lead.",
+      "skills_desc": "organized",
+      "company_profile": "HubSpot — marketing software; Cambridge.",
+      "rate": {
+        "amount_min": 28,
+        "amount_max": 39,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Claims Examiner",
+      "job_desc": "Coverage, investigations, letters. Reports to site lead.",
+      "skills_desc": "logic",
+      "company_profile": "Humana — Medicare / health; Louisville.",
+      "rate": {
+        "amount_min": 23,
+        "amount_max": 39,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Underwriter — commercial — temp-to-hire",
+      "job_desc": "Risk appetite, pricing, files. Reports to site lead.",
+      "skills_desc": "Excel",
+      "company_profile": "Huntington Ingalls — shipbuilding; Newport News.",
+      "rate": {
+        "amount_min": 43,
+        "amount_max": 39,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Bank Teller — contract",
+      "job_desc": "Cash handling, referrals, audits. Reports to site lead.",
+      "skills_desc": "accuracy",
+      "company_profile": "Hyundai Motor America — automotive; Montgomery AL.",
+      "rate": {
+        "amount_min": 42,
+        "amount_max": 28,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Loan Officer — rotating shifts",
+      "job_desc": "Apps, DU/LP, disclosures. Reports to site lead.",
+      "skills_desc": "NMLS",
+      "company_profile": "IBM — enterprise IT & consulting; Armonk.",
+      "rate": {
+        "amount_min": 37,
+        "amount_max": 28,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Branch Manager — per diem",
+      "job_desc": "Sales, audits, coaching. Reports to site lead.",
+      "skills_desc": "leadership",
+      "company_profile": "Illumina — genomics sequencing; San Diego.",
+      "rate": {
+        "amount_min": 32,
+        "amount_max": 28,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Financial Advisor — onsite",
+      "job_desc": "Plans, portfolios, compliance.. Reports to site lead.",
+      "skills_desc": "Series 7/66",
+      "company_profile": "Ingredion — ingredients; IL.",
+      "rate": {
+        "amount_min": 55722,
+        "amount_max": 109739,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Auditor — internal — hybrid",
+      "job_desc": "Controls testing, walkthroughs. Reports to site lead.",
+      "skills_desc": "SOX",
+      "company_profile": "Intuitive Surgical — robotic surgery; Sunnyvale.",
+      "rate": {
+        "amount_min": 26,
+        "amount_max": 52,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Tax Manager — travel ~30%",
+      "job_desc": "Provision, ASC 740, reviews. Reports to site lead.",
+      "skills_desc": "big4 exp",
+      "company_profile": "J.B. Hunt — trucking & logistics; Lowell AR.",
+      "rate": {
+        "amount_min": 584,
+        "amount_max": 751,
+        "currency": "USD",
+        "type": "daily"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "FP&A Analyst — field",
+      "job_desc": "Forecast, variance, decks. Reports to site lead.",
+      "skills_desc": "Excel, SQL",
+      "company_profile": "Jacobs Solutions — engineering; Dallas.",
+      "rate": {
+        "amount_min": 3,
+        "amount_max": 6,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Treasury Analyst — night shift",
+      "job_desc": "Cash positioning, wires, banking. Reports to site lead.",
+      "skills_desc": "attention",
+      "company_profile": "John Deere — ag & construction equip; Moline.",
+      "rate": {
+        "amount_min": 36,
+        "amount_max": 52,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Procurement Manager — union",
+      "job_desc": "RFPs, contracts, savings. Reports to site lead.",
+      "skills_desc": "negotiation",
+      "company_profile": "Johnson Controls — building tech; Milwaukee.",
+      "rate": {
+        "amount_min": 450000,
+        "amount_max": 600000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Category Manager — remote-first",
+      "job_desc": "Assortment, POG, vendors. Reports to site lead.",
+      "skills_desc": "retail math",
+      "company_profile": "Jones Lang LaSalle — CRE services; global.",
+      "rate": {
+        "amount_min": 30,
+        "amount_max": 41,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Merchandiser — reset",
+      "job_desc": "Planograms, photos, backstock. Reports to site lead.",
+      "skills_desc": "overnights",
+      "company_profile": "KBR — gov & energy services; Houston.",
+      "rate": {
+        "amount_min": 25,
+        "amount_max": 41,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Store Manager — temp-to-hire",
+      "job_desc": "Labor, shrink, customer.. Reports to site lead.",
+      "skills_desc": "retail ops",
+      "company_profile": "Kellanova (Kellogg) — snacks & cereal; Battle Creek.",
+      "rate": {
+        "amount_min": 42000,
+        "amount_max": 58000,
+        "currency": "EUR",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Assistant Store Manager — contract",
+      "job_desc": "Open/close, freight, coaching. Reports to site lead.",
+      "skills_desc": "KPIs",
+      "company_profile": "KeyBank — regional banking; Great Lakes.",
+      "rate": {
+        "amount_min": 19,
+        "amount_max": 30,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Loss Prevention — rotating shifts",
+      "job_desc": "CCTV, apps, reports. Reports to site lead.",
+      "skills_desc": "de-escalation",
+      "company_profile": "Kimberly-Clark — paper & hygiene; WI.",
+      "rate": {
+        "amount_min": 39,
+        "amount_max": 30,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Beauty Advisor — per diem",
+      "job_desc": "Color match, gratis, goals. Reports to site lead.",
+      "skills_desc": "service",
+      "company_profile": "KLA — semiconductor equipment; Milpitas.",
+      "rate": {
+        "amount_min": 34,
+        "amount_max": 30,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Auto Tech — dealership — onsite",
+      "job_desc": "Diagnostics, flat rate, warranty. Reports to site lead.",
+      "skills_desc": "ASE",
+      "company_profile": "Kohl's — department store; Menomonee Falls.",
+      "rate": {
+        "amount_min": 56774,
+        "amount_max": 90791,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Parts Counter — hybrid",
+      "job_desc": "Lookup, returns, inventory. Reports to site lead.",
+      "skills_desc": "catalogs",
+      "company_profile": "Kraft Heinz — CPG; Chicago / Pittsburgh.",
+      "rate": {
+        "amount_min": 28,
+        "amount_max": 54,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Service Advisor — travel ~30%",
+      "job_desc": "RO writeup, CSI, upsell. Reports to site lead.",
+      "skills_desc": "communication",
+      "company_profile": "Kroger — grocery; stores & DC.",
+      "rate": {
+        "amount_min": 3,
+        "amount_max": 6,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Pest Control Tech — field",
+      "job_desc": "Residential route, IPM. Reports to site lead.",
+      "skills_desc": "license study",
+      "company_profile": "L3Harris — defense electronics; Melbourne FL.",
+      "rate": {
+        "amount_min": 57,
+        "amount_max": 114,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Landscaper — night shift",
+      "job_desc": "Install, irrigation, hardscape.. Reports to site lead.",
+      "skills_desc": "crew lead",
+      "company_profile": "Lam Research — wafer fab equipment; Fremont.",
+      "rate": {
+        "amount_min": 450000,
+        "amount_max": 600000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Irrigation Tech — union",
+      "job_desc": "Troubleshoot clocks, valves. Reports to site lead.",
+      "skills_desc": "electrical basics",
+      "company_profile": "Lear Corporation — auto seating & E-systems; Southfield.",
+      "rate": {
+        "amount_min": 2841,
+        "amount_max": 5458,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Arborist — remote-first",
+      "job_desc": "Pruning, PHC, bucket. Reports to site lead.",
+      "skills_desc": "ISA",
+      "company_profile": "Leidos — defense IT; Reston.",
+      "rate": {
+        "amount_min": 450000,
+        "amount_max": 600000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Pool Service Tech",
+      "job_desc": "Water chem, pumps, routes. Reports to site lead.",
+      "skills_desc": "CPO",
+      "company_profile": "Lennar — homebuilding; Miami.",
+      "rate": {
+        "amount_min": 27,
+        "amount_max": 43,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Cleaner — commercial — temp-to-hire",
+      "job_desc": "Nights, detail vac. Reports to site lead.",
+      "skills_desc": "floor machines",
+      "company_profile": "Levi Strauss — apparel; SF.",
+      "rate": {
+        "amount_min": 22,
+        "amount_max": 43,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors",
+      "poor_grammar"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Hotel Front Desk — contract",
+      "job_desc": "Check-in, noise, audits. Reports to site lead. must be flexable on hours.",
+      "skills_desc": "PMS",
+      "company_profile": "Lincoln Electric — welding; Cleveland.",
+      "rate": {
+        "amount_min": 21,
+        "amount_max": 32,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Housekeeping Supervisor — rotating shifts",
+      "job_desc": "Inspections, par levels, training. Reports to site lead. must be flexable on hours.",
+      "skills_desc": "standards",
+      "company_profile": "Lithia Motors — auto retail; Medford OR.",
+      "rate": {
+        "amount_min": 41,
+        "amount_max": 32,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Line Cook — per diem",
+      "job_desc": "Prep, grill, tickets. Reports to site lead. must be flexable on hours.",
+      "skills_desc": "knife, speed",
+      "company_profile": "Lumen — telecom / fiber; enterprise.",
+      "rate": {
+        "amount_min": 36,
+        "amount_max": 32,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Server — fine dining — onsite",
+      "job_desc": "Steps of service, wine.. Reports to site lead. must be flexable on hours.",
+      "skills_desc": "hospitality",
+      "company_profile": "Lyft — rideshare; markets.",
+      "rate": {
+        "amount_min": 57826,
+        "amount_max": 116843,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Bartender — hybrid",
+      "job_desc": "Cocktails, inventory, cash. Reports to site lead.",
+      "skills_desc": "TIPS",
+      "company_profile": "Macy's Inc — department store; NYC.",
+      "rate": {
+        "amount_min": 30,
+        "amount_max": 56,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Barista — travel ~30%",
+      "job_desc": "Dial-in, latte art, rush. Reports to site lead.",
+      "skills_desc": "espresso",
+      "company_profile": "Marathon Petroleum — refining; Findlay OH.",
+      "rate": {
+        "amount_min": 438,
+        "amount_max": 755,
+        "currency": "USD",
+        "type": "daily"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Pastry Assistant — field",
+      "job_desc": "Bake, laminate, finish. Reports to site lead.",
+      "skills_desc": "early hours",
+      "company_profile": "Marriott Intl — hospitality; Bethesda.",
+      "rate": {
+        "amount_min": 3,
+        "amount_max": 6,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Cake Decorator — night shift",
+      "job_desc": "Custom orders, buttercream. Reports to site lead.",
+      "skills_desc": "piping",
+      "company_profile": "Mars Inc — food & pet; McLean.",
+      "rate": {
+        "amount_min": 40,
+        "amount_max": 56,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "excessive_punctuation"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Butcher — retail — union",
+      "job_desc": "Cut, grind, case. Reports to site lead.",
+      "skills_desc": "knife skills",
+      "company_profile": "Masco — building products; Taylor MI.",
+      "rate": {
+        "amount_min": 450000,
+        "amount_max": 600000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Fishmonger — remote-first",
+      "job_desc": "Filleting, ice, HACCP. Reports to site lead.",
+      "skills_desc": "customer",
+      "company_profile": "Mastercard — payments network; Purchase NY.",
+      "rate": {
+        "amount_min": 34,
+        "amount_max": 45,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Stocker — overnight",
+      "job_desc": "Freight, top stock, facing. Reports to site lead.",
+      "skills_desc": "lifting",
+      "company_profile": "McKesson — healthcare distribution; Irving TX.",
+      "rate": {
+        "amount_min": 450000,
+        "amount_max": 600000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Cashier — grocery — onsite",
+      "job_desc": "Scan, WIC, speed.. Reports to site lead.",
+      "skills_desc": "customer",
+      "company_profile": "Micron — memory semiconductors; Boise.",
+      "rate": {
+        "amount_min": 57898,
+        "amount_max": 86915,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Deli Clerk — contract",
+      "job_desc": "Slicer, weights, service. Reports to site lead.",
+      "skills_desc": "food safety",
+      "company_profile": "Mohawk Industries — flooring; Calhoun GA.",
+      "rate": {
+        "amount_min": 23,
+        "amount_max": 34,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Pharmacy Tech — retail — rotating shifts",
+      "job_desc": "Fill, pickup, inventory. Reports to site lead.",
+      "skills_desc": "CPhT",
+      "company_profile": "Molina Healthcare — managed care; Long Beach.",
+      "rate": {
+        "amount_min": 43,
+        "amount_max": 34,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Optician — per diem",
+      "job_desc": "Fitting, edging, billing. Reports to site lead.",
+      "skills_desc": "ABO",
+      "company_profile": "3M — industrial / consumer products; Midwest US.",
+      "rate": {
+        "amount_min": 320,
+        "amount_max": 480,
+        "currency": "GBP",
+        "type": "daily"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Hearing Aid Specialist — night shift",
+      "job_desc": "Tests, fittings, follow-ups. Reports to site lead.",
+      "skills_desc": "state license",
+      "company_profile": "Abbott — medical devices & diagnostics; Illinois.",
+      "rate": {
+        "amount_min": 37,
+        "amount_max": 58,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Medical Biller — hybrid",
+      "job_desc": "Claims, denials, appeals. Reports to site lead.",
+      "skills_desc": "CPT/ICD",
+      "company_profile": "Airbnb — short-term rentals; trust & safety; remote US.",
+      "rate": {
+        "amount_min": 32,
+        "amount_max": 58,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Coder — inpatient — travel ~30%",
+      "job_desc": "DRG, queries, audits. Reports to site lead.",
+      "skills_desc": "CCS",
+      "company_profile": "Albertsons — grocery retail; Western US.",
+      "rate": {
+        "amount_min": 490,
+        "amount_max": 757,
+        "currency": "USD",
+        "type": "daily"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Health Information Tech — field",
+      "job_desc": "Release of info, ROI. Reports to site lead.",
+      "skills_desc": "privacy",
+      "company_profile": "AMD — semiconductors; Austin / Santa Clara.",
+      "rate": {
+        "amount_min": 81,
+        "amount_max": 118,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Clinical Research Coordinator — temp-to-hire",
+      "job_desc": "Consent, visits, queries.. Reports to site lead.",
+      "skills_desc": "GCP",
+      "company_profile": "Amtrak — passenger rail; Northeast corridor.",
+      "rate": {
+        "amount_min": 3,
+        "amount_max": 6,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "CRA — monitor — union",
+      "job_desc": "Site visits, CAPA, reports. Reports to site lead.",
+      "skills_desc": "travel",
+      "company_profile": "Anthropic — AI research; SF.",
+      "rate": {
+        "amount_min": 3345,
+        "amount_max": 5362,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Lab Tech — core — remote-first",
+      "job_desc": "Chem/heme, QC, maintenance. Reports to site lead.",
+      "skills_desc": "MLS",
+      "company_profile": "Aramark — food & facilities; stadiums & B&I.",
+      "rate": {
+        "amount_min": 450000,
+        "amount_max": 600000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Histotech",
+      "job_desc": "Embedding, cutting, special stains. Reports to site lead.",
+      "skills_desc": "HTL",
+      "company_profile": "Baker Hughes — oilfield services; Houston.",
+      "rate": {
+        "amount_min": 31,
+        "amount_max": 47,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "excessive_punctuation"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Pathologists' Assistant — onsite",
+      "job_desc": "Grossing, frozen sections. Reports to site lead.",
+      "skills_desc": "ASCP",
+      "company_profile": "Ball Corporation — packaging / aluminum; global mfg.",
+      "rate": {
+        "amount_min": 450000,
+        "amount_max": 600000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Sterile Processing Tech — contract",
+      "job_desc": "Decon, sterilizers, case carts. Reports to site lead.",
+      "skills_desc": "CRCST",
+      "company_profile": "BNSF Railway — Class I freight rail; Western US.",
+      "rate": {
+        "amount_min": 25,
+        "amount_max": 36,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Surgical Tech — rotating shifts",
+      "job_desc": "Field, instruments, counts. Reports to site lead.",
+      "skills_desc": "CST",
+      "company_profile": "Boeing Defense — aerospace & defense; multiple sites.",
+      "rate": {
+        "amount_min": 20,
+        "amount_max": 36,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Anesthesia Tech — per diem",
+      "job_desc": "Setup, lines, supplies. Reports to site lead.",
+      "skills_desc": "OR pace",
+      "company_profile": "Booz Allen Hamilton — gov consulting; DC metro.",
+      "rate": {
+        "amount_min": 40,
+        "amount_max": 36,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Biomed Tech — night shift",
+      "job_desc": "PMs, repairs, tickets.. Reports to site lead.",
+      "skills_desc": "electronics",
+      "company_profile": "Bridgestone — tires; plant / retail.",
+      "rate": {
+        "amount_min": 39,
+        "amount_max": 60,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Imaging Service Engineer — hybrid",
+      "job_desc": "MRI/CT service, OEM training. Reports to site lead.",
+      "skills_desc": "travel",
+      "company_profile": "Bristol Myers Squibb — pharma; R&D & mfg.",
+      "rate": {
+        "amount_min": 34,
+        "amount_max": 60,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Field Service Engineer — travel ~30%",
+      "job_desc": "Install, calibrate, train. Reports to site lead.",
+      "skills_desc": "customer facing",
+      "company_profile": "Brother USA — printers & sewing; NJ HQ.",
+      "rate": {
+        "amount_min": 542,
+        "amount_max": 759,
+        "currency": "USD",
+        "type": "daily"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Calibration Tech — field",
+      "job_desc": "Standards, uncertainty, certs. Reports to site lead.",
+      "skills_desc": "math",
+      "company_profile": "Bumble — dating app; Austin.",
+      "rate": {
+        "amount_min": 93,
+        "amount_max": 120,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Metrologist — temp-to-hire",
+      "job_desc": "CMM programming, studies. Reports to site lead.",
+      "skills_desc": "GD&T",
+      "company_profile": "Calpine — power generation; gas plants.",
+      "rate": {
+        "amount_min": 23,
+        "amount_max": 49,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Nuclear Med Tech — union",
+      "job_desc": "Dose, scans, safety. Reports to site lead.",
+      "skills_desc": "NMTCB",
+      "company_profile": "Campbell Soup — CPG; Camden NJ.",
+      "rate": {
+        "amount_min": 3,
+        "amount_max": 6,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Radiation Therapist — remote-first",
+      "job_desc": "Linac, plans, immobilization. Reports to site lead.",
+      "skills_desc": "ARRT(T)",
+      "company_profile": "Carhartt — workwear; Michigan.",
+      "rate": {
+        "amount_min": 38,
+        "amount_max": 49,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Dosimetrist",
+      "job_desc": "Plans, constraints, checks. Reports to site lead.",
+      "skills_desc": "MS",
+      "company_profile": "Carrier — HVAC; Syracuse area.",
+      "rate": {
+        "amount_min": 450000,
+        "amount_max": 600000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Medical Physicist — onsite",
+      "job_desc": "QA, regulations, equipment.. Reports to site lead. must be flexable on hours.",
+      "skills_desc": "PhD",
+      "company_profile": "Caterpillar — heavy equipment; Peoria / dealers.",
+      "rate": {
+        "amount_min": 60002,
+        "amount_max": 94019,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Dietitian — clinical — contract",
+      "job_desc": "Assessments, enteral, notes. Reports to site lead. must be flexable on hours.",
+      "skills_desc": "RD",
+      "company_profile": "CBRE — commercial real estate; global.",
+      "rate": {
+        "amount_min": 27,
+        "amount_max": 38,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Chef — corporate dining — rotating shifts",
+      "job_desc": "Menus, costing, safety. Reports to site lead. must be flexable on hours.",
+      "skills_desc": "volume",
+      "company_profile": "Charter Communications — cable / internet; field tech.",
+      "rate": {
+        "amount_min": 22,
+        "amount_max": 38,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar",
+      "excessive_punctuation"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Sous Chef — per diem",
+      "job_desc": "Line lead, ordering, training. Reports to site lead. must be flexable on hours.",
+      "skills_desc": "kitchen",
+      "company_profile": "Chewy — pet e-commerce; fulfillment.",
+      "rate": {
+        "amount_min": 42,
+        "amount_max": 38,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Executive Chef — night shift",
+      "job_desc": "P&L, menu, team. Reports to site lead.",
+      "skills_desc": "leadership",
+      "company_profile": "Chobani — food & beverage; Idaho / NY.",
+      "rate": {
+        "amount_min": 41,
+        "amount_max": 62,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Event Coordinator — hybrid",
+      "job_desc": "Banquets, BEOs, floor. Reports to site lead.",
+      "skills_desc": "detail",
+      "company_profile": "Cigna — health insurance; claims / clinical.",
+      "rate": {
+        "amount_min": 36,
+        "amount_max": 62,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Wedding Planner — travel ~30%",
+      "job_desc": "Vendors, timelines, drama. Reports to site lead.",
+      "skills_desc": "calm",
+      "company_profile": "Cintas — uniforms & facility services; routes.",
+      "rate": {
+        "amount_min": 594,
+        "amount_max": 761,
+        "currency": "USD",
+        "type": "daily"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Catering Driver — field",
+      "job_desc": "Hot boxes, setup, strike. Reports to site lead.",
+      "skills_desc": "CDL sometimes",
+      "company_profile": "Clorox — household brands; R&D & plants.",
+      "rate": {
+        "amount_min": 65,
+        "amount_max": 122,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "DJ — events — temp-to-hire",
+      "job_desc": "Gear, playlists, MC lite.. Reports to site lead.",
+      "skills_desc": "weekends",
+      "company_profile": "Coca-Cola — beverages; bottlers / HQ.",
+      "rate": {
+        "amount_min": 25,
+        "amount_max": 51,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Photographer — portrait — union",
+      "job_desc": "Lighting, editing, sales. Reports to site lead.",
+      "skills_desc": "Canon/Nikon",
+      "company_profile": "Colgate-Palmolive — CPG; global.",
+      "rate": {
+        "amount_min": 3849,
+        "amount_max": 5266,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Videographer — corporate — remote-first",
+      "job_desc": "Interviews, b-roll, deliverables. Reports to site lead.",
+      "skills_desc": "Premiere",
+      "company_profile": "Comcast — cable / telecom; tech / field.",
+      "rate": {
+        "amount_min": 450000,
+        "amount_max": 600000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Audio Engineer — live",
+      "job_desc": "FOH, monitors, line checks. Reports to site lead.",
+      "skills_desc": "ears",
+      "company_profile": "Conagra — frozen & packaged foods; Omaha.",
+      "rate": {
+        "amount_min": 35,
+        "amount_max": 51,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Stagehand — onsite",
+      "job_desc": "Load, focus, run. Reports to site lead.",
+      "skills_desc": "calls",
+      "company_profile": "Copart — auto salvage auctions; yards.",
+      "rate": {
+        "amount_min": 450000,
+        "amount_max": 600000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Rigger — contract",
+      "job_desc": "Points, motors, safety. Reports to site lead.",
+      "skills_desc": "ETCP",
+      "company_profile": "Cummins — engines & power; Columbus IN.",
+      "rate": {
+        "amount_min": 29,
+        "amount_max": 40,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Electrician — touring — rotating shifts",
+      "job_desc": "Distro, feeder, dimmer racks. Reports to site lead.",
+      "skills_desc": "ETCP power",
+      "company_profile": "Danaher — life sciences tools; operating cos.",
+      "rate": {
+        "amount_min": 24,
+        "amount_max": 40,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Camera Op — broadcast — field",
+      "job_desc": "ENG, shading, RF. Reports to site lead.",
+      "skills_desc": "travel",
+      "company_profile": "Darden — restaurants; Orlando HQ.",
+      "rate": {
+        "amount_min": 57,
+        "amount_max": 94,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors",
+      "poor_grammar"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Editor — news — night shift",
+      "job_desc": "Turns, pkg, sfx.. Reports to site lead.",
+      "skills_desc": "Avid",
+      "company_profile": "Dell Technologies — IT hardware & services; Round Rock.",
+      "rate": {
+        "amount_min": 43,
+        "amount_max": 29,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Producer — radio — hybrid",
+      "job_desc": "Board, spots, logs. Reports to site lead.",
+      "skills_desc": "fast",
+      "company_profile": "Delta Dental — dental insurance; claims.",
+      "rate": {
+        "amount_min": 38,
+        "amount_max": 29,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors",
+      "excessive_punctuation"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Journalist — beat — travel ~30%",
+      "job_desc": "Sources, FOIA, deadlines. Reports to site lead.",
+      "skills_desc": "writing",
+      "company_profile": "Dick's Sporting Goods — retail; stores.",
+      "rate": {
+        "amount_min": 396,
+        "amount_max": 763,
+        "currency": "USD",
+        "type": "daily"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Copy Editor",
+      "job_desc": "Style, fact-check, headlines. Reports to site lead.",
+      "skills_desc": "AP",
+      "company_profile": "Discover — credit card / banking; Riverwoods IL.",
+      "rate": {
+        "amount_min": 32,
+        "amount_max": 53,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Technical Editor — temp-to-hire",
+      "job_desc": "SOPs, figures, consistency. Reports to site lead.",
+      "skills_desc": "detail",
+      "company_profile": "Dow — materials science; plants / labs.",
+      "rate": {
+        "amount_min": 27,
+        "amount_max": 53,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Interpreter — community — union",
+      "job_desc": "Medical/legal appointments. Reports to site lead.",
+      "skills_desc": "cert",
+      "company_profile": "DR Horton — homebuilding; field supers.",
+      "rate": {
+        "amount_min": 3,
+        "amount_max": 6,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Translator — JP>EN — remote-first",
+      "job_desc": "Docs, MTPE, QA. Reports to site lead.",
+      "skills_desc": "CAT tools",
+      "company_profile": "DuPont — specialty materials; safety / chem.",
+      "rate": {
+        "amount_min": 42,
+        "amount_max": 53,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "ESL Instructor — per diem",
+      "job_desc": "Curriculum, assessments, visa students. Reports to site lead.",
+      "skills_desc": "TESOL",
+      "company_profile": "Ecolab — cleaning & water; institutional.",
+      "rate": {
+        "amount_min": 3,
+        "amount_max": 6,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Corporate Trainer — onsite",
+      "job_desc": "Workshops, LMS, metrics.. Reports to site lead.",
+      "skills_desc": "facilitation",
+      "company_profile": "Edward Jones — wealth management; branch.",
+      "rate": {
+        "amount_min": 62106,
+        "amount_max": 101123,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Instructional Designer — contract",
+      "job_desc": "Storyline, objectives, SME wrangling. Reports to site lead.",
+      "skills_desc": "ADDIE",
+      "company_profile": "Emerson — automation & climate tech; STL.",
+      "rate": {
+        "amount_min": 450000,
+        "amount_max": 600000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Data Entry — mortgage — rotating shifts",
+      "job_desc": "Indexing, QC, deadlines. Reports to site lead.",
+      "skills_desc": "focus",
+      "company_profile": "Entergy — utility; Gulf South.",
+      "rate": {
+        "amount_min": 26,
+        "amount_max": 42,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Title Examiner — field",
+      "job_desc": "Abstract, chains, exceptions. Reports to site lead.",
+      "skills_desc": "reading",
+      "company_profile": "Equifax — credit bureau; data / fraud.",
+      "rate": {
+        "amount_min": 69,
+        "amount_max": 96,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Escrow Officer — night shift",
+      "job_desc": "Signing, funding, wires. Reports to site lead.",
+      "skills_desc": "attention",
+      "company_profile": "Exelon — utility / generation; Mid-Atlantic.",
+      "rate": {
+        "amount_min": 20,
+        "amount_max": 31,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Appraiser — residential — hybrid",
+      "job_desc": "Comps, UAD, photos. Reports to site lead.",
+      "skills_desc": "license",
+      "company_profile": "Expedia Group — travel tech; Seattle.",
+      "rate": {
+        "amount_min": 40,
+        "amount_max": 31,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Home Inspector — travel ~30%",
+      "job_desc": "Roof to foundation, report. Reports to site lead.",
+      "skills_desc": "ASHI",
+      "company_profile": "Fannie Mae — housing finance; DC area.",
+      "rate": {
+        "amount_min": 448,
+        "amount_max": 765,
+        "currency": "USD",
+        "type": "daily"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Land Surveyor — party chief",
+      "job_desc": "GPS, deeds, CAD. Reports to site lead.",
+      "skills_desc": "PE path",
+      "company_profile": "Ferguson — plumbing & HVAC distribution; branches.",
+      "rate": {
+        "amount_min": 34,
+        "amount_max": 55,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Geotech Driller — temp-to-hire",
+      "job_desc": "SPTs, samples, safety.. Reports to site lead.",
+      "skills_desc": "outdoor",
+      "company_profile": "Fiserv — fintech / payments; Milwaukee.",
+      "rate": {
+        "amount_min": 42000,
+        "amount_max": 58000,
+        "currency": "EUR",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [
+      "excessive_punctuation"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Environmental Scientist — union",
+      "job_desc": "Phase I, reports, subsurface. Reports to site lead.",
+      "skills_desc": "writing",
+      "company_profile": "Fluor — EPC engineering; projects.",
+      "rate": {
+        "amount_min": 3153,
+        "amount_max": 5170,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Wetland Scientist — remote-first",
+      "job_desc": "Delineation, permits, monitoring. Reports to site lead.",
+      "skills_desc": "boots",
+      "company_profile": "Fortive — industrial tech; operating units.",
+      "rate": {
+        "amount_min": 3,
+        "amount_max": 6,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Forester — per diem",
+      "job_desc": "Cruising, prescriptions, GIS. Reports to site lead. must be flexable on hours.",
+      "skills_desc": "outdoors",
+      "company_profile": "Franklin Templeton — asset management; CA.",
+      "rate": {
+        "amount_min": 320,
+        "amount_max": 480,
+        "currency": "GBP",
+        "type": "daily"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Wildlife Tech — onsite",
+      "job_desc": "Traps, telemetry, data. Reports to site lead. must be flexable on hours.",
+      "skills_desc": "4x4",
+      "company_profile": "Freeman — events & expos; install.",
+      "rate": {
+        "amount_min": 450000,
+        "amount_max": 600000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Park Maintenance — contract",
+      "job_desc": "Trails, mowers, repairs. Reports to site lead. must be flexable on hours.",
+      "skills_desc": "tools",
+      "company_profile": "GameStop — retail gaming; stores.",
+      "rate": {
+        "amount_min": 33,
+        "amount_max": 44,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Zookeeper — rotating shifts",
+      "job_desc": "Feeds, shifts, records. Reports to site lead. must be flexable on hours.",
+      "skills_desc": "zoonotic awareness",
+      "company_profile": "Garmin — consumer electronics; Olathe KS.",
+      "rate": {
+        "amount_min": 28,
+        "amount_max": 44,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Aquarist — field",
+      "job_desc": "Life support, dives, talks. Reports to site lead.",
+      "skills_desc": "SCUBA",
+      "company_profile": "Gartner — IT research; Stamford.",
+      "rate": {
+        "amount_min": 81,
+        "amount_max": 98,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Veterinarian — GP — night shift",
+      "job_desc": "Exams, sx, dentals.. Reports to site lead.",
+      "skills_desc": "DVM",
+      "company_profile": "Grainger — MRO distribution; branches.",
+      "rate": {
+        "amount_min": 22,
+        "amount_max": 33,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Farrier — hybrid",
+      "job_desc": "Trims, shoes, hot/cold. Reports to site lead.",
+      "skills_desc": "horses",
+      "company_profile": "Greenheck — HVAC equipment; Wisconsin.",
+      "rate": {
+        "amount_min": 42,
+        "amount_max": 33,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Crop Scout — travel ~30%",
+      "job_desc": "Tissue samples, recs, app. Reports to site lead.",
+      "skills_desc": "agronomy",
+      "company_profile": "Guardian Life — insurance; NY.",
+      "rate": {
+        "amount_min": 500,
+        "amount_max": 767,
+        "currency": "USD",
+        "type": "daily"
+      }
+    },
+    "warning_flags": [],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Grain Elevator Operator",
+      "job_desc": "Grades, probes, safety. Reports to site lead.",
+      "skills_desc": "dust",
+      "company_profile": "Harman (Samsung) — audio automotive; Novi MI.",
+      "rate": {
+        "amount_min": 36,
+        "amount_max": 57,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "CDL Driver — OTR — temp-to-hire",
+      "job_desc": "ELD, pre-trip, miles. Reports to site lead.",
+      "skills_desc": "clean MVR",
+      "company_profile": "Hershey — confectionery; PA.",
+      "rate": {
+        "amount_min": 31,
+        "amount_max": 57,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Delivery Driver — parcel — union",
+      "job_desc": "PVD, rescans, dogs. Reports to site lead.",
+      "skills_desc": "time mgmt",
+      "company_profile": "Hilton Worldwide — hospitality; hotels.",
+      "rate": {
+        "amount_min": 3405,
+        "amount_max": 4222,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "Courier — medical — remote-first",
+      "job_desc": "Specimens, STAT, chain. Reports to site lead.",
+      "skills_desc": "HIPAA",
+      "company_profile": "Holcim — building materials; cement.",
+      "rate": {
+        "amount_min": 21,
+        "amount_max": 57,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors",
+      "poor_grammar"
+    ],
+    "labeled_risk": "legit"
+  },
+  {
+    "post": {
+      "job_title": "!!! EASY MONEY — CashApp flip coordinator",
+      "job_desc": "Send us $50 starter we flip to $500 in 24hr screenshot proof required then scale unlimited.",
+      "skills_desc": "cashapp",
+      "company_profile": "Unknown — advance-fee / money-flip scam.",
+      "rate": {
+        "amount_min": 5000,
+        "amount_max": 25000,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [
+      "excessive_punctuation",
+      "other_suspicious_patterns"
+    ],
+    "labeled_risk": "fraud",
+    "warnings": "Advance fee; unrealistic multiplier."
+  },
+  {
+    "post": {
+      "job_title": "UPS customs release agent (your address)",
+      "job_desc": "Packages arrive you open photograph contents forward using our fedex labels bitcoin pay per box.",
+      "skills_desc": "iphone camera",
+      "company_profile": "Unknown — reshipping / contraband mule pattern.",
+      "rate": {
+        "amount_min": 28,
+        "amount_max": 45,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors",
+      "poor_grammar",
+      "other_suspicious_patterns"
+    ],
+    "labeled_risk": "fraud",
+    "warnings": "Reshipping; crypto payout."
+  },
+  {
+    "post": {
+      "job_title": "Netflix tagger — download our VPN browser",
+      "job_desc": "Watch shows offline our DRM tool needs admin install and antivirus off for codec pack.",
+      "skills_desc": "binge watching",
+      "company_profile": "Unknown — malware / remote access pretense.",
+      "rate": {
+        "amount_min": 4000,
+        "amount_max": 9000,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [
+      "other_suspicious_patterns"
+    ],
+    "labeled_risk": "fraud",
+    "warnings": "Disable security; fake job wrapper."
+  },
+  {
+    "post": {
+      "job_title": "Venmo float assistant — family office",
+      "job_desc": "Temporarily hold incoming wires in your venmo then batch zelle to vendors we give 7% fee.",
+      "skills_desc": "venmo, zelle",
+      "company_profile": "Unknown — money mule; layered payments.",
+      "rate": {
+        "amount_min": 7000,
+        "amount_max": 14000,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar",
+      "other_suspicious_patterns"
+    ],
+    "labeled_risk": "fraud",
+    "warnings": "Personal payment rail abuse."
+  },
+  {
+    "post": {
+      "job_title": "Instagram growth hacker — buy followers first",
+      "job_desc": "We need $120 activation for API credits then you manage bots from our panel (whatsapp only).",
+      "skills_desc": "instagram",
+      "company_profile": "Unknown — upfront fee; bot farm sketch.",
+      "rate": {
+        "amount_min": 3500,
+        "amount_max": 8000,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [
+      "other_suspicious_patterns"
+    ],
+    "labeled_risk": "fraud",
+    "warnings": "Activation fee; off-platform comms."
+  },
+  {
+    "post": {
+      "job_title": "Blockchain notary — sign transactions for clients",
+      "job_desc": "Use your metamask to co-sign multisig we route charity donations (gas reimbursed later).",
+      "skills_desc": "metamask",
+      "company_profile": "Unknown — wallet signing / multisig trap pattern.",
+      "rate": {
+        "amount_min": 6000,
+        "amount_max": 18000,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar",
+      "other_suspicious_patterns"
+    ],
+    "labeled_risk": "fraud",
+    "warnings": "Signing authority misuse."
+  },
+  {
+    "post": {
+      "job_title": "URGENT — Hotel mystery guest (wire training)",
+      "job_desc": "Evaluate front desk by sending us western union for 'lost reservation' test we reimburse double.",
+      "skills_desc": "attention detail",
+      "company_profile": "Unknown — wire fraud training fiction.",
+      "rate": {
+        "amount_min": 400,
+        "amount_max": 700,
+        "currency": "USD",
+        "type": "daily"
+      }
+    },
+    "warning_flags": [
+      "excessive_punctuation",
+      "other_suspicious_patterns"
+    ],
+    "labeled_risk": "fraud",
+    "warnings": "Fake reimbursement; wire pressure."
+  },
+  {
+    "post": {
+      "job_title": "Remote file clerk — OCR your passport for setup",
+      "job_desc": "Upload ID + selfie holding paper with todays date for compliance vault (encrypted lol).",
+      "skills_desc": "scanner",
+      "company_profile": "Unknown — identity harvest.",
+      "rate": {
+        "amount_min": 22,
+        "amount_max": 30,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar",
+      "other_suspicious_patterns"
+    ],
+    "labeled_risk": "fraud",
+    "warnings": "ID collection under vague compliance."
+  },
+  {
+    "post": {
+      "job_title": "Tesla solar lead — pay for leads upfront",
+      "job_desc": "Buy our lead list $499 then door knock commissions 40% (results not typical).",
+      "skills_desc": "door knocking",
+      "company_profile": "Unknown — lead-list fee; brand drop.",
+      "rate": {
+        "amount_min": 80000,
+        "amount_max": 120000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors",
+      "other_suspicious_patterns"
+    ],
+    "labeled_risk": "fraud",
+    "warnings": "Upfront purchase; earnings disclaimer dodge."
+  },
+  {
+    "post": {
+      "job_title": "ChatGPT trainer — paste company VPN password for sandbox",
+      "job_desc": "We need corp SSO in our extension to align prompts (read only) 100% safe.",
+      "skills_desc": "chrome extension",
+      "company_profile": "Unknown — credential phishing under AI gig.",
+      "rate": {
+        "amount_min": 35,
+        "amount_max": 55,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "other_suspicious_patterns"
+    ],
+    "labeled_risk": "fraud",
+    "warnings": "Credential request; fake AI work."
+  },
+  {
+    "post": {
+      "job_title": "Inheritance paralegal — western union retainer",
+      "job_desc": "Client estate in Spain send €500 processing before we share case file (telegram).",
+      "skills_desc": "western union",
+      "company_profile": "Unknown — advance-fee inheritance scam.",
+      "rate": {
+        "amount_min": 4500,
+        "amount_max": 9000,
+        "currency": "EUR",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors",
+      "other_suspicious_patterns"
+    ],
+    "labeled_risk": "fraud",
+    "warnings": "Advance fee; cross-border fiction."
+  },
+  {
+    "post": {
+      "job_title": "Amazon review team — refund to your card then buy gift cards",
+      "job_desc": "We route refunds for metrics you keep 20% rest buy steam cards for QA team.",
+      "skills_desc": "amazon account",
+      "company_profile": "Unknown — refund laundering / gift card chain.",
+      "rate": {
+        "amount_min": 12000,
+        "amount_max": 30000,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar",
+      "other_suspicious_patterns"
+    ],
+    "labeled_risk": "fraud",
+    "warnings": "Refund and gift-card laundering."
+  },
+  {
+    "post": {
+      "job_title": "Medical billing from home — use our Epic login",
+      "job_desc": "Shared epic credentials for night shift posting PHI ok if VPN (we provide cracked vpn).",
+      "skills_desc": "billing codes",
+      "company_profile": "Unknown — credential sharing; HIPAA fiction.",
+      "rate": {
+        "amount_min": 29,
+        "amount_max": 38,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors",
+      "other_suspicious_patterns"
+    ],
+    "labeled_risk": "fraud",
+    "warnings": "Shared clinical credentials."
+  },
+  {
+    "post": {
+      "job_title": "Forex \"no loss\" hedger — deposit match",
+      "job_desc": "Broker matches your deposit we hedge both sides you cant loose math guaranteed.",
+      "skills_desc": "mt5",
+      "company_profile": "Unknown — broker deposit scam language.",
+      "rate": {
+        "amount_min": 500,
+        "amount_max": 4000,
+        "currency": "USD",
+        "type": "daily"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors",
+      "poor_grammar",
+      "other_suspicious_patterns"
+    ],
+    "labeled_risk": "fraud",
+    "warnings": "Impossible hedge claim; daily rate lure."
+  },
+  {
+    "post": {
+      "job_title": "Dropshipping CEO assistant — open LLC in your name",
+      "job_desc": "We need US LLC + bank for stripe you forward payouts minus 5% (trust based).",
+      "skills_desc": "LLC formation",
+      "company_profile": "Unknown — financial identity misuse.",
+      "rate": {
+        "amount_min": 90000,
+        "amount_max": 140000,
+        "currency": "USD",
+        "type": "yearly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar",
+      "other_suspicious_patterns"
+    ],
+    "labeled_risk": "fraud",
+    "warnings": "Nominee company / payout forwarding."
+  },
+  {
+    "post": {
+      "job_title": "YouTube thumbnail click farm — install our autoclicker",
+      "job_desc": "Runs as admin to bypass bot detection earnings per 1k clicks paid in monero.",
+      "skills_desc": "windows pc",
+      "company_profile": "Unknown — click fraud / malware.",
+      "rate": {
+        "amount_min": 18,
+        "amount_max": 28,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "other_suspicious_patterns"
+    ],
+    "labeled_risk": "fraud",
+    "warnings": "Ad fraud tooling; crypto pay."
+  },
+  {
+    "post": {
+      "job_title": "Scholarship processor — students send fees to you",
+      "job_desc": "Collect application fees via venmo forward to our finance whatsapp receipts only.",
+      "skills_desc": "venmo",
+      "company_profile": "Unknown — fee collection mule.",
+      "rate": {
+        "amount_min": 2500,
+        "amount_max": 6000,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [
+      "poor_grammar",
+      "other_suspicious_patterns"
+    ],
+    "labeled_risk": "fraud",
+    "warnings": "Informal fee collection."
+  },
+  {
+    "post": {
+      "job_title": "AI data labeler — disable windows defender first",
+      "job_desc": "Dataset has DRM that triggers false positives you must allow our exe for 48h.",
+      "skills_desc": "PC",
+      "company_profile": "Unknown — malware delivery under labeling pretense.",
+      "rate": {
+        "amount_min": 14,
+        "amount_max": 19,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "other_suspicious_patterns"
+    ],
+    "labeled_risk": "fraud",
+    "warnings": "Disable AV; executable payload pattern."
+  },
+  {
+    "post": {
+      "job_title": "Bankruptcy petition typer — client sends logins",
+      "job_desc": "Clients upload bank logins to our portal for automatic schedules (SSL secure).",
+      "skills_desc": "typing",
+      "company_profile": "Unknown — banking credential harvest.",
+      "rate": {
+        "amount_min": 24,
+        "amount_max": 32,
+        "currency": "USD",
+        "type": "hourly"
+      }
+    },
+    "warning_flags": [
+      "typographical_errors",
+      "other_suspicious_patterns"
+    ],
+    "labeled_risk": "fraud",
+    "warnings": "Bank login solicitation."
+  },
+  {
+    "post": {
+      "job_title": "Celebrity PA — buy gift cards for meet&greet deposit",
+      "job_desc": "Manager will reimburse after event we need $300 steam cards for security hold.",
+      "skills_desc": "discretion",
+      "company_profile": "Unknown — gift-card advance-fee; impersonation.",
+      "rate": {
+        "amount_min": 6000,
+        "amount_max": 12000,
+        "currency": "USD",
+        "type": "monthly"
+      }
+    },
+    "warning_flags": [
+      "other_suspicious_patterns"
+    ],
+    "labeled_risk": "fraud",
+    "warnings": "Gift card advance fee."
+  }
+]

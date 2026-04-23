@@ -7,7 +7,14 @@
  *   npx tsx scripts/seed-improvement-batch.ts scripts/improvement-seed-data-extra-80.json
  *   npx tsx scripts/seed-improvement-batch.ts scripts/improvement-seed-data-extra-100.json
  *   npx tsx scripts/seed-improvement-batch.ts scripts/improvement-seed-data-extra-100-batch2.json
+ *   npx tsx scripts/seed-improvement-batch.ts scripts/improvement-seed-data-extra-200.json
+ *   npx tsx scripts/seed-improvement-batch.ts scripts/improvement-seed-data-extra-500.json
  *   npx tsx scripts/seed-improvement-batch.ts scripts/improvement-seed-data-onlinejobs.json
+ *   npx tsx scripts/seed-improvement-batch.ts scripts/improvement-seed-data-onlinejobs-500.json
+ *   npx tsx scripts/seed-improvement-batch.ts scripts/improvement-seed-data-onlinejobs-500-alt.json
+ *   npx tsx scripts/seed-improvement-batch.ts scripts/improvement-seed-data-noisy-1000.json
+ *   npx tsx scripts/seed-improvement-batch.ts scripts/improvement-seed-data-noisy-1000-fresh.json
+ *   npx tsx scripts/seed-improvement-batch.ts scripts/improvement-seed-data-noisy-1000-fresh-2.json
  *   npx tsx scripts/seed-improvement-batch.ts scripts/improvement-seed-data-upwork-60.json
  *
  * `improvement-seed-data.json` is the baseline batch; `improvement-seed-data-extra-80.json` is an
@@ -19,7 +26,7 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
-import type { ImprovementFeedbackRequest } from "../lib/api/types";
+import { reviewerRiskLabelToStorage, type ImprovementFeedbackRequest } from "../lib/api/types";
 
 /**
  * Minimal schema for this script only (`lib/supabase/database.types.ts` is not generated yet).
@@ -36,6 +43,7 @@ type JobPostingRow = {
   currency: string | null;
   rate_type: string | null;
   fraudulent: number;
+  user_risk_class: number;
   warnings: string | null;
 };
 
@@ -80,7 +88,7 @@ async function saveImprovementFeedback(
   supabase: SupabaseClient<SeedDatabase, "public", "public">,
   payload: ImprovementFeedbackRequest,
 ): Promise<{ ok: true; jobPostingId: string } | { ok: false; message: string }> {
-  const fraudulent = payload.labeled_scam ? 1 : 0;
+  const { fraudulent, user_risk_class } = reviewerRiskLabelToStorage(payload.labeled_risk);
   const warnings = buildWarningsColumnJson(payload);
   const post = payload.post;
   const rate = post.rate;
@@ -101,6 +109,7 @@ async function saveImprovementFeedback(
     currency: rate?.currency ?? null,
     rate_type: rateType,
     fraudulent,
+    user_risk_class,
     warnings: warningsCol,
   };
 

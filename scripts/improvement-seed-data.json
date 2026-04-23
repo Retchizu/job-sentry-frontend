@@ -16,7 +16,7 @@
       "poor_grammar",
       "typographical_errors"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -36,7 +36,7 @@
       "other_suspicious_patterns"
     ],
     "warnings": "Vague employer; insists on Telegram only; promises very high weekly pay for simple work.",
-    "labeled_scam": true
+    "labeled_risk": "fraud"
   },
   {
     "post": {
@@ -52,7 +52,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -70,7 +70,7 @@
     "warning_flags": [
       "typographical_errors"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -91,7 +91,7 @@
       "other_suspicious_patterns"
     ],
     "warnings": "Upfront payment via gift card; guaranteed returns; off-platform contact.",
-    "labeled_scam": true
+    "labeled_risk": "fraud"
   },
   {
     "post": {
@@ -107,7 +107,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -126,7 +126,7 @@
       "poor_grammar",
       "typographical_errors"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -142,7 +142,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -162,7 +162,7 @@
       "other_suspicious_patterns"
     ],
     "warnings": "Asks for bank login on phone.",
-    "labeled_scam": true
+    "labeled_risk": "fraud"
   },
   {
     "post": {
@@ -178,7 +178,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -196,7 +196,7 @@
     "warning_flags": [
       "typographical_errors"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -216,7 +216,7 @@
       "other_suspicious_patterns"
     ],
     "warnings": "Spammy outreach; unpaid high volume.",
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -232,7 +232,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -252,7 +252,7 @@
       "other_suspicious_patterns"
     ],
     "warnings": "Overpayment / check scam pattern.",
-    "labeled_scam": true
+    "labeled_risk": "fraud"
   },
   {
     "post": {
@@ -270,7 +270,7 @@
     "warning_flags": [
       "typographical_errors"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -286,7 +286,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -306,7 +306,7 @@
       "other_suspicious_patterns"
     ],
     "warnings": "Starter kit purchase required.",
-    "labeled_scam": true
+    "labeled_risk": "fraud"
   },
   {
     "post": {
@@ -322,7 +322,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -340,7 +340,7 @@
     "warning_flags": [
       "typographical_errors"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -356,7 +356,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -376,7 +376,7 @@
       "other_suspicious_patterns"
     ],
     "warnings": "Reshipping / financial access pattern.",
-    "labeled_scam": true
+    "labeled_risk": "fraud"
   },
   {
     "post": {
@@ -392,7 +392,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -408,7 +408,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -428,7 +428,7 @@
       "poor_grammar",
       "typographical_errors"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -447,7 +447,7 @@
       "other_suspicious_patterns"
     ],
     "warnings": "Requests seed phrase; unrealistic yield.",
-    "labeled_scam": true
+    "labeled_risk": "fraud"
   },
   {
     "post": {
@@ -463,7 +463,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -482,7 +482,7 @@
       "poor_grammar",
       "typographical_errors"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -498,7 +498,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -514,7 +514,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -533,7 +533,7 @@
       "other_suspicious_patterns"
     ],
     "warnings": "Sideloaded APK; unclear employer.",
-    "labeled_scam": true
+    "labeled_risk": "fraud"
   },
   {
     "post": {
@@ -551,7 +551,7 @@
     "warning_flags": [
       "typographical_errors"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -567,7 +567,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -588,7 +588,7 @@
       "other_suspicious_patterns"
     ],
     "warnings": "Unrealistic pay; informal payment rail; spam tone.",
-    "labeled_scam": true
+    "labeled_risk": "fraud"
   },
   {
     "post": {
@@ -604,7 +604,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -620,7 +620,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -640,7 +640,7 @@
       "typographical_errors",
       "excessive_punctuation"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -656,7 +656,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -676,7 +676,7 @@
       "other_suspicious_patterns"
     ],
     "warnings": "Upfront fee; income claims; typo-heavy hype.",
-    "labeled_scam": true
+    "labeled_risk": "fraud"
   },
   {
     "post": {
@@ -692,7 +692,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -708,7 +708,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -724,7 +724,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -743,7 +743,7 @@
       "typographical_errors",
       "poor_grammar"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -763,7 +763,7 @@
       "other_suspicious_patterns"
     ],
     "warnings": "Impersonation; money mule pattern; sensitive data.",
-    "labeled_scam": true
+    "labeled_risk": "fraud"
   },
   {
     "post": {
@@ -779,7 +779,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -795,7 +795,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -814,7 +814,7 @@
       "poor_grammar",
       "typographical_errors"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -830,7 +830,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -850,7 +850,7 @@
       "other_suspicious_patterns"
     ],
     "warnings": "Misleading brand tie-in; contradictory refund terms.",
-    "labeled_scam": true
+    "labeled_risk": "fraud"
   },
   {
     "post": {
@@ -866,7 +866,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -885,7 +885,7 @@
       "excessive_punctuation",
       "typographical_errors"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -901,7 +901,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -917,7 +917,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -933,7 +933,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -952,7 +952,7 @@
       "other_suspicious_patterns"
     ],
     "warnings": "Pay-for-placement; inflated salary claims.",
-    "labeled_scam": true
+    "labeled_risk": "fraud"
   },
   {
     "post": {
@@ -968,7 +968,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -989,7 +989,7 @@
       "other_suspicious_patterns"
     ],
     "warnings": "Money laundering / mule setup; fake internship.",
-    "labeled_scam": true
+    "labeled_risk": "fraud"
   },
   {
     "post": {
@@ -1005,7 +1005,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1021,7 +1021,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1040,7 +1040,7 @@
       "poor_grammar",
       "typographical_errors"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1056,6 +1056,6 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   }
 ]

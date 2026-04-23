@@ -15,7 +15,7 @@
     "warning_flags": [
       "typographical_errors"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -33,7 +33,7 @@
     "warning_flags": [
       "typographical_errors"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -51,7 +51,7 @@
     "warning_flags": [
       "typographical_errors"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -70,7 +70,7 @@
       "typographical_errors",
       "poor_grammar"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -88,7 +88,7 @@
     "warning_flags": [
       "typographical_errors"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -107,7 +107,7 @@
       "typographical_errors",
       "poor_grammar"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -123,7 +123,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -139,7 +139,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -155,7 +155,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -171,7 +171,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -187,7 +187,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -205,7 +205,7 @@
     "warning_flags": [
       "typographical_errors"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -221,7 +221,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -239,7 +239,7 @@
     "warning_flags": [
       "typographical_errors"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -255,7 +255,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -271,7 +271,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -289,7 +289,7 @@
     "warning_flags": [
       "poor_grammar"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -305,7 +305,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -321,7 +321,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -337,7 +337,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -353,7 +353,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -369,7 +369,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -385,7 +385,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -401,7 +401,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -417,7 +417,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -433,7 +433,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -451,7 +451,7 @@
     "warning_flags": [
       "poor_grammar"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -467,7 +467,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -483,7 +483,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -499,7 +499,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -515,7 +515,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -533,7 +533,7 @@
     "warning_flags": [
       "typographical_errors"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -549,7 +549,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -565,7 +565,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -583,7 +583,7 @@
     "warning_flags": [
       "poor_grammar"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -599,7 +599,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -615,7 +615,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -631,7 +631,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -647,7 +647,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -663,7 +663,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -682,7 +682,7 @@
       "poor_grammar",
       "typographical_errors"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -698,7 +698,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -714,7 +714,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -730,7 +730,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -748,7 +748,7 @@
     "warning_flags": [
       "typographical_errors"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -764,7 +764,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -780,7 +780,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -796,7 +796,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -812,7 +812,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -828,7 +828,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -844,7 +844,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -860,7 +860,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -876,7 +876,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -892,7 +892,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -908,7 +908,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -924,7 +924,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -940,7 +940,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -956,7 +956,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -972,7 +972,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -988,7 +988,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1006,7 +1006,7 @@
     "warning_flags": [
       "typographical_errors"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1022,7 +1022,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1038,7 +1038,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1054,7 +1054,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1070,7 +1070,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1086,7 +1086,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1102,7 +1102,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1120,7 +1120,7 @@
     "warning_flags": [
       "poor_grammar"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1136,7 +1136,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1152,7 +1152,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1168,7 +1168,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1184,7 +1184,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1202,7 +1202,7 @@
     "warning_flags": [
       "poor_grammar"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1218,7 +1218,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1236,7 +1236,7 @@
     "warning_flags": [
       "typographical_errors"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1252,7 +1252,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1268,7 +1268,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1284,7 +1284,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1300,7 +1300,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1316,7 +1316,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1332,7 +1332,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1348,7 +1348,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1366,7 +1366,7 @@
     "warning_flags": [
       "poor_grammar"
     ],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1382,7 +1382,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1398,7 +1398,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1414,7 +1414,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1430,7 +1430,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1446,7 +1446,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1462,7 +1462,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1478,7 +1478,7 @@
       }
     },
     "warning_flags": [],
-    "labeled_scam": false
+    "labeled_risk": "legit"
   },
   {
     "post": {
@@ -1499,7 +1499,7 @@
       "poor_grammar",
       "other_suspicious_patterns"
     ],
-    "labeled_scam": true,
+    "labeled_risk": "fraud",
     "warnings": "Gift card mule / code harvesting; impersonation tone."
   },
   {
@@ -1519,7 +1519,7 @@
       "typographical_errors",
       "other_suspicious_patterns"
     ],
-    "labeled_scam": true,
+    "labeled_risk": "fraud",
     "warnings": "Unrealistic yield; wallet approval scam pattern."
   },
   {
@@ -1540,7 +1540,7 @@
       "poor_grammar",
       "other_suspicious_patterns"
     ],
-    "labeled_scam": true,
+    "labeled_risk": "fraud",
     "warnings": "Wire forwarding / mule pattern; fake agency."
   },
   {
@@ -1560,7 +1560,7 @@
       "excessive_punctuation",
       "other_suspicious_patterns"
     ],
-    "labeled_scam": true,
+    "labeled_risk": "fraud",
     "warnings": "Fake check scam; urgent wire pressure."
   },
   {
@@ -1580,7 +1580,7 @@
       "poor_grammar",
       "other_suspicious_patterns"
     ],
-    "labeled_scam": true,
+    "labeled_risk": "fraud",
     "warnings": "Refund mule; brand impersonation."
   },
   {
@@ -1600,7 +1600,7 @@
       "typographical_errors",
       "other_suspicious_patterns"
     ],
-    "labeled_scam": true,
+    "labeled_risk": "fraud",
     "warnings": "Upfront fee; unrealistic trading returns."
   },
   {
@@ -1621,7 +1621,7 @@
       "poor_grammar",
       "other_suspicious_patterns"
     ],
-    "labeled_scam": true,
+    "labeled_risk": "fraud",
     "warnings": "Reshipping scheme; informal pay."
   },
   {
@@ -1641,7 +1641,7 @@
       "typographical_errors",
       "other_suspicious_patterns"
     ],
-    "labeled_scam": true,
+    "labeled_risk": "fraud",
     "warnings": "Upfront portfolio fee; vague bookings."
   },
   {
@@ -1661,7 +1661,7 @@
       "poor_grammar",
       "other_suspicious_patterns"
     ],
-    "labeled_scam": true,
+    "labeled_risk": "fraud",
     "warnings": "Employee kit purchase scam; reimbursement fiction."
   },
   {
@@ -1681,7 +1681,7 @@
       "excessive_punctuation",
       "other_suspicious_patterns"
     ],
-    "labeled_scam": true,
+    "labeled_risk": "fraud",
     "warnings": "Shared credential abuse; crypto payout."
   }
 ]

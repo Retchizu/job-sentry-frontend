@@ -1,14 +1,21 @@
 /**
- * Fetches job listings from OnlineJobs.ph job search (paginated: /jobseekers/jobsearch,
- * /jobseekers/jobsearch/30, /60, … — 30 jobs per page), maps them to ImprovementFeedbackRequest[],
- * dedupes by job path, and writes JSON for seed-improvement-batch.ts.
+ * Fetches job listings from OnlineJobs.ph (paginated list views — 30 jobs per page). Uses several
+ * search URLs in order (global jobsearch + skill/category paths) because each index caps around
+ * ~300 rows with different overlaps; union yields enough unique rows for large `--max-jobs` runs.
  *
  *   npx tsx scripts/fetch-onlinejobs-seed.ts
  *   npx tsx scripts/fetch-onlinejobs-seed.ts path/to/out.json
  *   npx tsx scripts/fetch-onlinejobs-seed.ts path/to/out.json 5
  *   npx tsx scripts/fetch-onlinejobs-seed.ts 5
+ *   npx tsx scripts/fetch-onlinejobs-seed.ts scripts/out.json --max-jobs 500
+ *   npx tsx scripts/fetch-onlinejobs-seed.ts scripts/out.json --max-jobs 500 --preset alt
+ *   npx tsx scripts/fetch-onlinejobs-seed.ts scripts/out.json --max-jobs 500 --preset industry
  *
  * Trailing numeric arg = max pages to fetch (default: all pages until empty / no new rows).
+ * `--max-jobs N` stops after collecting N unique listings (may fetch multiple pages).
+ * `--preset default` — global jobsearch + VA / video / marketing / admin categories (default).
+ * `--preset alt` — software, finance, sales, writing, legal, HR, engineering, etc. (no global index first).
+ * `--preset industry` — teaching, project management, translation, mobile, architecture, logistics, etc.
  */
 
 import { writeFileSync } from "node:fs";
@@ -18,6 +25,50 @@ import type { ImprovementFeedbackRequest, PredictRate } from "../lib/api/types";
 const BASE = "https://www.onlinejobs.ph";
 const JOBS_PER_PAGE = 30;
 const PAGE_DELAY_MS = 350;
+
+type ListingPreset = "default" | "alt" | "industry";
+
+/** Path prefix for each listing index (pagination: `{prefix}`, `{prefix}/30`, `{prefix}/60`, …). */
+const LISTING_PRESETS: Record<ListingPreset, readonly string[]> = {
+  default: [
+    "/jobseekers/jobsearch",
+    "/jobseekers/search/c/video-editing",
+    "/jobseekers/search/c/virtual-assistant",
+    "/jobseekers/search/c/web-development",
+    "/jobseekers/search/c/graphics-and-multimedia--graphic-design",
+    "/jobseekers/search/c/customer-service",
+    "/jobseekers/search/c/marketing--social-media-management",
+    "/jobseekers/search/c/office-and-administration--data-entry",
+  ],
+  /** Different role mix: professional / technical / industry categories (skips global jobsearch first). */
+  alt: [
+    "/jobseekers/search/c/software-development",
+    "/jobseekers/search/c/accounting",
+    "/jobseekers/search/c/finance",
+    "/jobseekers/search/c/sales-and-telemarketing",
+    "/jobseekers/search/c/writing",
+    "/jobseekers/search/c/real-estate",
+    "/jobseekers/search/c/health-care",
+    "/jobseekers/search/c/legal",
+    "/jobseekers/search/c/human-resources",
+    "/jobseekers/search/c/ecommerce",
+    "/jobseekers/search/c/content-writing",
+  ],
+  /** Teaching, ops, creative-tech, and physical-sector categories (minimal overlap with default/alt). */
+  industry: [
+    "/jobseekers/search/c/teaching--education",
+    "/jobseekers/search/c/project-management",
+    "/jobseekers/search/c/translation",
+    "/jobseekers/search/c/mobile-development",
+    "/jobseekers/search/c/architecture",
+    "/jobseekers/search/c/manufacturing-and-production",
+    "/jobseekers/search/c/logistics-and-warehousing",
+    "/jobseekers/search/c/restaurant-and-food-services",
+    "/jobseekers/search/c/science-and-research",
+    "/jobseekers/search/c/games-development",
+    "/jobseekers/search/c/audio-and-music-production",
+  ],
+};
 const USER_AGENT =
   "Mozilla/5.0 (compatible; JobSentrySeed/1.0; +https://github.com/job-sentry)";
 
@@ -167,13 +218,18 @@ function parseJobBlock(block: string): { row: ImprovementFeedbackRequest; path: 
   const row: ImprovementFeedbackRequest = {
     post,
     warning_flags: [...warning_flags],
-    labeled_scam: false,
+    labeled_risk: "legit",
   };
   return { row, path };
 }
 
-async function fetchHtml(pathSuffix: string): Promise<string> {
-  const url = `${BASE}/jobseekers/jobsearch${pathSuffix}`;
+function listingUrl(listingPrefix: string, pageIndex: number): string {
+  const off = pageIndex === 0 ? "" : `/${pageIndex * JOBS_PER_PAGE}`;
+  return `${BASE}${listingPrefix}${off}`;
+}
+
+async function fetchListingPage(listingPrefix: string, pageIndex: number): Promise<string> {
+  const url = listingUrl(listingPrefix, pageIndex);
   const res = await fetch(url, { headers: { "User-Agent": USER_AGENT } });
   if (!res.ok) {
     throw new Error(`GET ${url} failed: ${res.status}`);
@@ -181,71 +237,97 @@ async function fetchHtml(pathSuffix: string): Promise<string> {
   return res.text();
 }
 
-function parseCliArgs(): { outPath: string; maxPages: number | undefined } {
+function parseCliArgs(): {
+  outPath: string;
+  maxPages: number | undefined;
+  maxJobs: number | undefined;
+  preset: ListingPreset;
+} {
   const args = process.argv.slice(2);
   let outPath = join(process.cwd(), "scripts/improvement-seed-data-onlinejobs.json");
   let maxPages: number | undefined;
-  for (const a of args) {
+  let maxJobs: number | undefined;
+  let preset: ListingPreset = "default";
+  for (let i = 0; i < args.length; i++) {
+    const a = args[i]!;
+    if (a === "--max-jobs" && args[i + 1] != null) {
+      maxJobs = parseInt(args[++i]!, 10);
+      continue;
+    }
+    if (a === "--preset" && args[i + 1] != null) {
+      const v = args[++i]!;
+      if (v !== "default" && v !== "alt" && v !== "industry") {
+        throw new Error(`Unknown --preset "${v}" (use default, alt, or industry)`);
+      }
+      preset = v;
+      continue;
+    }
     if (/^\d+$/.test(a)) {
       maxPages = parseInt(a, 10);
     } else {
       outPath = a.startsWith("/") ? a : join(process.cwd(), a);
     }
   }
-  return { outPath, maxPages };
-}
-
-function searchPathForPage(pageIndex: number): string {
-  if (pageIndex === 0) return "";
-  return `/${pageIndex * JOBS_PER_PAGE}`;
+  return { outPath, maxPages, maxJobs, preset };
 }
 
 async function main() {
-  const { outPath, maxPages } = parseCliArgs();
+  const { outPath, maxPages, maxJobs, preset } = parseCliArgs();
+  const listingPrefixes = LISTING_PRESETS[preset];
+  console.log(`Preset "${preset}" — ${listingPrefixes.length} listing source(s)`);
   const seenPaths = new Set<string>();
   const items: ImprovementFeedbackRequest[] = [];
+  let totalPagesFetched = 0;
 
-  for (let pageIndex = 0; ; pageIndex++) {
-    if (maxPages !== undefined && pageIndex >= maxPages) {
-      console.log(`Stopped at maxPages=${maxPages}.`);
-      break;
-    }
-    const suf = searchPathForPage(pageIndex);
-    const html = await fetchHtml(suf);
-    const blocks = extractBlocks(html);
-    if (blocks.length === 0) {
-      console.log(`Page ${pageIndex + 1}: no listing blocks, done.`);
-      break;
-    }
+  outer: for (const listingPrefix of listingPrefixes) {
+    for (let pageIndex = 0; ; pageIndex++) {
+      if (maxJobs !== undefined && items.length >= maxJobs) {
+        console.log(`Stopped at maxJobs=${maxJobs}.`);
+        break outer;
+      }
+      if (maxPages !== undefined && totalPagesFetched >= maxPages) {
+        console.log(`Stopped at maxPages=${maxPages}.`);
+        break outer;
+      }
 
-    let newOnPage = 0;
-    for (const block of blocks) {
-      const parsed = parseJobBlock(block);
-      if (!parsed) continue;
-      if (seenPaths.has(parsed.path)) continue;
-      seenPaths.add(parsed.path);
-      items.push(parsed.row);
-      newOnPage++;
-    }
+      const html = await fetchListingPage(listingPrefix, pageIndex);
+      totalPagesFetched++;
+      const blocks = extractBlocks(html);
+      if (blocks.length === 0) {
+        console.log(`[${listingPrefix}] page ${pageIndex + 1}: no listing blocks, next source.`);
+        break;
+      }
 
-    console.log(
-      `Page ${pageIndex + 1} (${BASE}/jobseekers/jobsearch${suf || ""}): +${newOnPage} new (${blocks.length} blocks), total ${items.length} unique`,
-    );
+      let newOnPage = 0;
+      for (const block of blocks) {
+        if (maxJobs !== undefined && items.length >= maxJobs) break;
+        const parsed = parseJobBlock(block);
+        if (!parsed) continue;
+        if (seenPaths.has(parsed.path)) continue;
+        seenPaths.add(parsed.path);
+        items.push(parsed.row);
+        newOnPage++;
+      }
 
-    if (newOnPage === 0) {
-      console.log("No new jobs on this page, stopping.");
-      break;
-    }
-    if (blocks.length < JOBS_PER_PAGE) {
-      console.log("Last page (fewer than 30 listings).");
-      break;
-    }
+      const url = listingUrl(listingPrefix, pageIndex);
+      console.log(
+        `[${listingPrefix}] page ${pageIndex + 1} (${url}): +${newOnPage} new (${blocks.length} blocks), total ${items.length} unique`,
+      );
 
-    await sleep(PAGE_DELAY_MS);
+      if (blocks.length < JOBS_PER_PAGE) {
+        console.log(`[${listingPrefix}] last page (fewer than ${JOBS_PER_PAGE} listings).`);
+        break;
+      }
+
+      await sleep(PAGE_DELAY_MS);
+    }
   }
 
-  writeFileSync(outPath, `${JSON.stringify(items, null, 2)}\n`, "utf8");
-  console.log(`Wrote ${items.length} unique rows to ${outPath}`);
+  const finalItems =
+    maxJobs !== undefined && items.length > maxJobs ? items.slice(0, maxJobs) : items;
+
+  writeFileSync(outPath, `${JSON.stringify(finalItems, null, 2)}\n`, "utf8");
+  console.log(`Wrote ${finalItems.length} unique rows to ${outPath}`);
 }
 
 main().catch((e) => {
